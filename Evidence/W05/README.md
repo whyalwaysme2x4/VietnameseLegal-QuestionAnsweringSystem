@@ -30,7 +30,7 @@ W4 dùng 150 câu/top-50 nhánh, W5 dùng 200 câu/top-25 nhánh; chỉ so tác 
 - [Issue thực hiện của Tăng Minh Quang](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/3).
 - [Issue kiểm tra/review của Đỗ Văn Đức](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/4).
 - Nhánh: `evidence/w05`. Snapshot tuần: `w05`.
-- Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `invitation_pending`. Review thực tế vẫn chưa hoàn tất.
+- Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `collaborator_confirmed`. Review thực tế vẫn chưa hoàn tất.
 - Trạng thái: **chờ review thực tế**, chưa nghiệm thu hoặc merge thay reviewer.
 - PR: https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/6.
 - Snapshot tag ban đầu được giữ nguyên; cập nhật reviewer nằm trong HEAD của PR, không di chuyển tag đã push.
