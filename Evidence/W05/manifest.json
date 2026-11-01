@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "week": "W05",
+  "packaged_at": "2026-11-01T17:45:06.322815+07:00",
+  "measurement_date": "2026-10-31",
+  "inventory_validation_date": "2026-11-01",
+  "repository": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem",
+  "repository_base_commit": "ad47fd95880e23b78112b60dde18fedb649ee386",
+  "measurement_code_identity": "SHA-256 source snapshot; base commit is not the measured code commit",
+  "shared_inventory": "Evidence/_shared/inventory.json",
+  "snapshot_date": "2026-07-01",
+  "documents": 53,
+  "chunks": 6883,
+  "qa_n": 200,
+  "qa_role": "development_not_independent_test",
+  "matching_unit": "primary article within top-k chunks",
+  "snapshot_ref": "w05",
+  "github": {
+    "milestone_number": 2,
+    "milestone_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/2",
+    "implementation_issue": 3,
+    "implementation_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/3",
+    "review_issue": 4,
+    "review_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/4"
+  },
+  "people": {
+    "implementation": {
+      "name": "Tăng Minh Quang",
+      "github": "whyalwaysme2x4"
+    },
+    "planned_reviewer": {
+      "name": "Đỗ Văn Đức",
+      "github": null,
+      "status": "awaiting_username_and_actual_review"
+    }
+  },
+  "review_status": "pending_not_approved",
+  "legal_verification": "pending",
+  "model_training_overlap": "unknown",
+  "artifacts": [
+    {
+      "path": "Evidence/_shared/inventory.json",
+      "sha256": "7450f5c6b380d151945b81bfb901a46556f4bc6748800e2aacfcd95ea7e6a508",
+      "bytes": 6257
+    },
+    {
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "bytes": 13228
+    },
+    {
+      "path": "Evidence/W05/figures/latency.png",
+      "sha256": "7b414192d99b35c4eae0442421ec2c5f5b49fcaef8cd4cb3c4e1b4a6cce937f2",
+      "bytes": 34341
+    },
+    {
+      "path": "Evidence/W05/figures/rerank-ablation.png",
+      "sha256": "357776694df563280f127fe232502634b397b3c070c133fdac55e5598bf3c098",
+      "bytes": 43277
+    },
+    {
+      "path": "Evidence/W05/metrics.csv",
+      "sha256": "17549e1c619847bb4dd937af07c62ad618474ad7347e43d744ecab35069c2a9b",
+      "bytes": 2694
+    },
+    {
+      "path": "Evidence/W05/predictions.jsonl",
+      "sha256": "3b5c26680b2cc38901e9e2c82cb15b9d28109c86f679f06734ba7c8ea1622630",
+      "bytes": 3940443
+    },
+    {
+      "path": "Evidence/W05/README.md",
+      "sha256": "920c2f24813260eff1f3ada128ef93fe04cfa0d67ee819691f15a63c8c18d1de",
+      "bytes": 4273
+    },
+    {
+      "path": "Evidence/W05/test-results.json",
+      "sha256": "23d82e6a5ea5828f28527047cf54668490d0c36a2fc8b6a43911c408e6ea5b8b",
+      "bytes": 1407
+    }
+  ],
+  "github_base_branch": "evidence/w04",
+  "depends_on_pull_request": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5"
+}
