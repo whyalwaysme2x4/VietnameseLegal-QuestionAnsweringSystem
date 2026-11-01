@@ -17,7 +17,9 @@ Recall@1 = 67%, @3 = 77%, @5 = 82%, @10 = 85%, @20 = 90%, @50 = 93%; MRR@50 = 0,
 - Nhánh: `evidence/w03`. Snapshot tuần: `w03`.
 - Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `invitation_pending`. Review thực tế vẫn chưa hoàn tất.
 - Trạng thái: **chờ review thực tế**, chưa nghiệm thu hoặc merge thay reviewer.
-- PR được liên kết từ issue. Các PR W01–W03 bổ sung quản lý/review cho evidence đã có, dựa trên nền chung trong [PR #5](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5); không tạo lịch sử giả cho các tuần trước.
+- PR: https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/15.
+- Các PR W01–W03 bổ sung quản lý/review cho evidence đã có, dựa trên nền chung trong [PR #5](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5); không tạo lịch sử giả cho các tuần trước.
+
 
 ## Đọc và kiểm tra evidence
 

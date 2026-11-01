@@ -21,7 +21,11 @@
     "implementation_issue": 11,
     "implementation_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/11",
     "review_issue": 12,
-    "review_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/12"
+    "review_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/12",
+    "pr_number": 15,
+    "pr_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/15",
+    "branch": "evidence/w03",
+    "tag": "w03"
   },
   "people": {
     "implementation": {
@@ -68,8 +72,8 @@
     },
     {
       "path": "Evidence/W03/README.md",
-      "sha256": "15561de04ff94bf9d645627cdf7bea3082c4b210cfea56650d61ae5c7e574453",
-      "bytes": 3190
+      "sha256": "b5014f96b85eab8bd081cb0e202a6dc464a25a173028552b6a021441dbb3c0bd",
+      "bytes": 3244
     },
     {
       "path": "Evidence/W03/test-results.json",
