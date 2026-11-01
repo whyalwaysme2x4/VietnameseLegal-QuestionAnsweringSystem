@@ -14,8 +14,19 @@
   "qa_n": 50,
   "qa_role": "pilot",
   "matching_unit": null,
-  "snapshot_ref": null,
-  "github": null,
+  "snapshot_ref": "w01",
+  "github": {
+    "milestone_number": 3,
+    "milestone_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/3",
+    "implementation_issue": 7,
+    "implementation_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/7",
+    "review_issue": 8,
+    "review_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/8",
+    "pr_number": 13,
+    "pr_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/13",
+    "branch": "evidence/w01",
+    "tag": "w01"
+  },
   "people": {
     "implementation": {
       "name": "Tăng Minh Quang",
@@ -23,8 +34,11 @@
     },
     "planned_reviewer": {
       "name": "Đỗ Văn Đức",
-      "github": null,
-      "status": "awaiting_username_and_actual_review"
+      "github": "dovanduc2004",
+      "status": "awaiting_actual_review",
+      "provided_username": "dovanduc2004",
+      "account_status": "verified",
+      "access_status": "collaborator_confirmed"
     }
   },
   "review_status": "pending_not_approved",
@@ -53,13 +67,15 @@
     },
     {
       "path": "Evidence/W01/README.md",
-      "sha256": "81065e24c06be14d7e75345959ba624ac96aa7feceabe8839291a1f5a38b1dd6",
-      "bytes": 2040
+      "sha256": "75d2343cc9cdef43fcbcc96489d029aae64e8825d4d9f114f2d157e7f105d87d",
+      "bytes": 3106
     },
     {
       "path": "Evidence/W01/test-results.json",
       "sha256": "c13b7b5be6db9a876118b0c38d7a2560dacabddf1a4fcbf20fc273c5b3e413b5",
       "bytes": 869
     }
-  ]
+  ],
+  "tracking_updated_on": "2026-11-01",
+  "github_base_branch": "evidence/w04"
 }
