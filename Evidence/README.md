@@ -6,6 +6,7 @@
 | W02 | Parser Điều/Khoản/Điểm, metadata, corpus v1 | [W02](W02/README.md) |
 | W03 | Dense baseline, 100 QA | [W03](W03/README.md) |
 | W04 | BM25/Dense + RRF, 150 QA dev | [W04](W04/README.md) |
+| W05 | CrossEncoder paired ablation, 200 QA dev | [W05](W05/README.md) |
 
 Mỗi tuần có README, metrics.csv, test-results.json, figures và manifest.json. W01–W03 là evidence được tổ chức bổ sung ngày 01/11/2026; kết quả W03 là subset của lượt đo 31/10/2026. Không suy ra lịch sử issue/review hoặc ngày thực nghiệm từ số tuần.
 
@@ -14,3 +15,5 @@ Từ W4: milestone → issue thực hiện + issue review → PR → snapshot tu
 Chạy `python Evidence/tools/validate_evidence.py` từ gốc repo. Không tải model hoặc gọi AWS. [Nguồn chung và cách tái lập](_shared/README.md).
 
 [Theo dõi milestone, issue và PR của cả năm tuần](GITHUB_TRACKING.md).
+
+PR W05 được xếp sau nhánh `evidence/w04` để không lặp lại các file dùng chung. Review và merge W04 trước, sau đó chuyển base W05 về `main`.
