@@ -1,6 +1,6 @@
 # Hệ thống hỏi đáp pháp luật Việt Nam
 
-Bằng chứng tiến độ tuần W1 (27/09–03/10/2026).
+Bằng chứng tiến độ W1–W5 cho hệ thống hỏi đáp pháp luật hai lĩnh vực. Xem [Evidence theo tuần](Evidence/README.md).
 
 ## Phạm vi đã chốt
 
