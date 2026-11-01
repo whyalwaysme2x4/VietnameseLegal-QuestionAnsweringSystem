@@ -38,7 +38,7 @@
       "status": "awaiting_actual_review",
       "provided_username": "dovanduc2004",
       "account_status": "verified",
-      "access_status": "invitation_pending"
+      "access_status": "collaborator_confirmed"
     }
   },
   "review_status": "pending_not_approved",
@@ -67,8 +67,8 @@
     },
     {
       "path": "Evidence/W01/README.md",
-      "sha256": "505b004d67a0e2b7c971c005e2f62309c2605566e60ad8ad1ddb7602addd1a92",
-      "bytes": 3102
+      "sha256": "75d2343cc9cdef43fcbcc96489d029aae64e8825d4d9f114f2d157e7f105d87d",
+      "bytes": 3106
     },
     {
       "path": "Evidence/W01/test-results.json",
