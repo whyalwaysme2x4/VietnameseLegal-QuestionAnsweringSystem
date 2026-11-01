@@ -26,11 +26,14 @@ Latency trung bình, không gồm query embedding: Dense 161,62 ms; BM25 67,60 m
 ## Theo dõi trên GitHub
 
 - [Milestone Tuan4](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/1).
-- [Issue triển khai của Tăng Minh Quang](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/1).
+- [Issue thực hiện của Tăng Minh Quang](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/1).
 - [Issue kiểm tra/review của Đỗ Văn Đức](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/2).
-- Nhánh: `evidence/w04`; snapshot dự kiến: `w04`.
-- Reviewer dự kiến: **Đỗ Văn Đức**, chưa có GitHub username. **Chờ review**, chưa ghi nhận approval hoặc nghiệm thu.
-- PR được liên kết từ issue sau khi push. Không merge thay reviewer. Tag nếu có chỉ khóa snapshot evidence, không chứng minh đã được review.
+- Nhánh: `evidence/w04`. Snapshot tuần: `w04`.
+- Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `invitation_pending`. Review thực tế vẫn chưa hoàn tất.
+- Trạng thái: **chờ review thực tế**, chưa nghiệm thu hoặc merge thay reviewer.
+- PR: https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5.
+- Snapshot tag ban đầu được giữ nguyên; cập nhật reviewer nằm trong HEAD của PR, không di chuyển tag đã push.
+
 
 ## Đọc và kiểm tra evidence
 

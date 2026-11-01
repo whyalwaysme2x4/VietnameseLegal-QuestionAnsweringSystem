@@ -10,8 +10,10 @@
 
 Mỗi tuần có README, metrics.csv, test-results.json, figures và manifest.json. W01–W03 là evidence được tổ chức bổ sung ngày 01/11/2026; kết quả W03 là subset của lượt đo 31/10/2026. Không suy ra lịch sử issue/review hoặc ngày thực nghiệm từ số tuần.
 
-Từ W4: milestone → issue thực hiện + issue review → PR → snapshot tuần. Quang thực hiện; Đức kiểm tra/review, chưa có username. Review đang chờ, không ghi approval tự động. Snapshot tag khóa nội dung, không thay review.
+Từ W4: milestone → issue thực hiện + issue review → PR → snapshot tuần. Quang thực hiện; Đức (`dovanduc2004`) kiểm tra/review; tài khoản đã xác minh. Review đang chờ, không ghi approval tự động. Snapshot tag khóa nội dung, không thay review.
 
 Chạy `python Evidence/tools/validate_evidence.py` từ gốc repo. Không tải model hoặc gọi AWS. [Nguồn chung và cách tái lập](_shared/README.md).
+
+[Theo dõi milestone, issue và PR của cả năm tuần](GITHUB_TRACKING.md).
 
 PR W05 được xếp sau nhánh `evidence/w04` để không lặp lại các file dùng chung. Review và merge W04 trước, sau đó chuyển base W05 về `main`.
