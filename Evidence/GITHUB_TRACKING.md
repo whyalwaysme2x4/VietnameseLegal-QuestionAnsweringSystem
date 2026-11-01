@@ -1,6 +1,6 @@
 # Theo dõi GitHub W01–W05
 
-Tổ chức và cập nhật ngày 01/11/2026. Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `invitation_pending`. Review thực tế vẫn chưa hoàn tất.
+Tổ chức và cập nhật ngày 01/11/2026. Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `collaborator_confirmed`. Review thực tế vẫn chưa hoàn tất.
 
 | Tuần | Milestone | Thực hiện | Kiểm tra/review | PR | Snapshot |
 |---|---|---|---|---|---|

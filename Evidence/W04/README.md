@@ -29,7 +29,7 @@ Latency trung bình, không gồm query embedding: Dense 161,62 ms; BM25 67,60 m
 - [Issue thực hiện của Tăng Minh Quang](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/1).
 - [Issue kiểm tra/review của Đỗ Văn Đức](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/2).
 - Nhánh: `evidence/w04`. Snapshot tuần: `w04`.
-- Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `invitation_pending`. Review thực tế vẫn chưa hoàn tất.
+- Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `collaborator_confirmed`. Review thực tế vẫn chưa hoàn tất.
 - Trạng thái: **chờ review thực tế**, chưa nghiệm thu hoặc merge thay reviewer.
 - PR: https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5.
 - Snapshot tag ban đầu được giữ nguyên; cập nhật reviewer nằm trong HEAD của PR, không di chuyển tag đã push.
