@@ -15,9 +15,11 @@ Thời gian kế hoạch: **27/09–03/10/2026**. Thực nghiệm chung: **31/10
 - [Issue thực hiện của Tăng Minh Quang](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/7).
 - [Issue kiểm tra/review của Đỗ Văn Đức](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/8).
 - Nhánh: `evidence/w01`. Snapshot tuần: `w01`.
-- Đỗ Văn Đức phụ trách kiểm tra kết quả/review. Username được cung cấp: `duc20062004`, nhưng GitHub API hiện trả 404; chưa xác minh được tài khoản để gán issue/request review. Không coi username chưa xác minh là reviewer đã được gán.
+- Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `invitation_pending`. Review thực tế vẫn chưa hoàn tất.
 - Trạng thái: **chờ review thực tế**, chưa nghiệm thu hoặc merge thay reviewer.
-- PR được liên kết từ issue. Các PR W01–W03 bổ sung quản lý/review cho evidence đã có, dựa trên nền chung trong [PR #5](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5); không tạo lịch sử giả cho các tuần trước.
+- PR: https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/13.
+- Các PR W01–W03 bổ sung quản lý/review cho evidence đã có, dựa trên nền chung trong [PR #5](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5); không tạo lịch sử giả cho các tuần trước.
+
 
 ## Đọc và kiểm tra evidence
 
