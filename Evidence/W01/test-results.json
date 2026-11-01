@@ -1,0 +1,32 @@
+{
+  "suite": "offline_evidence_validation",
+  "validated_at": "2026-11-01T17:45:06.127039+07:00",
+  "status": "passed",
+  "tests": 4,
+  "checks": [
+    {
+      "name": "corpus_scope_and_count",
+      "status": "passed",
+      "detail": "53 DOCX in two approved domains"
+    },
+    {
+      "name": "docx_source_hashes",
+      "status": "passed",
+      "detail": "Compare all 53 DOCX with source SHA-256"
+    },
+    {
+      "name": "pilot_count_and_ids",
+      "status": "passed",
+      "detail": "50 existing pilot rows, 25 per domain; human/legal review not performed here"
+    },
+    {
+      "name": "metrics_csv_matches_observations",
+      "status": "passed",
+      "detail": "CSV values, units, population and cutoffs match saved observations"
+    }
+  ],
+  "model_inference": false,
+  "llm_calls": 0,
+  "peer_review": "pending",
+  "legal_verification": "pending"
+}

@@ -1,0 +1,5 @@
+week,method,domain,n,metric,value,unit,k,split,measured_on
+W01,inventory,all,53,documents,53,count,,scope,2026-11-01
+W01,inventory,all,50,pilot_questions,50,count,,pilot,2026-11-01
+W01,inventory,giaoThong_VanTai,38,documents,38,count,,scope,2026-11-01
+W01,inventory,laoDong_TienLuong,15,documents,15,count,,scope,2026-11-01

@@ -17,3 +17,9 @@ Bằng chứng tiến độ tuần W1 (27/09–03/10/2026).
 - `dataset/laoDong_TienLuong/`: 15 văn bản.
 
 Bộ QA hiện ở mức **pilot**. Báo cáo W1 chưa có điểm benchmark thực nghiệm; việc kiểm chứng chi tiết tình trạng hiệu lực, sửa đổi và metadata của từng văn bản được nêu là công việc tiếp theo trong báo cáo.
+
+## Theo dõi evidence từ W4
+
+[Evidence theo tuần](Evidence/README.md) tập hợp corpus, metrics, kiểm tra offline, figures và manifest. Thực nghiệm chung ngày 31/10/2026; tổ chức GitHub bổ sung ngày 01/11/2026. Milestone/issue/PR ghi rõ người thực hiện và reviewer dự kiến. Đỗ Văn Đức (`dovanduc2004`) phụ trách review; trạng thái truy cập và yêu cầu review được cập nhật trong bảng theo dõi.
+
+[Bảng milestone, issue và PR W01–W05](Evidence/GITHUB_TRACKING.md).

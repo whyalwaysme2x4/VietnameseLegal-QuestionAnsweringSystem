@@ -1,0 +1,172 @@
+{
+  "schema_version": 1,
+  "packaged_at": "2026-11-01T17:45:06.206583+07:00",
+  "measurement_date": "2026-10-31",
+  "artifacts": [
+    {
+      "path": "Evidence/_shared/ATTRIBUTION.md",
+      "sha256": "8168eb88f5ef41c052c02be3898a6d207bcfb44b2fcdbb2e853da43cd33a35f5",
+      "bytes": 835
+    },
+    {
+      "path": "Evidence/_shared/data/chunks.jsonl",
+      "sha256": "75f45ecac19265ee5b0833119ff9cb2122400fc4e4d668032319a9a802323989",
+      "bytes": 10608304
+    },
+    {
+      "path": "Evidence/_shared/data/documents.jsonl",
+      "sha256": "eb5026f70715fe73631c551e6543ea60ad9fca98f3c5f115599c35cc74535e1c",
+      "bytes": 8582984
+    },
+    {
+      "path": "Evidence/_shared/data/legal_nodes.jsonl",
+      "sha256": "f049b28d286d97eb26ad98fa182116964f0d653f63981af98a5499660a42ea2e",
+      "bytes": 21029570
+    },
+    {
+      "path": "Evidence/_shared/data/manifest.json",
+      "sha256": "8e68a26bb23ed4b61eb71d285317c9d4bbae1e5048a63b3ee7ccfa5cdd5972dc",
+      "bytes": 37361
+    },
+    {
+      "path": "Evidence/_shared/data/qa_baseline_100.jsonl",
+      "sha256": "267c39c852517ddac48d4706ed97079477cb4da9cef125b238e1785528d4c3ee",
+      "bytes": 204572
+    },
+    {
+      "path": "Evidence/_shared/data/qa_dev_150.jsonl",
+      "sha256": "7bac82a27ea4e063c091d5f6c53ceabe001937e5d40497cc697ba24a630aa8e7",
+      "bytes": 367670
+    },
+    {
+      "path": "Evidence/_shared/data/qa_selection_w5.json",
+      "sha256": "ffaefce2124a50b0354a9fda68a835e67315632a2f58d716dd88ad3180e4fffd",
+      "bytes": 599
+    },
+    {
+      "path": "Evidence/_shared/data/qa_w5_200.jsonl",
+      "sha256": "61abbf7ee8bd2cd1ea0c791e8d6fef09f86f2fbb8127de30f96b54881e2b6b96",
+      "bytes": 531174
+    },
+    {
+      "path": "Evidence/_shared/data/validation.json",
+      "sha256": "53c769686e6d812c392a2846bef93a43fedbaa23cb32e961a053fe74524a2a57",
+      "bytes": 1463
+    },
+    {
+      "path": "Evidence/_shared/measurement_20261031/evaluation_w1_w5.json",
+      "sha256": "12498cea0dab689314326aa4b0434aff2642428b216aef00310791bcef41eb80",
+      "bytes": 3263
+    },
+    {
+      "path": "Evidence/_shared/measurement_20261031/measurement_analysis.json",
+      "sha256": "59b4264840b520b47d40e1e672f317aeefb8b04d6bcb048a0ae47bcf93028f6d",
+      "bytes": 8617
+    },
+    {
+      "path": "Evidence/_shared/measurement_20261031/measurement_run_manifest.json",
+      "sha256": "1c48c634509b54be0cf3a51a01149c4a1c9ba2022f5fecd6d57deac587581d50",
+      "bytes": 1686
+    },
+    {
+      "path": "Evidence/_shared/measurement_20261031/rerank_predictions.jsonl",
+      "sha256": "f037815d12fd273ea1e9772b18b11b77e99108d3d842ed52d3e96a8c53e56044",
+      "bytes": 3940643
+    },
+    {
+      "path": "Evidence/_shared/metadata/content_giaoThong_VanTai_Extracted.json",
+      "sha256": "3c83c00ded9b2369b667f4dcb336bc4ed53dc9a9d4dd0e7abd8cdd0be4196a9e",
+      "bytes": 365680
+    },
+    {
+      "path": "Evidence/_shared/metadata/content_laoDong_TienLuong_Extracted.json",
+      "sha256": "473d679b8e967f573c5f585b1cba9a764007f3150f14ceb5e6ddfeddf533df6a",
+      "bytes": 190654
+    },
+    {
+      "path": "Evidence/_shared/README.md",
+      "sha256": "01ec8f192dfc68fbeb9b54c224bb984ee92a141df9b483b8bc16ec51020ccaf2",
+      "bytes": 2531
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/data/chunks.jsonl",
+      "sha256": "75f45ecac19265ee5b0833119ff9cb2122400fc4e4d668032319a9a802323989",
+      "bytes": 10608304
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/data/qa_dev_150.jsonl",
+      "sha256": "7bac82a27ea4e063c091d5f6c53ceabe001937e5d40497cc697ba24a630aa8e7",
+      "bytes": 367670
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/data/qa_w5_200.jsonl",
+      "sha256": "61abbf7ee8bd2cd1ea0c791e8d6fef09f86f2fbb8127de30f96b54881e2b6b96",
+      "bytes": 531174
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/download_models.py",
+      "sha256": "0ee8415e119e9a8a9365bf02ec21d4b99b7e2ee8bbf21015fbf4d6ebcfadc6c9",
+      "bytes": 1282
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/evaluate.py",
+      "sha256": "f4dbf7792891bcb848d1b5f6a164721b8858378e5df1a67b3fda257b0c9011a4",
+      "bytes": 6062
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/ingest.py",
+      "sha256": "40ec501528322d18e5848ebcce49d6ebbb0e4a76e96b049457aef97dff6a6f4b",
+      "bytes": 9076
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/models.json",
+      "sha256": "49d318f1593b2e19c33b90f051bfa70abf678d67ef31f41e7f73bc3b3318da2a",
+      "bytes": 314
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/prompts/synthesis.txt",
+      "sha256": "1c4b72b25d3a9c62b8cb615b71a4cd9563beaf9ba0af99af41b0a01e473af92b",
+      "bytes": 2124
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/requirements-lock.txt",
+      "sha256": "573c91a5f939a7de2adefbc8af12fbf4b4b10553c724a42561b127baea61c326",
+      "bytes": 1384
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/requirements.txt",
+      "sha256": "6e886146073ddf986f60a8868c530c17f9050e0d325dbb63b995f458b4893f3e",
+      "bytes": 275
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/runtime.py",
+      "sha256": "4e478f3b81476035997aacf8d2d9fe3bf4f94c117ae553662746dc98ec57c2ce",
+      "bytes": 13981
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/source/core/config.py",
+      "sha256": "ccb76096dda64419ca68ef5978b611a0a3ed0f035cac3932d02423c4fb59f4e1",
+      "bytes": 129
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/source/generate/synthesis_response.py",
+      "sha256": "003a2726739aef60f60257b27c04d898f978e2d551cab965a65a38084113ad61",
+      "bytes": 1861
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/source/model/embedding_model.py",
+      "sha256": "d5b7b975e5a31a8a80de092df1db8edd6a9fda28fee4d3ddae99fc511cc8fb42",
+      "bytes": 397
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/source/model/rerank_model_finetune.py",
+      "sha256": "945fbc503dbe26c83227fa780c5ee4663cc395539fe7697b744f1e2dc73272df",
+      "bytes": 301
+    },
+    {
+      "path": "Evidence/_shared/source_snapshot/source/rerank/utils_rerank.py",
+      "sha256": "b62245adaa359eb8da31c934181def22801d3bcfcfcf495c14ff4d929e1bf929",
+      "bytes": 2570
+    }
+  ]
+}

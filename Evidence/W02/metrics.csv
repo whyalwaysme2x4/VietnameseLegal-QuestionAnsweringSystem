@@ -1,0 +1,7 @@
+week,method,domain,n,metric,value,unit,k,split,measured_on
+W02,structural_parser,all,53,article_nodes,1776,count,,corpus_v1,2026-11-01
+W02,structural_parser,all,53,clause_nodes,6527,count,,corpus_v1,2026-11-01
+W02,structural_parser,all,53,point_nodes,6632,count,,corpus_v1,2026-11-01
+W02,structural_parser,all,53,chunks,6883,count,,corpus_v1,2026-11-01
+W02,structural_parser,all,53,tables_read,15,count,,corpus_v1,2026-11-01
+W02,structural_parser,all,53,duplicate_marker_warnings,9,count,,corpus_v1,2026-11-01

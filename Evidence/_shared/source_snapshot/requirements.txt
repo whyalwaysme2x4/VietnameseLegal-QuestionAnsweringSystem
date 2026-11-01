@@ -1,0 +1,14 @@
+torch==2.7.0+cpu
+transformers==4.52.2
+sentence-transformers==4.1.0
+langchain-huggingface==0.2.0
+langchain-core==0.3.60
+pydantic-settings==2.10.1
+qdrant-client==1.14.2
+pyvi==0.1.1
+python-dotenv==1.1.0
+numpy==2.2.6
+rank-bm25==0.2.2
+boto3==1.43.122
+awscrt==0.38.0
+einops==0.8.1

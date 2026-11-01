@@ -1,0 +1,42 @@
+{
+  "suite": "offline_evidence_validation",
+  "validated_at": "2026-11-01T17:45:06.129769+07:00",
+  "status": "passed",
+  "tests": 6,
+  "checks": [
+    {
+      "name": "qa_and_prediction_ids",
+      "status": "passed",
+      "detail": "150 unique QA IDs match saved predictions"
+    },
+    {
+      "name": "primary_gold_mapping",
+      "status": "passed",
+      "detail": "One existing primary article label per QA; pending human review"
+    },
+    {
+      "name": "prediction_chunk_metadata",
+      "status": "passed",
+      "detail": "Every saved ranking item maps to the corpus article"
+    },
+    {
+      "name": "measurement_inputs_unchanged",
+      "status": "passed",
+      "detail": "Snapshot bytes match all input/source hashes in original measurement manifest"
+    },
+    {
+      "name": "aggregate_metrics_recomputed",
+      "status": "passed",
+      "detail": "Independent recomputation from per-query rankings; no model inference"
+    },
+    {
+      "name": "metrics_csv_matches_observations",
+      "status": "passed",
+      "detail": "CSV values, units, population and cutoffs match saved observations"
+    }
+  ],
+  "model_inference": false,
+  "llm_calls": 0,
+  "peer_review": "pending",
+  "legal_verification": "pending"
+}

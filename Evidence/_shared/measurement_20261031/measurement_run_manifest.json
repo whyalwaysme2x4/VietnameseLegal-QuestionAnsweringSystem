@@ -1,0 +1,32 @@
+{
+  "started_at": "2026-10-31T17:07:52.415825+07:00",
+  "python": "3.12.13",
+  "platform": "Windows",
+  "file_sha256": {
+    "evaluate.py": "f4dbf7792891bcb848d1b5f6a164721b8858378e5df1a67b3fda257b0c9011a4",
+    "runtime.py": "4e478f3b81476035997aacf8d2d9fe3bf4f94c117ae553662746dc98ec57c2ce",
+    "source/model/embedding_model.py": "d5b7b975e5a31a8a80de092df1db8edd6a9fda28fee4d3ddae99fc511cc8fb42",
+    "source/model/rerank_model_finetune.py": "945fbc503dbe26c83227fa780c5ee4663cc395539fe7697b744f1e2dc73272df",
+    "source/rerank/utils_rerank.py": "b62245adaa359eb8da31c934181def22801d3bcfcfcf495c14ff4d929e1bf929",
+    "models.json": "49d318f1593b2e19c33b90f051bfa70abf678d67ef31f41e7f73bc3b3318da2a",
+    "data/chunks.jsonl": "75f45ecac19265ee5b0833119ff9cb2122400fc4e4d668032319a9a802323989",
+    "data/qa_dev_150.jsonl": "7bac82a27ea4e063c091d5f6c53ceabe001937e5d40497cc697ba24a630aa8e7",
+    "data/qa_w5_200.jsonl": "61abbf7ee8bd2cd1ea0c791e8d6fef09f86f2fbb8127de30f96b54881e2b6b96",
+    "requirements-lock.txt": "573c91a5f939a7de2adefbc8af12fbf4b4b10553c724a42561b127baea61c326"
+  },
+  "query_vector_cache_key": "a75399eff6633170cb1dd0338a1d8a6a1602e8e56d6f58dd9baa4fa6e8b7c62b",
+  "llm_calls": 0,
+  "aws_initialization_disabled_for_evaluation": true,
+  "scope": "W4 retrieval comparison 150 QA; W5 paired rerank ablation 200 QA",
+  "torch": "2.7.0+cpu",
+  "numpy": "2.2.6",
+  "sentence_transformers": "4.1.0",
+  "transformers": "4.52.2",
+  "device": "cpu",
+  "torch_threads": 8,
+  "points": 6883,
+  "finished_at": "2026-10-31T17:32:15.495479+07:00",
+  "evaluation_wall_seconds": 1368.8657038999954,
+  "status": "complete",
+  "error_type": null
+}
