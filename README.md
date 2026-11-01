@@ -20,4 +20,6 @@ Bộ QA hiện ở mức **pilot**. Báo cáo W1 chưa có điểm benchmark th�
 
 ## Theo dõi evidence từ W4
 
-[Evidence theo tuần](Evidence/README.md) tập hợp corpus, metrics, kiểm tra offline, figures và manifest. Thực nghiệm chung ngày 31/10/2026; tổ chức GitHub bổ sung ngày 01/11/2026. Milestone/issue/PR ghi rõ người thực hiện và reviewer dự kiến. Review của Đỗ Văn Đức đang chờ GitHub username; chưa được coi là đã nghiệm thu.
+[Evidence theo tuần](Evidence/README.md) tập hợp corpus, metrics, kiểm tra offline, figures và manifest. Thực nghiệm chung ngày 31/10/2026; tổ chức GitHub bổ sung ngày 01/11/2026. Milestone/issue/PR ghi rõ người thực hiện và reviewer dự kiến. Đỗ Văn Đức (`dovanduc2004`) phụ trách review; trạng thái truy cập và yêu cầu review được cập nhật trong bảng theo dõi.
+
+[Bảng milestone, issue và PR W01–W05](Evidence/GITHUB_TRACKING.md).
