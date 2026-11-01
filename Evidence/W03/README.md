@@ -9,6 +9,16 @@ PyVi → checkpoint embedding 768 chiều, normalize → Qdrant cosine, top-50. 
 Recall@1 = 67%, @3 = 77%, @5 = 82%, @10 = 85%, @20 = 90%, @50 = 93%; MRR@50 = 0,7357. [QA baseline](../_shared/data/qa_baseline_100.jsonl). Recall bằng Hit trên một Điều nhãn/câu, không đánh giá mọi căn cứ hợp lệ. Prototype có cấu hình Nova Micro nhưng đóng gói này không chạy lại chat, không cung cấp đánh giá đáp án sinh hoặc nghiệm thu UI.
 
 
+## Theo dõi trên GitHub
+
+- [Milestone Tuan3](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/5).
+- [Issue thực hiện của Tăng Minh Quang](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/11).
+- [Issue kiểm tra/review của Đỗ Văn Đức](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/12).
+- Nhánh: `evidence/w03`. Snapshot tuần: `w03`.
+- Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review. Trạng thái truy cập: `invitation_pending`. Review thực tế vẫn chưa hoàn tất.
+- Trạng thái: **chờ review thực tế**, chưa nghiệm thu hoặc merge thay reviewer.
+- PR được liên kết từ issue. Các PR W01–W03 bổ sung quản lý/review cho evidence đã có, dựa trên nền chung trong [PR #5](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5); không tạo lịch sử giả cho các tuần trước.
+
 ## Đọc và kiểm tra evidence
 
 `metrics.csv` lưu số thực 0–1 cho recall/MRR, không phải phần trăm; cột `unit`, `n`, `k`, `domain` xác định phép đo. `test-results.json` là kiểm tra offline dữ liệu/evidence ngày 01/11/2026, **không phải model inference mới hoặc chấm đúng pháp luật**. `manifest.json` khóa hash artifact và nối tới snapshot chung.
