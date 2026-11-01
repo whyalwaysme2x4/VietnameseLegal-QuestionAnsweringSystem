@@ -1,0 +1,65 @@
+{
+  "schema_version": 1,
+  "week": "W01",
+  "packaged_at": "2026-11-01T17:45:06.260692+07:00",
+  "measurement_date": null,
+  "inventory_validation_date": "2026-11-01",
+  "repository": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem",
+  "repository_base_commit": "ad47fd95880e23b78112b60dde18fedb649ee386",
+  "measurement_code_identity": "SHA-256 source snapshot; base commit is not the measured code commit",
+  "shared_inventory": "Evidence/_shared/inventory.json",
+  "snapshot_date": "2026-07-01",
+  "documents": 53,
+  "chunks": 6883,
+  "qa_n": 50,
+  "qa_role": "pilot",
+  "matching_unit": null,
+  "snapshot_ref": null,
+  "github": null,
+  "people": {
+    "implementation": {
+      "name": "Tăng Minh Quang",
+      "github": "whyalwaysme2x4"
+    },
+    "planned_reviewer": {
+      "name": "Đỗ Văn Đức",
+      "github": null,
+      "status": "awaiting_username_and_actual_review"
+    }
+  },
+  "review_status": "pending_not_approved",
+  "legal_verification": "pending",
+  "model_training_overlap": "unknown",
+  "artifacts": [
+    {
+      "path": "Evidence/_shared/inventory.json",
+      "sha256": "7450f5c6b380d151945b81bfb901a46556f4bc6748800e2aacfcd95ea7e6a508",
+      "bytes": 6257
+    },
+    {
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "bytes": 13228
+    },
+    {
+      "path": "Evidence/W01/figures/corpus-inventory.png",
+      "sha256": "99a6b4af6c34c25bb021165b8816b19fff030dff6bf826d2467a6a880e82fb3b",
+      "bytes": 33250
+    },
+    {
+      "path": "Evidence/W01/metrics.csv",
+      "sha256": "2314404a5bd43121e122244b403514e784dbe74a5ad45a104b6b52734373b622",
+      "bytes": 329
+    },
+    {
+      "path": "Evidence/W01/README.md",
+      "sha256": "81065e24c06be14d7e75345959ba624ac96aa7feceabe8839291a1f5a38b1dd6",
+      "bytes": 2040
+    },
+    {
+      "path": "Evidence/W01/test-results.json",
+      "sha256": "c13b7b5be6db9a876118b0c38d7a2560dacabddf1a4fcbf20fc273c5b3e413b5",
+      "bytes": 869
+    }
+  ]
+}

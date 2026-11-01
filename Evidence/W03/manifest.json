@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "week": "W03",
+  "packaged_at": "2026-11-01T17:45:06.295365+07:00",
+  "measurement_date": "2026-10-31",
+  "inventory_validation_date": "2026-11-01",
+  "repository": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem",
+  "repository_base_commit": "ad47fd95880e23b78112b60dde18fedb649ee386",
+  "measurement_code_identity": "SHA-256 source snapshot; base commit is not the measured code commit",
+  "shared_inventory": "Evidence/_shared/inventory.json",
+  "snapshot_date": "2026-07-01",
+  "documents": 53,
+  "chunks": 6883,
+  "qa_n": 100,
+  "qa_role": "development_not_independent_test",
+  "matching_unit": "primary article within top-k chunks",
+  "snapshot_ref": null,
+  "github": null,
+  "people": {
+    "implementation": {
+      "name": "Tăng Minh Quang",
+      "github": "whyalwaysme2x4"
+    },
+    "planned_reviewer": {
+      "name": "Đỗ Văn Đức",
+      "github": null,
+      "status": "awaiting_username_and_actual_review"
+    }
+  },
+  "review_status": "pending_not_approved",
+  "legal_verification": "pending",
+  "model_training_overlap": "unknown",
+  "artifacts": [
+    {
+      "path": "Evidence/_shared/inventory.json",
+      "sha256": "7450f5c6b380d151945b81bfb901a46556f4bc6748800e2aacfcd95ea7e6a508",
+      "bytes": 6257
+    },
+    {
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "bytes": 13228
+    },
+    {
+      "path": "Evidence/W03/figures/dense-baseline.png",
+      "sha256": "6be93adad6a472a123a20bd3ff06fdf549ce107d41db5408ec8b676130ef0bf9",
+      "bytes": 42700
+    },
+    {
+      "path": "Evidence/W03/metrics.csv",
+      "sha256": "4556e8c69b0e7dc3ed3a93e0cf59ef8586b6998cb8a35e4f429980cc57693d1a",
+      "bytes": 1696
+    },
+    {
+      "path": "Evidence/W03/predictions.jsonl",
+      "sha256": "7c3f2e858db0466f7dff8ac85b6556fb971e625a90dd06901cdb5c6b683abf38",
+      "bytes": 705745
+    },
+    {
+      "path": "Evidence/W03/README.md",
+      "sha256": "089c79e08bf7bcb70326737926f943ba03058e2cbcde9b8a7cd72054c817f543",
+      "bytes": 2180
+    },
+    {
+      "path": "Evidence/W03/test-results.json",
+      "sha256": "05fa77409447d3aa0775e434ee70c5896e9955d3afaa249b0465a63bf76f12b2",
+      "bytes": 1239
+    }
+  ]
+}

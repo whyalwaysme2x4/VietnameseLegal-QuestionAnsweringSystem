@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "week": "W04",
+  "packaged_at": "2026-11-01T17:45:06.308247+07:00",
+  "measurement_date": "2026-10-31",
+  "inventory_validation_date": "2026-11-01",
+  "repository": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem",
+  "repository_base_commit": "ad47fd95880e23b78112b60dde18fedb649ee386",
+  "measurement_code_identity": "SHA-256 source snapshot; base commit is not the measured code commit",
+  "shared_inventory": "Evidence/_shared/inventory.json",
+  "snapshot_date": "2026-07-01",
+  "documents": 53,
+  "chunks": 6883,
+  "qa_n": 150,
+  "qa_role": "development_not_independent_test",
+  "matching_unit": "primary article within top-k chunks",
+  "snapshot_ref": "w04",
+  "github": {
+    "milestone_number": 1,
+    "milestone_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/1",
+    "implementation_issue": 1,
+    "implementation_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/1",
+    "review_issue": 2,
+    "review_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/2"
+  },
+  "people": {
+    "implementation": {
+      "name": "Tăng Minh Quang",
+      "github": "whyalwaysme2x4"
+    },
+    "planned_reviewer": {
+      "name": "Đỗ Văn Đức",
+      "github": null,
+      "status": "awaiting_username_and_actual_review"
+    }
+  },
+  "review_status": "pending_not_approved",
+  "legal_verification": "pending",
+  "model_training_overlap": "unknown",
+  "artifacts": [
+    {
+      "path": "Evidence/_shared/inventory.json",
+      "sha256": "7450f5c6b380d151945b81bfb901a46556f4bc6748800e2aacfcd95ea7e6a508",
+      "bytes": 6257
+    },
+    {
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "bytes": 13228
+    },
+    {
+      "path": "Evidence/W04/figures/latency.png",
+      "sha256": "9634cb7ba9393c5f9544b6e4edd3972650f752016360a5122fb6b247c7c331ed",
+      "bytes": 36008
+    },
+    {
+      "path": "Evidence/W04/figures/retrieval-comparison.png",
+      "sha256": "7fa98fcbc0edb0f06eba93f4e582f0909793156ead7e469754c295655ef69c64",
+      "bytes": 52653
+    },
+    {
+      "path": "Evidence/W04/metrics.csv",
+      "sha256": "32de53b7230e6a7eec41b872236b1f1e9c18e1271fd6ead9c007f8b34b5acfda",
+      "bytes": 6108
+    },
+    {
+      "path": "Evidence/W04/predictions.jsonl",
+      "sha256": "80fdbd995daf77435325300bcdfa845d596759336153ea6fda96a43a0ae97925",
+      "bytes": 2774709
+    },
+    {
+      "path": "Evidence/W04/README.md",
+      "sha256": "60e15b40975e6386996c2d957d1e22a07dc3effedaea3970b0ec8d28752b5858",
+      "bytes": 3871
+    },
+    {
+      "path": "Evidence/W04/test-results.json",
+      "sha256": "13e0a58679b4a03ed458ecbf4c31aa1c2f4f7bb4542fbf0477e613490998f019",
+      "bytes": 1239
+    }
+  ]
+}

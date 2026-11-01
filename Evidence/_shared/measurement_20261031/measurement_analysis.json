@@ -1,0 +1,312 @@
+{
+  "status": "complete",
+  "checks": "200 unique queries; gold mapping and ranking metadata valid; both W5 arms share 20 candidates; aggregate metrics independently recomputed; source/data/config file hashes unchanged",
+  "w4": {
+    "dense": {
+      "n": 150,
+      "hits@1": 101,
+      "recall@1": 0.6733333333333333,
+      "hits@3": 115,
+      "recall@3": 0.7666666666666667,
+      "hits@5": 124,
+      "recall@5": 0.8266666666666667,
+      "hits@10": 130,
+      "recall@10": 0.8666666666666667,
+      "hits@20": 136,
+      "recall@20": 0.9066666666666666,
+      "hits@50": 141,
+      "recall@50": 0.94,
+      "mrr@50": 0.7376486568986569
+    },
+    "bm25": {
+      "n": 150,
+      "hits@1": 60,
+      "recall@1": 0.4,
+      "hits@3": 85,
+      "recall@3": 0.5666666666666667,
+      "hits@5": 98,
+      "recall@5": 0.6533333333333333,
+      "hits@10": 118,
+      "recall@10": 0.7866666666666666,
+      "hits@20": 126,
+      "recall@20": 0.84,
+      "hits@50": 136,
+      "recall@50": 0.9066666666666666,
+      "mrr@50": 0.5176293207936633
+    },
+    "hybrid_rrf": {
+      "n": 150,
+      "hits@1": 95,
+      "recall@1": 0.6333333333333333,
+      "hits@3": 116,
+      "recall@3": 0.7733333333333333,
+      "hits@5": 129,
+      "recall@5": 0.86,
+      "hits@10": 133,
+      "recall@10": 0.8866666666666667,
+      "hits@20": 135,
+      "recall@20": 0.9,
+      "hits@50": 140,
+      "recall@50": 0.9333333333333333,
+      "mrr@50": 0.7230801172511698
+    }
+  },
+  "w5": {
+    "w5_without_ce": {
+      "n": 200,
+      "hits@1": 116,
+      "recall@1": 0.58,
+      "hits@3": 150,
+      "recall@3": 0.75,
+      "hits@5": 164,
+      "recall@5": 0.82,
+      "mrr@5": 0.6731666666666666
+    },
+    "w5_with_ce": {
+      "n": 200,
+      "hits@1": 28,
+      "recall@1": 0.14,
+      "hits@3": 57,
+      "recall@3": 0.285,
+      "hits@5": 90,
+      "recall@5": 0.45,
+      "mrr@5": 0.23591666666666666
+    }
+  },
+  "w4_domain_counts": {
+    "giaoThong_VanTai": 46,
+    "laoDong_TienLuong": 104
+  },
+  "w5_domain_counts": {
+    "giaoThong_VanTai": 46,
+    "laoDong_TienLuong": 154
+  },
+  "w4_by_domain": {
+    "giaoThong_VanTai": {
+      "dense": {
+        "n": 46,
+        "hits@1": 31,
+        "recall@1": 0.6739130434782609,
+        "hits@3": 35,
+        "recall@3": 0.7608695652173914,
+        "hits@5": 38,
+        "recall@5": 0.8260869565217391,
+        "hits@10": 39,
+        "recall@10": 0.8478260869565217,
+        "hits@20": 43,
+        "recall@20": 0.9347826086956522,
+        "hits@50": 43,
+        "recall@50": 0.9347826086956522,
+        "mrr@50": 0.733537718320327
+      },
+      "bm25": {
+        "n": 46,
+        "hits@1": 26,
+        "recall@1": 0.5652173913043478,
+        "hits@3": 33,
+        "recall@3": 0.717391304347826,
+        "hits@5": 35,
+        "recall@5": 0.7608695652173914,
+        "hits@10": 38,
+        "recall@10": 0.8260869565217391,
+        "hits@20": 40,
+        "recall@20": 0.8695652173913043,
+        "hits@50": 41,
+        "recall@50": 0.8913043478260869,
+        "mrr@50": 0.6608556006872978
+      },
+      "hybrid_rrf": {
+        "n": 46,
+        "hits@1": 34,
+        "recall@1": 0.7391304347826086,
+        "hits@3": 39,
+        "recall@3": 0.8478260869565217,
+        "hits@5": 41,
+        "recall@5": 0.8913043478260869,
+        "hits@10": 41,
+        "recall@10": 0.8913043478260869,
+        "hits@20": 41,
+        "recall@20": 0.8913043478260869,
+        "hits@50": 43,
+        "recall@50": 0.9347826086956522,
+        "mrr@50": 0.7974717311673833
+      }
+    },
+    "laoDong_TienLuong": {
+      "dense": {
+        "n": 104,
+        "hits@1": 70,
+        "recall@1": 0.6730769230769231,
+        "hits@3": 80,
+        "recall@3": 0.7692307692307693,
+        "hits@5": 86,
+        "recall@5": 0.8269230769230769,
+        "hits@10": 91,
+        "recall@10": 0.875,
+        "hits@20": 93,
+        "recall@20": 0.8942307692307693,
+        "hits@50": 98,
+        "recall@50": 0.9423076923076923,
+        "mrr@50": 0.7394669566544566
+      },
+      "bm25": {
+        "n": 104,
+        "hits@1": 34,
+        "recall@1": 0.3269230769230769,
+        "hits@3": 52,
+        "recall@3": 0.5,
+        "hits@5": 63,
+        "recall@5": 0.6057692307692307,
+        "hits@10": 80,
+        "recall@10": 0.7692307692307693,
+        "hits@20": 86,
+        "recall@20": 0.8269230769230769,
+        "hits@50": 95,
+        "recall@50": 0.9134615384615384,
+        "mrr@50": 0.4542792354560943
+      },
+      "hybrid_rrf": {
+        "n": 104,
+        "hits@1": 61,
+        "recall@1": 0.5865384615384616,
+        "hits@3": 77,
+        "recall@3": 0.7403846153846154,
+        "hits@5": 88,
+        "recall@5": 0.8461538461538461,
+        "hits@10": 92,
+        "recall@10": 0.8846153846153846,
+        "hits@20": 94,
+        "recall@20": 0.9038461538461539,
+        "hits@50": 97,
+        "recall@50": 0.9326923076923077,
+        "mrr@50": 0.6901761341728446
+      }
+    }
+  },
+  "w5_by_domain": {
+    "giaoThong_VanTai": {
+      "w5_without_ce": {
+        "n": 46,
+        "hits@1": 33,
+        "recall@1": 0.717391304347826,
+        "hits@3": 39,
+        "recall@3": 0.8478260869565217,
+        "hits@5": 41,
+        "recall@5": 0.8913043478260869,
+        "mrr@5": 0.7851449275362319
+      },
+      "w5_with_ce": {
+        "n": 46,
+        "hits@1": 6,
+        "recall@1": 0.13043478260869565,
+        "hits@3": 17,
+        "recall@3": 0.3695652173913043,
+        "hits@5": 25,
+        "recall@5": 0.5434782608695652,
+        "mrr@5": 0.266304347826087
+      }
+    },
+    "laoDong_TienLuong": {
+      "w5_without_ce": {
+        "n": 154,
+        "hits@1": 83,
+        "recall@1": 0.538961038961039,
+        "hits@3": 111,
+        "recall@3": 0.7207792207792207,
+        "hits@5": 123,
+        "recall@5": 0.7987012987012987,
+        "mrr@5": 0.6397186147186147
+      },
+      "w5_with_ce": {
+        "n": 154,
+        "hits@1": 22,
+        "recall@1": 0.14285714285714285,
+        "hits@3": 40,
+        "recall@3": 0.2597402597402597,
+        "hits@5": 65,
+        "recall@5": 0.42207792207792205,
+        "mrr@5": 0.2268398268398268
+      }
+    }
+  },
+  "w4_latency_excluding_query_embedding": {
+    "dense": {
+      "n": 150,
+      "mean_ms": 161.62017999973614,
+      "median_ms": 155.47344999504276,
+      "p95_ms": 196.60475001437578,
+      "min_ms": 127.14739999501035,
+      "max_ms": 374.5841000054497
+    },
+    "bm25": {
+      "n": 150,
+      "mean_ms": 67.60277799873923,
+      "median_ms": 45.64605001360178,
+      "p95_ms": 237.18009500589648,
+      "min_ms": 15.76420001219958,
+      "max_ms": 287.3261999920942
+    },
+    "hybrid_rrf": {
+      "n": 150,
+      "mean_ms": 229.37752266569683,
+      "median_ms": 205.75589998043142,
+      "p95_ms": 406.1315700018893,
+      "min_ms": 153.53460001642816,
+      "max_ms": 504.2440999823157
+    }
+  },
+  "w5_ce_added_latency": {
+    "n": 200,
+    "mean_ms": 6613.05615400066,
+    "median_ms": 6137.490799999796,
+    "p95_ms": 10704.467115005536,
+    "min_ms": 2568.9421000133734,
+    "max_ms": 11626.878299983218
+  },
+  "w4_hybrid_vs_dense_paired_at5": {
+    "both_hit": 120,
+    "improved_miss_to_hit": 9,
+    "regressed_hit_to_miss": 4,
+    "both_miss": 17
+  },
+  "w5_paired": {
+    "at1": {
+      "both_hit": 18,
+      "improved_miss_to_hit": 10,
+      "regressed_hit_to_miss": 98,
+      "both_miss": 74
+    },
+    "at3": {
+      "both_hit": 51,
+      "improved_miss_to_hit": 6,
+      "regressed_hit_to_miss": 99,
+      "both_miss": 44
+    },
+    "at5": {
+      "both_hit": 85,
+      "improved_miss_to_hit": 5,
+      "regressed_hit_to_miss": 79,
+      "both_miss": 31
+    }
+  },
+  "w5_candidate_gold_coverage": {
+    "hits": 175,
+    "n": 200,
+    "fraction": 0.875
+  },
+  "hardware": {
+    "cpu": "AMD Ryzen 7 5800H",
+    "device": "cpu",
+    "torch_threads": 8,
+    "precision": "float32",
+    "ce_batch_size": 4
+  },
+  "measurement_started_at": "2026-10-31T17:07:52.415825+07:00",
+  "measurement_finished_at": "2026-10-31T17:32:15.495479+07:00",
+  "evaluation_wall_seconds": 1368.8657038999954,
+  "artifact_sha256": {
+    "rerank_predictions.jsonl": "f037815d12fd273ea1e9772b18b11b77e99108d3d842ed52d3e96a8c53e56044",
+    "evaluation_w1_w5.json": "12498cea0dab689314326aa4b0434aff2642428b216aef00310791bcef41eb80",
+    "measurement_run_manifest.json": "1c48c634509b54be0cf3a51a01149c4a1c9ba2022f5fecd6d57deac587581d50"
+  }
+}

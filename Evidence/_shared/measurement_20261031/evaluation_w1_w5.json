@@ -1,0 +1,116 @@
+{
+  "status": "complete",
+  "label_status": "primary_citations_pending_human_review",
+  "llm_calls": 0,
+  "warning": "One primary article label per real source question; Recall equals Hit on these labels. Dev includes pilot and W4 items; not independent test or legal verification.",
+  "fingerprint": "a75399eff6633170cb1dd0338a1d8a6a1602e8e56d6f58dd9baa4fa6e8b7c62b",
+  "w3_dense_100": {
+    "n": 100,
+    "recall@1": 0.67,
+    "recall@3": 0.77,
+    "recall@5": 0.82,
+    "recall@10": 0.85,
+    "recall@20": 0.9,
+    "recall@50": 0.93,
+    "mrr@50": 0.735671398046398
+  },
+  "w4_retrieval_150": {
+    "dense": {
+      "n": 150,
+      "recall@1": 0.6733333333333333,
+      "recall@3": 0.7666666666666667,
+      "recall@5": 0.8266666666666667,
+      "recall@10": 0.8666666666666667,
+      "recall@20": 0.9066666666666666,
+      "recall@50": 0.94,
+      "mrr@50": 0.7376486568986569
+    },
+    "bm25": {
+      "n": 150,
+      "recall@1": 0.4,
+      "recall@3": 0.5666666666666667,
+      "recall@5": 0.6533333333333333,
+      "recall@10": 0.7866666666666666,
+      "recall@20": 0.84,
+      "recall@50": 0.9066666666666666,
+      "mrr@50": 0.5176293207936633
+    },
+    "hybrid_rrf": {
+      "n": 150,
+      "recall@1": 0.6333333333333333,
+      "recall@3": 0.7733333333333333,
+      "recall@5": 0.86,
+      "recall@10": 0.8866666666666667,
+      "recall@20": 0.9,
+      "recall@50": 0.9333333333333333,
+      "mrr@50": 0.7230801172511698
+    }
+  },
+  "w5_rerank_200": {
+    "w5_without_ce": {
+      "n": 200,
+      "recall@1": 0.58,
+      "recall@3": 0.75,
+      "recall@5": 0.82,
+      "mrr@5": 0.6731666666666666
+    },
+    "w5_with_ce": {
+      "n": 200,
+      "recall@1": 0.14,
+      "recall@3": 0.285,
+      "recall@5": 0.45,
+      "mrr@5": 0.23591666666666666
+    }
+  },
+  "w5_by_domain": {
+    "giaoThong_VanTai": {
+      "w5_without_ce": {
+        "n": 46,
+        "recall@1": 0.717391304347826,
+        "recall@3": 0.8478260869565217,
+        "recall@5": 0.8913043478260869,
+        "mrr@5": 0.7851449275362319
+      },
+      "w5_with_ce": {
+        "n": 46,
+        "recall@1": 0.13043478260869565,
+        "recall@3": 0.3695652173913043,
+        "recall@5": 0.5434782608695652,
+        "mrr@5": 0.266304347826087
+      }
+    },
+    "laoDong_TienLuong": {
+      "w5_without_ce": {
+        "n": 154,
+        "recall@1": 0.538961038961039,
+        "recall@3": 0.7207792207792207,
+        "recall@5": 0.7987012987012987,
+        "mrr@5": 0.6397186147186147
+      },
+      "w5_with_ce": {
+        "n": 154,
+        "recall@1": 0.14285714285714285,
+        "recall@3": 0.2597402597402597,
+        "recall@5": 0.42207792207792205,
+        "mrr@5": 0.2268398268398268
+      }
+    }
+  },
+  "protocol": {
+    "query_variants": 1,
+    "filter_domain_from_qa_label": true,
+    "branch_k": 25,
+    "rrf_k": 60,
+    "ce_candidates": 20,
+    "output_top_k": 5,
+    "ce_max_tokens": 512,
+    "ce_device": "cpu",
+    "ce_batch_size": 4,
+    "precision": "float32",
+    "same_candidates_both_arms": true,
+    "matching_unit": "gold article within retrieved chunks",
+    "no_web": true,
+    "no_llm": true
+  },
+  "ce_added_latency_mean_ms": 6613.05615400066
+}

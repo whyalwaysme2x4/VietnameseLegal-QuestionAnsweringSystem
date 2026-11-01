@@ -1,0 +1,3 @@
+# Preserve the bytes used by evidence SHA-256, including frozen measurement inputs.
+Evidence/** -text
+.github/workflows/*.yml text eol=lf
