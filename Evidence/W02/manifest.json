@@ -21,7 +21,11 @@
     "implementation_issue": 9,
     "implementation_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/9",
     "review_issue": 10,
-    "review_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/10"
+    "review_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/10",
+    "pr_number": 14,
+    "pr_url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/14",
+    "branch": "evidence/w02",
+    "tag": "w02"
   },
   "people": {
     "implementation": {
@@ -30,11 +34,11 @@
     },
     "planned_reviewer": {
       "name": "Đỗ Văn Đức",
-      "github": null,
+      "github": "dovanduc2004",
       "status": "awaiting_actual_review",
-      "provided_username": "duc20062004",
-      "account_status": "github_user_not_found_404",
-      "access_status": "not_invited"
+      "provided_username": "dovanduc2004",
+      "account_status": "verified",
+      "access_status": "invitation_pending"
     }
   },
   "review_status": "pending_not_approved",
@@ -63,8 +67,8 @@
     },
     {
       "path": "Evidence/W02/README.md",
-      "sha256": "85f1689a834851d7e1c041d4a4fd0e7b8b4cbd3b8cd0b66d9504c28fe40a9b07",
-      "bytes": 3383
+      "sha256": "f9b2476f94ead496cc4fb65725d8ea1ad2c6163167df2a15b8a052b9b94acce1",
+      "bytes": 3326
     },
     {
       "path": "Evidence/W02/test-results.json",
