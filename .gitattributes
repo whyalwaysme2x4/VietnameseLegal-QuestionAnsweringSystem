@@ -1,3 +1,17 @@
 # Preserve the bytes used by evidence SHA-256, including frozen measurement inputs.
 Evidence/** -text
 .github/workflows/*.yml text eol=lf
+# Keep published code/data bytes stable for the W06 SHA-256 manifest.
+source/** -text
+tests/** -text
+data/** -text
+dataset/** -text
+prompts/** -text
+/*.py -text
+/*.json -text
+/*.txt -text
+/*.md -text
+/*.ps1 -text
+/app.js -text
+/index.html -text
+/style.css -text

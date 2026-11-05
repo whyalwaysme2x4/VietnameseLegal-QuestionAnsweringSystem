@@ -1,0 +1,3 @@
+{"case_id": "W6_15", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "start"}
+{"case_id": "W6_15", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "end", "elapsed_ms": 9.18, "iteration": 0, "route": "error", "failed": true}
+{"case_id": "W6_15", "fixture_execution": true, "type": "error", "agent": "planner", "message": "RuntimeError: fixture provider unavailable"}

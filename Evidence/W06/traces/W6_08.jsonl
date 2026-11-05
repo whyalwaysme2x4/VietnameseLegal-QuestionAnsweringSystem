@@ -1,0 +1,37 @@
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "end", "elapsed_ms": 12.36, "iteration": 0, "route": "rag", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "plan", "agent": "planner", "elapsed_ms": 12, "intent": "legal", "tool": "rag", "rewritten_query": "Quy định về thời giờ làm việc trong corpus?", "search_query": null, "entities": {"LoaiVanBanFilter": "Luật"}, "reason": "Fixture routing decision"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "retrieve_start", "agent": "retriever", "iteration": 1, "query": "Quy định về thời giờ làm việc trong corpus?", "entities": {"LoaiVanBanFilter": "Luật"}}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "end", "elapsed_ms": 2.0, "iteration": 1, "route": "extract", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "retrieve_done", "agent": "retriever", "iteration": 1, "elapsed_ms": 1, "n_docs": 2, "docs": ["Luật fixture-A — Điều 1", "Luật fixture-A — Điều 2"]}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "end", "elapsed_ms": 2.01, "iteration": 1, "route": null, "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "extract", "agent": "extractor", "elapsed_ms": 1, "n_snippets": 2}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "end", "elapsed_ms": 12.2, "iteration": 1, "route": "retrieve", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "grade", "agent": "grader", "iteration": 1, "elapsed_ms": 12, "relevance_score": 0.2, "decision": "insufficient", "missing_aspects": [], "reason": "Fixture grade"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "iterate", "agent": "orchestrator", "next_iteration": 2, "next_query": "truy vấn thứ hai theo grader", "reason": "Điểm liên quan 20% dưới ngưỡng 60%, viết lại truy vấn và thử lại."}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "retrieve_start", "agent": "retriever", "iteration": 2, "query": "truy vấn thứ hai theo grader", "entities": {"LoaiVanBanFilter": "Luật"}}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "end", "elapsed_ms": 1.28, "iteration": 2, "route": "extract", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "retrieve_done", "agent": "retriever", "iteration": 2, "elapsed_ms": 1, "n_docs": 2, "docs": ["Luật fixture-B — Điều 1", "Luật fixture-B — Điều 2"]}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "end", "elapsed_ms": 2.38, "iteration": 2, "route": null, "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "extract", "agent": "extractor", "elapsed_ms": 1, "n_snippets": 2}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "end", "elapsed_ms": 13.07, "iteration": 2, "route": "select_best", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "grade", "agent": "grader", "iteration": 2, "elapsed_ms": 13, "relevance_score": 0.8, "decision": "sufficient", "missing_aspects": [], "reason": "Fixture grade"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "select_best", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "select_best", "phase": "end", "elapsed_ms": 0.03, "iteration": 2, "route": "generate", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "generate", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "generate_start", "agent": "generator", "mode": "rag", "reason": "Tổng hợp câu trả lời từ các đoạn trích được chọn."}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "generate", "phase": "end", "elapsed_ms": 35.48, "iteration": 2, "route": "checker", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "generate_done", "agent": "generator", "elapsed_ms": 36, "n_citations": 1}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "checker", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "checker", "phase": "end", "elapsed_ms": 12.5, "iteration": 2, "route": "finish", "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "check", "agent": "fact_checker", "elapsed_ms": 13, "is_grounded": true, "confidence": 0.8, "unsupported_claims": [], "reason": "Fixture check"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "finish", "phase": "start"}
+{"case_id": "W6_08", "fixture_execution": true, "type": "graph_node", "node": "finish", "phase": "end", "elapsed_ms": 0.03, "iteration": 2, "route": null, "failed": false}
+{"case_id": "W6_08", "fixture_execution": true, "type": "final", "answer": "Fixture answer 1", "references": ["                        Tài liệu tham khảo: 1\n                        Loại văn bản: Luật\n                        Nơi ban hành: Quốc hội\n                        Số hiệu: fixture-B\n                        Lĩnh vực - ngành: \n                        Ngày ban hành: \n                        Chủ đề: \n                        Chương: \n                        Mục: \n                        Tiểu mục: \n                        Điều 1\n                        <=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=>\n                        Nguồn B 0 chứa toàn bộ căn cứ và các nội dung bổ sung.\n                        "], "citation_indices": [0], "selected_chunk_ids": ["fixture-B-0", "fixture-B-1"]}
+{"case_id": "W6_08", "fixture_execution": true, "type": "done", "total_ms": 115}

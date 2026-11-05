@@ -1,0 +1,99 @@
+{
+  "suite": "original-policy parity through LangGraph",
+  "run_at": "2026-11-05T14:31:45.088887+07:00",
+  "tests_run": 15,
+  "passed": 15,
+  "failures": 0,
+  "errors": 0,
+  "aws_calls": 0,
+  "fixture_llm": true,
+  "fixture_retrieval": true,
+  "fixture_bert_tensors": true,
+  "actual_code": [
+    "PlannerAgent",
+    "GraderAgent",
+    "HallucinationChecker",
+    "Extract_Information",
+    "RRF utility",
+    "Orchestrator reference",
+    "GraphOrchestrator"
+  ],
+  "limitations": "Control-flow/contract parity tests. Not a live model benchmark, domain-classification accuracy, or legal correctness verification.",
+  "cases": [
+    {
+      "id": "W6_01",
+      "name": "Giao thông và citation 0-based",
+      "status": "passed"
+    },
+    {
+      "id": "W6_02",
+      "name": "Lao động và chỉ số nguồn không hợp lệ",
+      "status": "passed"
+    },
+    {
+      "id": "W6_03",
+      "name": "Ngoài phạm vi với web tắt",
+      "status": "passed"
+    },
+    {
+      "id": "W6_04",
+      "name": "Planner JSON lỗi",
+      "status": "passed"
+    },
+    {
+      "id": "W6_05",
+      "name": "Làm sạch entity rỗng và giữ OR filter",
+      "status": "passed"
+    },
+    {
+      "id": "W6_06",
+      "name": "Grader JSON lỗi",
+      "status": "passed"
+    },
+    {
+      "id": "W6_07",
+      "name": "Không có nguồn truy xuất",
+      "status": "passed"
+    },
+    {
+      "id": "W6_08",
+      "name": "Tìm lại rồi đủ căn cứ",
+      "status": "passed"
+    },
+    {
+      "id": "W6_09",
+      "name": "Giữ vòng điểm cao nhất",
+      "status": "passed"
+    },
+    {
+      "id": "W6_10",
+      "name": "Partial có score đạt ngưỡng",
+      "status": "passed"
+    },
+    {
+      "id": "W6_11",
+      "name": "Checker JSON lỗi",
+      "status": "passed"
+    },
+    {
+      "id": "W6_12",
+      "name": "Sinh lại một lần, không recheck",
+      "status": "passed"
+    },
+    {
+      "id": "W6_13",
+      "name": "Một unsupported claim chưa kích hoạt sinh lại",
+      "status": "passed"
+    },
+    {
+      "id": "W6_14",
+      "name": "Confidence dưới 0.75",
+      "status": "passed"
+    },
+    {
+      "id": "W6_15",
+      "name": "Lỗi provider khác lỗi JSON",
+      "status": "passed"
+    }
+  ]
+}

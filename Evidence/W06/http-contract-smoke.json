@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "fixture_execution": true,
+  "aws_calls": 0,
+  "full_agent_llm_run": false,
+  "model_inference": false,
+  "checks": [
+    {
+      "case": "W6_01",
+      "citation_index": 0,
+      "status": "passed",
+      "source_card": true,
+      "final_trace_has_finish": true
+    },
+    {
+      "case": "W6_02",
+      "citation_index": 1,
+      "status": "passed",
+      "source_card": true,
+      "final_trace_has_finish": true
+    }
+  ],
+  "timestamp": "2026-11-05T07:34:25.860870+00:00"
+}

@@ -1,0 +1,17 @@
+{
+  "embedding": {
+    "repo": "bhuy71/embedding_finetuned",
+    "revision": "6981c42c3a643b5e915feab181ab2f4b5294258b",
+    "path": "models/embedding"
+  },
+  "reranker": {
+    "repo": "bhuy71/rerank_model",
+    "revision": "d6cade059af8ca59e339ea495d614db132f9c41a",
+    "path": "models/reranker"
+  },
+  "bert": {
+    "repo": "bhuy71/bert_extract_full_fine-tuned",
+    "revision": "f36d7cf5299dd91bbee69d90d6ded4a09ad755ce",
+    "path": "models/bert_extract"
+  }
+}

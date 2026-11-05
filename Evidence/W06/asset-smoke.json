@@ -1,0 +1,21 @@
+{
+  "scope_index_points": 6883,
+  "scope_documents": 53,
+  "payload_schema": "legacy-filter-payload-v1",
+  "real_bert_loaded": true,
+  "bert_revision": "f36d7cf5299dd91bbee69d90d6ded4a09ad755ce",
+  "bert_max_length": 512,
+  "bert_stride": 150,
+  "bert_n_best": 380,
+  "bert_extraction_result_type": "dict",
+  "bert_sample_count": 1,
+  "bert_answer_quality": "not_evaluated",
+  "real_crossencoder_loaded": true,
+  "crossencoder_effective_max_length": 8192,
+  "crossencoder_explicit_max_length_override": false,
+  "crossencoder_inference": "not_run",
+  "query_embedding": "reused exact cached vector after QA/index hash checks",
+  "model_inference": "one real BERT extraction only",
+  "aws_calls": 0,
+  "full_agent_llm_run": false
+}

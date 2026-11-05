@@ -16,3 +16,5 @@ jobs:
           python-version: '3.12'
       - name: Recompute saved metrics and validate artifact hashes
         run: python Evidence/tools/validate_evidence.py
+      - name: Validate W06 agent cases, fixture traces and code hashes
+        run: python Evidence/tools/validate_w06.py

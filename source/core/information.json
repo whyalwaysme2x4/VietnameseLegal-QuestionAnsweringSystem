@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "content": "Corpus: giaoThong_VanTai and laoDong_TienLuong; 53 documents. Snapshot 01/07/2026. Legal validity is not fully verified."
+  },
+  {
+    "id": 2,
+    "content": "Retrieve relevant legal sources from the approved corpus, show source metadata and original document content."
+  },
+  {
+    "id": 3,
+    "content": "Vietnamese legal QA uses Planner, multi-query dense retrieval, RRF, CrossEncoder, BERT QA highlights, Grader, generation and groundedness Checker. It is a research prototype."
+  }
+]

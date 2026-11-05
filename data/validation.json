@@ -1,0 +1,60 @@
+{
+  "documents": 53,
+  "nodes": {
+    "article": 1776,
+    "clause": 6527,
+    "point": 6632
+  },
+  "chunks": 6883,
+  "warnings": [
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-16/article-21/clause-1/point-h",
+      "occurrence": 2
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-24/article-3/clause-1",
+      "occurrence": 2
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-24/article-3/clause-2",
+      "occurrence": 2
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-24/article-3/clause-1",
+      "occurrence": 3
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-24/article-3/clause-2",
+      "occurrence": 3
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-24/article-3/clause-3",
+      "occurrence": 2
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-24/article-3/clause-4",
+      "occurrence": 2
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "giaoThong_VanTai-39/article-16/clause-2/point-đ",
+      "occurrence": 2
+    },
+    {
+      "kind": "duplicate_number",
+      "path": "laoDong_TienLuong-11/article-3/clause-1/point-d",
+      "occurrence": 2
+    }
+  ],
+  "legal_verification": "pending",
+  "tables_read": 15,
+  "parent_integrity": true,
+  "original_text_spans": true
+}

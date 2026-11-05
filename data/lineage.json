@@ -1,0 +1,54 @@
+{
+  "source_git_head": "8c151b082635d17f74619dcea5e17b6bb0b0b4be",
+  "scope": [
+    "giaoThong_VanTai",
+    "laoDong_TienLuong"
+  ],
+  "snapshot_date": "2026-07-01",
+  "documents": 53,
+  "corpus_version": "v1-prototype",
+  "chunk_lineage": "Same 6883 structural chunks as preceding prototype; embedded vectors copied only after identical chunk file verification.",
+  "chunks_sha256": "75f45ecac19265ee5b0833119ff9cb2122400fc4e4d668032319a9a802323989",
+  "embedding_cache_source_fingerprint": "0fdb2e9be9723b2dd70fd54fd7d454b2669fbb7ba7eb19f887e48d2c8e05a08a",
+  "model_components": {
+    "embedding": {
+      "repo": "bhuy71/embedding_finetuned",
+      "revision": "6981c42c3a643b5e915feab181ab2f4b5294258b",
+      "path": "models/embedding"
+    },
+    "reranker": {
+      "repo": "bhuy71/rerank_model",
+      "revision": "d6cade059af8ca59e339ea495d614db132f9c41a",
+      "path": "models/reranker"
+    }
+  },
+  "original_code": [
+    {
+      "path": "source/model/embedding_model.py",
+      "original_sha256": "d5b7b975e5a31a8a80de092df1db8edd6a9fda28fee4d3ddae99fc511cc8fb42"
+    },
+    {
+      "path": "source/model/rerank_model_finetune.py",
+      "original_sha256": "945fbc503dbe26c83227fa780c5ee4663cc395539fe7697b744f1e2dc73272df"
+    },
+    {
+      "path": "source/rerank/utils_rerank.py",
+      "original_sha256": "b62245adaa359eb8da31c934181def22801d3bcfcfcf495c14ff4d929e1bf929"
+    }
+  ],
+  "parser_source_sha256": "4e67d8691f9cf16dfa4ece3d860619f5f88825893119e81a2b47816593f2fb12",
+  "weeks": [
+    "W1 scope/corpus",
+    "W2 ingestion",
+    "W3 dense",
+    "W4 BM25/dense RRF",
+    "W5 CrossEncoder"
+  ],
+  "user_decisions": [
+    "BM25 retained per latest instruction",
+    "Nova Micro for low cost",
+    "Separate W1-W5 demo; no BERT QA or agent loop"
+  ],
+  "legal_verification": "pending",
+  "qa_labels": "pending human review; development only"
+}

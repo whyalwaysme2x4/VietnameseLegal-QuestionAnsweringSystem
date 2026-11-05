@@ -1,0 +1,12 @@
+-r requirements.txt
+langgraph==0.4.8
+langgraph-checkpoint==2.0.26
+langgraph-prebuilt==0.2.2
+langgraph-sdk==0.1.70
+langchain-aws==0.2.11
+langchain-qdrant==0.2.0
+peft==0.15.2
+accelerate==1.7.0
+fastapi==0.115.12
+uvicorn==0.34.2
+tavily-python==0.7.24

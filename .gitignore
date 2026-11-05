@@ -9,3 +9,14 @@ index/
 .cache/
 *.log
 server.pid
+*.pid
+index_w6/
+backups/
+runs/
+*.db
+*.sqlite
+*.sqlite3
+*.safetensors
+*.pt
+*.pth
+*.bin

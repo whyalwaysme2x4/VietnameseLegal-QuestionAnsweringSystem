@@ -1,0 +1,8 @@
+week,method,domain,n,metric,value,unit,k,split,measured_on
+W06,agent_policy_parity,all,15,test_cases,15,count,,fixture_control_flow,2026-11-05
+W06,agent_policy_parity,all,15,passed,15,count,,fixture_control_flow,2026-11-05
+W06,agent_policy_parity,all,15,failures,0,count,,fixture_control_flow,2026-11-05
+W06,agent_policy_parity,all,15,errors,0,count,,fixture_control_flow,2026-11-05
+W06,agent_policy_parity,all,15,pass_rate,1.0,fraction,,fixture_control_flow,2026-11-05
+W06,agent_policy_parity,all,15,aws_calls,0,count,,fixture_control_flow,2026-11-05
+W06,asset_smoke,all,53,indexed_chunks,6883,count,,offline_assets,2026-11-05
