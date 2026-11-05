@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "week": "W03",
+  "organization": "copies_of_current_code_by_week_not_historical_release",
+  "created_at": "2026-11-05T15:25:42.739381+07:00",
+  "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+  "canonical_evidence": "Evidence/W03",
+  "run_from_repository_root": true,
+  "standalone_week_app_tested": false,
+  "algorithm_changes": false,
+  "new_inference": false,
+  "artifacts": [
+    {
+      "path": "W03/code/app.js",
+      "source_path": "app.js",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "3eab6073884152c5a1da001d9a2d4ffdc519aca939f5462b980c5906fd198208",
+      "bytes": 8332
+    },
+    {
+      "path": "W03/code/app.py",
+      "source_path": "app.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "e4d79b02c8856d6a3ca93cc85c274b9836555630856a3f70953d248ffa91d7d7",
+      "bytes": 6020
+    },
+    {
+      "path": "W03/code/evaluate.py",
+      "source_path": "evaluate.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "227a677086ae27d0157ec9d3d4fd1c28fc17c6c2b2b33d3b3d73a73138475366",
+      "bytes": 6082
+    },
+    {
+      "path": "W03/code/index.html",
+      "source_path": "index.html",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "3c13ce0c19d7b52982943d0ae810455e7e53db2c85c25d76f3631e54953d695d",
+      "bytes": 7293
+    },
+    {
+      "path": "W03/code/models.json",
+      "source_path": "models.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "1fa48c766313b3df32513671bc0502c2cdfbefcd18d737da3d9f6e191f685d8a",
+      "bytes": 483
+    },
+    {
+      "path": "W03/code/prompts/synthesis.txt",
+      "source_path": "prompts/synthesis.txt",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "1c4b72b25d3a9c62b8cb615b71a4cd9563beaf9ba0af99af41b0a01e473af92b",
+      "bytes": 2124
+    },
+    {
+      "path": "W03/code/requirements.txt",
+      "source_path": "requirements.txt",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "6e886146073ddf986f60a8868c530c17f9050e0d325dbb63b995f458b4893f3e",
+      "bytes": 275
+    },
+    {
+      "path": "W03/code/runtime.py",
+      "source_path": "runtime.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "0a8a91c4c2faeea33f7d35036c129f323bc8e28bc52bc87b660185985b3d529b",
+      "bytes": 14670
+    },
+    {
+      "path": "W03/code/source/core/config.py",
+      "source_path": "source/core/config.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "e2783f393159f4e07340a3c631c40b2cc92383bfde46eac041dda5f16945a703",
+      "bytes": 2490
+    },
+    {
+      "path": "W03/code/source/data/vectordb/qdrant.py",
+      "source_path": "source/data/vectordb/qdrant.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "22c0441fa57cab97af2dacbf51f81bb83d7c167377c6e9a31d5b559427594fd0",
+      "bytes": 1060
+    },
+    {
+      "path": "W03/code/source/generate/synthesis_response.py",
+      "source_path": "source/generate/synthesis_response.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "003a2726739aef60f60257b27c04d898f978e2d551cab965a65a38084113ad61",
+      "bytes": 1861
+    },
+    {
+      "path": "W03/code/source/model/embedding_model.py",
+      "source_path": "source/model/embedding_model.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "d5b7b975e5a31a8a80de092df1db8edd6a9fda28fee4d3ddae99fc511cc8fb42",
+      "bytes": 397
+    },
+    {
+      "path": "W03/code/style.css",
+      "source_path": "style.css",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "dc10da7a2511910fb50834247790679592ed37ba5cd516771dcdffe9f282181f",
+      "bytes": 11497
+    },
+    {
+      "path": "W03/code/tests/test_synthesis_response.py",
+      "source_path": "tests/test_synthesis_response.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "a07bce7a21f3a0b142c4e4802258aeed6f74b396650e0724730d84f5709ab0b1",
+      "bytes": 5128
+    },
+    {
+      "path": "W03/data/manifest.json",
+      "source_path": "data/manifest.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "8e68a26bb23ed4b61eb71d285317c9d4bbae1e5048a63b3ee7ccfa5cdd5972dc",
+      "bytes": 37361
+    },
+    {
+      "path": "W03/data/qa_baseline_100.jsonl",
+      "source_path": "data/qa_baseline_100.jsonl",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "267c39c852517ddac48d4706ed97079477cb4da9cef125b238e1785528d4c3ee",
+      "bytes": 204572
+    },
+    {
+      "path": "W03/metrics.csv",
+      "source_path": "Evidence/W03/metrics.csv",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "4556e8c69b0e7dc3ed3a93e0cf59ef8586b6998cb8a35e4f429980cc57693d1a",
+      "bytes": 1696
+    },
+    {
+      "path": "W03/test-results.json",
+      "source_path": "Evidence/W03/test-results.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "05fa77409447d3aa0775e434ee70c5896e9955d3afaa249b0465a63bf76f12b2",
+      "bytes": 1239
+    },
+    {
+      "path": "W03/figures/dense-baseline.png",
+      "source_path": "Evidence/W03/figures/dense-baseline.png",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "figure",
+      "sha256": "6be93adad6a472a123a20bd3ff06fdf549ce107d41db5408ec8b676130ef0bf9",
+      "bytes": 42700
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "W03/README.md",
+      "sha256": "47d2ee23719075ebfc6058870ed4feab4ce7699381e43ac92ac0923fd6d60506"
+    },
+    {
+      "path": "W03/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    }
+  ]
+}

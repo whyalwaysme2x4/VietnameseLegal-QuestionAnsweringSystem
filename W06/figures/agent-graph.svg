@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1040" height="430" viewBox="0 0 1040 430">
+<title>W6 agent graph: preserved original policy</title><desc>Architecture illustration, not a live AWS trace. Fifteen traces use fixtures.</desc>
+<defs><marker id="a" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto"><path d="M0,0 L8,4 L0,8Z" fill="#326381"/></marker></defs>
+<rect width="1040" height="430" fill="#f3f6fa"/><g font-family="Arial,sans-serif" text-anchor="middle" fill="#17354d">
+<text x="520" y="32" font-size="22">W6 - Agent graph / original control policy</text>
+<g fill="#fff" stroke="#326381" stroke-width="2"><rect x="20" y="85" width="135" height="65" rx="10"/><rect x="190" y="85" width="215" height="65" rx="10"/><rect x="440" y="85" width="150" height="65" rx="10"/><rect x="625" y="85" width="150" height="65" rx="10"/><rect x="810" y="85" width="200" height="65" rx="10"/><rect x="810" y="240" width="200" height="65" rx="10"/><rect x="575" y="240" width="200" height="65" rx="10"/><rect x="340" y="240" width="200" height="65" rx="10"/><rect x="105" y="240" width="200" height="65" rx="10"/></g>
+<g font-size="17"><text x="87" y="123">Planner</text><text x="297" y="113">Multi-query Dense</text><text x="297" y="137">RRF top 50</text><text x="515" y="123">CrossEncoder</text><text x="700" y="123">BERT QA</text><text x="910" y="123">Grader</text><text x="910" y="278">Select best round</text><text x="675" y="278">Generate + citations</text><text x="440" y="278">Checker</text><text x="205" y="278">Final / one regenerate</text></g>
+<g fill="none" stroke="#326381" stroke-width="2" marker-end="url(#a)"><path d="M155,117H187"/><path d="M405,117H437"/><path d="M590,117H622"/><path d="M775,117H807"/><path d="M910,150V237"/><path d="M810,272H778"/><path d="M575,272H543"/><path d="M340,272H308"/><path d="M910,85V58H297V82"/></g>
+<text x="985" y="196" font-size="14">stop</text><text x="580" y="77" font-size="14">retry: total retrieval rounds &lt;= 2</text>
+<text x="520" y="356" font-size="16">53 documents / 2 domains / web disabled / citation keys: 0-based</text>
+<text x="520" y="389" font-size="15">Illustration only. Saved traces: fixture execution, no AWS inference.</text></g></svg>

@@ -1,0 +1,11 @@
+{
+  "suite": "baseline synthesis contract",
+  "tests_run": 11,
+  "passed": 11,
+  "failures": 0,
+  "errors": 0,
+  "fixture_execution": true,
+  "aws_calls": 0,
+  "command": "python -B -m unittest discover -s tests -p test_synthesis_response.py -q",
+  "run_at": "2026-11-05T14:36:59.537543+07:00"
+}

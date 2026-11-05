@@ -1,0 +1,168 @@
+{
+  "schema_version": 1,
+  "week": "W05",
+  "organization": "copies_of_current_code_by_week_not_historical_release",
+  "created_at": "2026-11-05T15:25:42.739381+07:00",
+  "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+  "canonical_evidence": "Evidence/W05",
+  "run_from_repository_root": true,
+  "standalone_week_app_tested": false,
+  "algorithm_changes": false,
+  "new_inference": false,
+  "artifacts": [
+    {
+      "path": "W05/code/evaluate.py",
+      "source_path": "evaluate.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "227a677086ae27d0157ec9d3d4fd1c28fc17c6c2b2b33d3b3d73a73138475366",
+      "bytes": 6082
+    },
+    {
+      "path": "W05/code/models.json",
+      "source_path": "models.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "1fa48c766313b3df32513671bc0502c2cdfbefcd18d737da3d9f6e191f685d8a",
+      "bytes": 483
+    },
+    {
+      "path": "W05/code/prepare_qa.py",
+      "source_path": "prepare_qa.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "92b82f84f485c0d51a623f56b7390449631e83c73916e8d1ae5f71240cc6833b",
+      "bytes": 4015
+    },
+    {
+      "path": "W05/code/requirements-lock.txt",
+      "source_path": "requirements-lock.txt",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "573c91a5f939a7de2adefbc8af12fbf4b4b10553c724a42561b127baea61c326",
+      "bytes": 1384
+    },
+    {
+      "path": "W05/code/requirements.txt",
+      "source_path": "requirements.txt",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "6e886146073ddf986f60a8868c530c17f9050e0d325dbb63b995f458b4893f3e",
+      "bytes": 275
+    },
+    {
+      "path": "W05/code/runtime.py",
+      "source_path": "runtime.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "0a8a91c4c2faeea33f7d35036c129f323bc8e28bc52bc87b660185985b3d529b",
+      "bytes": 14670
+    },
+    {
+      "path": "W05/code/source/core/config.py",
+      "source_path": "source/core/config.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "e2783f393159f4e07340a3c631c40b2cc92383bfde46eac041dda5f16945a703",
+      "bytes": 2490
+    },
+    {
+      "path": "W05/code/source/generate/synthesis_response.py",
+      "source_path": "source/generate/synthesis_response.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "003a2726739aef60f60257b27c04d898f978e2d551cab965a65a38084113ad61",
+      "bytes": 1861
+    },
+    {
+      "path": "W05/code/source/model/rerank_model_finetune.py",
+      "source_path": "source/model/rerank_model_finetune.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "945fbc503dbe26c83227fa780c5ee4663cc395539fe7697b744f1e2dc73272df",
+      "bytes": 301
+    },
+    {
+      "path": "W05/code/source/rerank/utils_rerank.py",
+      "source_path": "source/rerank/utils_rerank.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "b62245adaa359eb8da31c934181def22801d3bcfcfcf495c14ff4d929e1bf929",
+      "bytes": 2570
+    },
+    {
+      "path": "W05/code/tests/test_synthesis_response.py",
+      "source_path": "tests/test_synthesis_response.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "a07bce7a21f3a0b142c4e4802258aeed6f74b396650e0724730d84f5709ab0b1",
+      "bytes": 5128
+    },
+    {
+      "path": "W05/data/manifest.json",
+      "source_path": "data/manifest.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "8e68a26bb23ed4b61eb71d285317c9d4bbae1e5048a63b3ee7ccfa5cdd5972dc",
+      "bytes": 37361
+    },
+    {
+      "path": "W05/data/qa_w5_200.jsonl",
+      "source_path": "data/qa_w5_200.jsonl",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "61abbf7ee8bd2cd1ea0c791e8d6fef09f86f2fbb8127de30f96b54881e2b6b96",
+      "bytes": 531174
+    },
+    {
+      "path": "W05/data/qa_selection_w5.json",
+      "source_path": "data/qa_selection_w5.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "ffaefce2124a50b0354a9fda68a835e67315632a2f58d716dd88ad3180e4fffd",
+      "bytes": 599
+    },
+    {
+      "path": "W05/metrics.csv",
+      "source_path": "Evidence/W05/metrics.csv",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "17549e1c619847bb4dd937af07c62ad618474ad7347e43d744ecab35069c2a9b",
+      "bytes": 2694
+    },
+    {
+      "path": "W05/test-results.json",
+      "source_path": "Evidence/W05/test-results.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "23d82e6a5ea5828f28527047cf54668490d0c36a2fc8b6a43911c408e6ea5b8b",
+      "bytes": 1407
+    },
+    {
+      "path": "W05/figures/latency.png",
+      "source_path": "Evidence/W05/figures/latency.png",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "figure",
+      "sha256": "7b414192d99b35c4eae0442421ec2c5f5b49fcaef8cd4cb3c4e1b4a6cce937f2",
+      "bytes": 34341
+    },
+    {
+      "path": "W05/figures/rerank-ablation.png",
+      "source_path": "Evidence/W05/figures/rerank-ablation.png",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "figure",
+      "sha256": "357776694df563280f127fe232502634b397b3c070c133fdac55e5598bf3c098",
+      "bytes": 43277
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "W05/README.md",
+      "sha256": "4a7f96bea0b736909ced1a87cea170ac1f983fc4e7c680d8b3ff84dfd3e80f07"
+    },
+    {
+      "path": "W05/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    }
+  ]
+}

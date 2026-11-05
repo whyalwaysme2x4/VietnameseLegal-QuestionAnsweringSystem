@@ -1,0 +1,9 @@
+{"case_id": "W6_03", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "start"}
+{"case_id": "W6_03", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "end", "elapsed_ms": 12.0, "iteration": 0, "route": "alternate", "failed": false}
+{"case_id": "W6_03", "fixture_execution": true, "type": "plan", "agent": "planner", "elapsed_ms": 12, "intent": "out_of_scope", "tool": "reject", "rewritten_query": "Thủ tục ly hôn được giải quyết thế nào?", "search_query": null, "entities": null, "reason": "Fixture routing decision"}
+{"case_id": "W6_03", "fixture_execution": true, "type": "graph_node", "node": "alternate", "phase": "start"}
+{"case_id": "W6_03", "fixture_execution": true, "type": "generate_start", "agent": "generator", "mode": "reject", "reason": "Ngoài phạm vi — trả lời từ chối lịch sự và gợi ý bật Web Search."}
+{"case_id": "W6_03", "fixture_execution": true, "type": "generate_done", "agent": "generator", "elapsed_ms": 28}
+{"case_id": "W6_03", "fixture_execution": true, "type": "final", "answer": "Bản demo hỗ trợ hai lĩnh vực trong corpus đã chốt.", "references": []}
+{"case_id": "W6_03", "fixture_execution": true, "type": "graph_node", "node": "alternate", "phase": "end", "elapsed_ms": 28.63, "iteration": 0, "route": null, "failed": false}
+{"case_id": "W6_03", "fixture_execution": true, "type": "done", "total_ms": 45}

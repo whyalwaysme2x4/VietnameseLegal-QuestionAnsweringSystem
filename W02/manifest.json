@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "week": "W02",
+  "organization": "copies_of_current_code_by_week_not_historical_release",
+  "created_at": "2026-11-05T15:25:42.739381+07:00",
+  "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+  "canonical_evidence": "Evidence/W02",
+  "run_from_repository_root": true,
+  "standalone_week_app_tested": false,
+  "algorithm_changes": false,
+  "new_inference": false,
+  "artifacts": [
+    {
+      "path": "W02/code/ingest.py",
+      "source_path": "ingest.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "40ec501528322d18e5848ebcce49d6ebbb0e4a76e96b049457aef97dff6a6f4b",
+      "bytes": 9076
+    },
+    {
+      "path": "W02/data/manifest.json",
+      "source_path": "data/manifest.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "8e68a26bb23ed4b61eb71d285317c9d4bbae1e5048a63b3ee7ccfa5cdd5972dc",
+      "bytes": 37361
+    },
+    {
+      "path": "W02/data/documents.jsonl",
+      "source_path": "data/documents.jsonl",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "eb5026f70715fe73631c551e6543ea60ad9fca98f3c5f115599c35cc74535e1c",
+      "bytes": 8582984
+    },
+    {
+      "path": "W02/data/legal_nodes.jsonl",
+      "source_path": "data/legal_nodes.jsonl",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "f049b28d286d97eb26ad98fa182116964f0d653f63981af98a5499660a42ea2e",
+      "bytes": 21029570
+    },
+    {
+      "path": "W02/data/chunks.jsonl",
+      "source_path": "data/chunks.jsonl",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "75f45ecac19265ee5b0833119ff9cb2122400fc4e4d668032319a9a802323989",
+      "bytes": 10608304
+    },
+    {
+      "path": "W02/data/validation.json",
+      "source_path": "data/validation.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "53c769686e6d812c392a2846bef93a43fedbaa23cb32e961a053fe74524a2a57",
+      "bytes": 1463
+    },
+    {
+      "path": "W02/metrics.csv",
+      "source_path": "Evidence/W02/metrics.csv",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "d8aa3b25759400c0a7b129b37116a2b992a8d9f90757710260e8ce177c28e74d",
+      "bytes": 517
+    },
+    {
+      "path": "W02/test-results.json",
+      "source_path": "Evidence/W02/test-results.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "bd1aff0e7337d9a34694c763d9d74957355b4d9bcac20a9c3b8f0fa7dae4334c",
+      "bytes": 1183
+    },
+    {
+      "path": "W02/figures/structured-corpus.png",
+      "source_path": "Evidence/W02/figures/structured-corpus.png",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "figure",
+      "sha256": "2d893ece4e96c6e7c03d929031bcaa46c3c4e09699a8c238a4e584328f505719",
+      "bytes": 32178
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "W02/README.md",
+      "sha256": "075921378aec338cb20d295c3f2b8b0d8269045d06aa1aa8ddd2683fbe9ef0cb"
+    },
+    {
+      "path": "W02/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    }
+  ]
+}

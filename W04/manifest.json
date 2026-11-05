@@ -1,0 +1,128 @@
+{
+  "schema_version": 1,
+  "week": "W04",
+  "organization": "copies_of_current_code_by_week_not_historical_release",
+  "created_at": "2026-11-05T15:25:42.739381+07:00",
+  "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+  "canonical_evidence": "Evidence/W04",
+  "run_from_repository_root": true,
+  "standalone_week_app_tested": false,
+  "algorithm_changes": false,
+  "new_inference": false,
+  "artifacts": [
+    {
+      "path": "W04/code/evaluate.py",
+      "source_path": "evaluate.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "227a677086ae27d0157ec9d3d4fd1c28fc17c6c2b2b33d3b3d73a73138475366",
+      "bytes": 6082
+    },
+    {
+      "path": "W04/code/models.json",
+      "source_path": "models.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "1fa48c766313b3df32513671bc0502c2cdfbefcd18d737da3d9f6e191f685d8a",
+      "bytes": 483
+    },
+    {
+      "path": "W04/code/requirements.txt",
+      "source_path": "requirements.txt",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "6e886146073ddf986f60a8868c530c17f9050e0d325dbb63b995f458b4893f3e",
+      "bytes": 275
+    },
+    {
+      "path": "W04/code/runtime.py",
+      "source_path": "runtime.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "0a8a91c4c2faeea33f7d35036c129f323bc8e28bc52bc87b660185985b3d529b",
+      "bytes": 14670
+    },
+    {
+      "path": "W04/code/source/core/config.py",
+      "source_path": "source/core/config.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "e2783f393159f4e07340a3c631c40b2cc92383bfde46eac041dda5f16945a703",
+      "bytes": 2490
+    },
+    {
+      "path": "W04/code/source/model/embedding_model.py",
+      "source_path": "source/model/embedding_model.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "d5b7b975e5a31a8a80de092df1db8edd6a9fda28fee4d3ddae99fc511cc8fb42",
+      "bytes": 397
+    },
+    {
+      "path": "W04/code/source/rerank/utils_rerank.py",
+      "source_path": "source/rerank/utils_rerank.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "b62245adaa359eb8da31c934181def22801d3bcfcfcf495c14ff4d929e1bf929",
+      "bytes": 2570
+    },
+    {
+      "path": "W04/data/manifest.json",
+      "source_path": "data/manifest.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "8e68a26bb23ed4b61eb71d285317c9d4bbae1e5048a63b3ee7ccfa5cdd5972dc",
+      "bytes": 37361
+    },
+    {
+      "path": "W04/data/qa_dev_150.jsonl",
+      "source_path": "data/qa_dev_150.jsonl",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "7bac82a27ea4e063c091d5f6c53ceabe001937e5d40497cc697ba24a630aa8e7",
+      "bytes": 367670
+    },
+    {
+      "path": "W04/metrics.csv",
+      "source_path": "Evidence/W04/metrics.csv",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "32de53b7230e6a7eec41b872236b1f1e9c18e1271fd6ead9c007f8b34b5acfda",
+      "bytes": 6108
+    },
+    {
+      "path": "W04/test-results.json",
+      "source_path": "Evidence/W04/test-results.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "13e0a58679b4a03ed458ecbf4c31aa1c2f4f7bb4542fbf0477e613490998f019",
+      "bytes": 1239
+    },
+    {
+      "path": "W04/figures/latency.png",
+      "source_path": "Evidence/W04/figures/latency.png",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "figure",
+      "sha256": "9634cb7ba9393c5f9544b6e4edd3972650f752016360a5122fb6b247c7c331ed",
+      "bytes": 36008
+    },
+    {
+      "path": "W04/figures/retrieval-comparison.png",
+      "source_path": "Evidence/W04/figures/retrieval-comparison.png",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "figure",
+      "sha256": "7fa98fcbc0edb0f06eba93f4e582f0909793156ead7e469754c295655ef69c64",
+      "bytes": 52653
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "W04/README.md",
+      "sha256": "0a72cc0126ae68aa8530f10d70b3057b04102a8d75125479cbf1e0cd3cb78e35"
+    },
+    {
+      "path": "W04/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    }
+  ]
+}

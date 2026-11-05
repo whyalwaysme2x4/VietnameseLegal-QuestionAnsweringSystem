@@ -1,0 +1,32 @@
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "planner", "phase": "end", "elapsed_ms": 22.99, "iteration": 0, "route": "rag", "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "plan", "agent": "planner", "elapsed_ms": 23, "intent": "legal", "tool": "rag", "rewritten_query": "Một quy định không có nguồn phù hợp trong corpus?", "search_query": null, "entities": null, "reason": "Fixture routing decision"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "retrieve_start", "agent": "retriever", "iteration": 1, "query": "Một quy định không có nguồn phù hợp trong corpus?", "entities": null}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "end", "elapsed_ms": 2.4, "iteration": 1, "route": "extract", "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "retrieve_done", "agent": "retriever", "iteration": 1, "elapsed_ms": 2, "n_docs": 0, "docs": []}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "end", "elapsed_ms": 0.03, "iteration": 1, "route": null, "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "end", "elapsed_ms": 0.11, "iteration": 1, "route": "retrieve", "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "grade", "agent": "grader", "iteration": 1, "elapsed_ms": 0, "relevance_score": 0.0, "decision": "insufficient", "missing_aspects": ["không retrieve được văn bản nào"], "reason": "Không có snippet nào để đánh giá."}
+{"case_id": "W6_07", "fixture_execution": true, "type": "iterate", "agent": "orchestrator", "next_iteration": 2, "next_query": "Một quy định không có nguồn phù hợp trong corpus?", "reason": "Điểm liên quan 0% dưới ngưỡng 60%, viết lại truy vấn và thử lại."}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "retrieve_start", "agent": "retriever", "iteration": 2, "query": "Một quy định không có nguồn phù hợp trong corpus?", "entities": null}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "retrieve", "phase": "end", "elapsed_ms": 2.21, "iteration": 2, "route": "extract", "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "retrieve_done", "agent": "retriever", "iteration": 2, "elapsed_ms": 2, "n_docs": 0, "docs": []}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "extract", "phase": "end", "elapsed_ms": 0.03, "iteration": 2, "route": null, "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "grader", "phase": "end", "elapsed_ms": 0.08, "iteration": 2, "route": "select_best", "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "grade", "agent": "grader", "iteration": 2, "elapsed_ms": 0, "relevance_score": 0.0, "decision": "insufficient", "missing_aspects": ["không retrieve được văn bản nào"], "reason": "Không có snippet nào để đánh giá."}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "select_best", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "select_best", "phase": "end", "elapsed_ms": 0.03, "iteration": 2, "route": "generate", "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "generate", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "generate_start", "agent": "generator", "mode": "rag", "reason": "Tổng hợp câu trả lời từ các đoạn trích được chọn."}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "generate", "phase": "end", "elapsed_ms": 38.76, "iteration": 2, "route": "finish", "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "generate_done", "agent": "generator", "elapsed_ms": 38, "n_citations": 0}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "finish", "phase": "start"}
+{"case_id": "W6_07", "fixture_execution": true, "type": "graph_node", "node": "finish", "phase": "end", "elapsed_ms": 0.03, "iteration": 2, "route": null, "failed": false}
+{"case_id": "W6_07", "fixture_execution": true, "type": "final", "answer": "Xin lỗi bạn, thông tin này không có trong cơ sở tri thức pháp luật của tôi. Nếu bạn muốn tôi tra cứu trên Internet, vui lòng bật chế độ **Web Search** ở thanh công cụ phía dưới rồi gửi lại câu hỏi.", "references": [], "citation_indices": [], "selected_chunk_ids": []}
+{"case_id": "W6_07", "fixture_execution": true, "type": "done", "total_ms": 97}

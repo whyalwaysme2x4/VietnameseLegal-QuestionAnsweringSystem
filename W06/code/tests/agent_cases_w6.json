@@ -1,0 +1,21 @@
+{
+  "suite": "W6 original-policy parity",
+  "execution": "Actual agents, BERT extraction code and LangGraph; fixture LLM, tensors and retrieval. No AWS or model-quality claim.",
+  "cases": [
+    {"id":"W6_01","name":"Giao thông và citation 0-based","question":"Đi xe máy không đội mũ bảo hiểm được quy định thế nào?","scenario":"traffic","expected":"RAG một vòng; key 0 chọn đúng chunk đầu tiên; full chunk và BERT highlight vào generator."},
+    {"id":"W6_02","name":"Lao động và chỉ số nguồn không hợp lệ","question":"Tiền lương thử việc được quy định thế nào?","scenario":"labour","expected":"Chỉ số -1 và 99 bị bỏ qua; key 1 vẫn chọn chunk thứ hai, không dịch sang 1-based."},
+    {"id":"W6_03","name":"Ngoài phạm vi với web tắt","question":"Thủ tục ly hôn được giải quyết thế nào?","scenario":"outside","expected":"Planner intent out_of_scope bị clamp về reject; không retrieve/BERT/checker/web."},
+    {"id":"W6_04","name":"Planner JSON lỗi","question":"Quy định về thử việc trong corpus là gì?","scenario":"planner_parse","expected":"Fallback legal/rag nguyên bản; không thay bằng từ chối hoặc đáp án giả lập."},
+    {"id":"W6_05","name":"Làm sạch entity rỗng và giữ OR filter","question":"Luật lao động quy định thời gian thử việc thế nào?","scenario":"entities","expected":"Bỏ None/rỗng; giữ entity hợp lệ và semantics should/OR; cùng filter cho query variants."},
+    {"id":"W6_06","name":"Grader JSON lỗi","question":"Quy định về tiền lương khi thử việc?","scenario":"grader_parse","expected":"Fallback sufficient và score 0.6 như project gốc; dừng sau một vòng."},
+    {"id":"W6_07","name":"Không có nguồn truy xuất","question":"Một quy định không có nguồn phù hợp trong corpus?","scenario":"empty","expected":"Grader trả insufficient/0; tối đa hai vòng; không gọi BERT/checker khi không có nguồn; giữ phản hồi không citation gốc."},
+    {"id":"W6_08","name":"Tìm lại rồi đủ căn cứ","question":"Quy định về thời giờ làm việc trong corpus?","scenario":"retry","expected":"Hai vòng retrieval tổng cộng; dùng suggested_query; không gọi lại Planner hoặc đổi entities."},
+    {"id":"W6_09","name":"Giữ vòng điểm cao nhất","question":"Quyền của người lao động khi thử việc?","scenario":"best","expected":"Vòng hai kém hơn vẫn dùng nguồn và BERT highlight vòng một; không có vòng ba."},
+    {"id":"W6_10","name":"Partial có score đạt ngưỡng","question":"Nghĩa vụ người sử dụng lao động trong corpus?","scenario":"partial_high","expected":"Decision partial nhưng score 0.7 vẫn dừng theo điều kiện OR gốc."},
+    {"id":"W6_11","name":"Checker JSON lỗi","question":"Đối chiếu trả lời về tiền lương với nguồn?","scenario":"checker_parse","expected":"Fail-open is_grounded=true, confidence=0.3; không tự sửa policy."},
+    {"id":"W6_12","name":"Sinh lại một lần, không recheck","question":"Tổng hợp các trường hợp về tiền lương từ nguồn?","scenario":"regenerate","expected":"False + confidence 0.8 + hai unsupported claims → sinh lại đúng một lần; full chunk+BERT; không kiểm tra lại sau sinh lại."},
+    {"id":"W6_13","name":"Một unsupported claim chưa kích hoạt sinh lại","question":"Đối chiếu một thông tin về thử việc?","scenario":"single_claim","expected":"Dù confidence cao, chỉ một claim thì không regenerate theo điều kiện gốc."},
+    {"id":"W6_14","name":"Confidence dưới 0.75","question":"Đối chiếu nội dung về hợp đồng lao động?","scenario":"low_confidence","expected":"Hai claims nhưng confidence 0.7 không regenerate."},
+    {"id":"W6_15","name":"Lỗi provider khác lỗi JSON","question":"Tra cứu quy định về thử việc?","scenario":"provider_error","expected":"Lỗi gọi model tại Planner phát SSE error và kết thúc; không dùng fallback parse để giả thành lời gọi thành công."}
+  ]
+}

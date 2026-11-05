@@ -1,0 +1,19 @@
+{
+  "w5_count": 200,
+  "w4_overlap": 150,
+  "pilot_overlap": 50,
+  "new_candidates": 56,
+  "new_selected": 50,
+  "by_domain": {
+    "giaoThong_VanTai": 46,
+    "laoDong_TienLuong": 154
+  },
+  "skipped": {
+    "ambiguous_or_missing_document": 170,
+    "missing_primary_article": 15
+  },
+  "seed": 20261031,
+  "labels": "Primary article citations pending human and legal review; not complete relevance judgments.",
+  "test_status": "Development; contains pilot and W4 dev. Not an independent holdout.",
+  "sha256": "61abbf7ee8bd2cd1ea0c791e8d6fef09f86f2fbb8127de30f96b54881e2b6b96"
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "week": "W01",
+  "organization": "copies_of_current_code_by_week_not_historical_release",
+  "created_at": "2026-11-05T15:25:42.739381+07:00",
+  "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+  "canonical_evidence": "Evidence/W01",
+  "run_from_repository_root": true,
+  "standalone_week_app_tested": false,
+  "algorithm_changes": false,
+  "new_inference": false,
+  "artifacts": [
+    {
+      "path": "W01/code/ingest.py",
+      "source_path": "ingest.py",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "code",
+      "sha256": "40ec501528322d18e5848ebcce49d6ebbb0e4a76e96b049457aef97dff6a6f4b",
+      "bytes": 9076
+    },
+    {
+      "path": "W01/data/manifest.json",
+      "source_path": "data/manifest.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "8e68a26bb23ed4b61eb71d285317c9d4bbae1e5048a63b3ee7ccfa5cdd5972dc",
+      "bytes": 37361
+    },
+    {
+      "path": "W01/data/qa_pilot_50.csv",
+      "source_path": "data/qa_pilot_50.csv",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "8e66c38fd43f613e265f51b08cd6644c18f258faa151f9658f35c24da3867caf",
+      "bytes": 32437,
+      "copy_representation": "source Git blob; worktree had different line endings"
+    },
+    {
+      "path": "W01/data/qa_pilot_50.jsonl",
+      "source_path": "data/qa_pilot_50.jsonl",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "21db0fa581ff7c5de133ce16329255787e9998395fc3c07661f111ee4699e6b6",
+      "bytes": 35632
+    },
+    {
+      "path": "W01/data/corpus_scope.json",
+      "source_path": "source/core/corpus_scope.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "data",
+      "sha256": "c32379ca47e63f0397a4a5935f03f4e643188452e15c6331e3cd95fbbe7b50e8",
+      "bytes": 22156
+    },
+    {
+      "path": "W01/metrics.csv",
+      "source_path": "Evidence/W01/metrics.csv",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "2314404a5bd43121e122244b403514e784dbe74a5ad45a104b6b52734373b622",
+      "bytes": 329
+    },
+    {
+      "path": "W01/test-results.json",
+      "source_path": "Evidence/W01/test-results.json",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "evidence",
+      "sha256": "c13b7b5be6db9a876118b0c38d7a2560dacabddf1a4fcbf20fc273c5b3e413b5",
+      "bytes": 869
+    },
+    {
+      "path": "W01/figures/corpus-inventory.png",
+      "source_path": "Evidence/W01/figures/corpus-inventory.png",
+      "source_commit": "2a9e02134bdded6993d8d7c547cf8e68b5f7372e",
+      "kind": "figure",
+      "sha256": "99a6b4af6c34c25bb021165b8816b19fff030dff6bf826d2467a6a880e82fb3b",
+      "bytes": 33250
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "W01/README.md",
+      "sha256": "4f5c1353c37403ac0859af95a162e1656127c0c2973fc64afad94c6d58812a8b"
+    },
+    {
+      "path": "W01/.gitattributes",
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    }
+  ]
+}

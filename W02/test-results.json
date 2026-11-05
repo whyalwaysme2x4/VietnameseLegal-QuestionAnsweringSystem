@@ -1,0 +1,42 @@
+{
+  "suite": "offline_evidence_validation",
+  "validated_at": "2026-11-01T17:45:06.128551+07:00",
+  "status": "passed",
+  "tests": 6,
+  "checks": [
+    {
+      "name": "node_identifiers_unique",
+      "status": "passed",
+      "detail": "1776 articles + 6527 clauses + 6632 points"
+    },
+    {
+      "name": "parent_child_integrity",
+      "status": "passed",
+      "detail": "Existing parent IDs belong to same document"
+    },
+    {
+      "name": "original_text_spans",
+      "status": "passed",
+      "detail": "Compare each stored node with its original document text span"
+    },
+    {
+      "name": "chunk_metadata_links",
+      "status": "passed",
+      "detail": "6883 chunks; valid node/article/document IDs"
+    },
+    {
+      "name": "duplicate_warnings_retained",
+      "status": "passed",
+      "detail": "Nine warnings retained for manual inspection, not silently removed"
+    },
+    {
+      "name": "metrics_csv_matches_observations",
+      "status": "passed",
+      "detail": "CSV values, units, population and cutoffs match saved observations"
+    }
+  ],
+  "model_inference": false,
+  "llm_calls": 0,
+  "peer_review": "pending",
+  "legal_verification": "pending"
+}
