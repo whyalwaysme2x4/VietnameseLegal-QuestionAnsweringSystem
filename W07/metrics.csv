@@ -1,0 +1,13 @@
+week,metric,value,unit,status,population,measured_at,notes
+W07,qa_candidates,30,count,measured,draft QA inventory,2026-11-17T13:21:56.597072+07:00,25 synthetic + 5 reused dev controls; provisional labels
+W07,synthetic_candidates,25,count,measured,draft QA inventory,2026-11-17T13:21:56.597072+07:00,20 refuse + 5 clarify candidates; not human gold
+W07,answerable_controls,5,count,measured,existing 200 QA dev,2026-11-17T13:21:56.597072+07:00,Primary labels remain pending review; not independent test
+W07,fixture_contract_tests,28,count,measured,10 agent + 11 baseline + 7 W7 contracts,2026-11-17T13:19:44.823004+07:00,No model inference; network connections blocked
+W07,fixture_contract_pass_rate,1.0,fraction,measured,28 fixture/contract tests,2026-11-17T13:19:44.823004+07:00,Not semantic accuracy or legal correctness
+W07,http_source_fixture_cases,2,count,measured,HTTP/SSE loopback fixtures,2026-11-17T06:20:35.838831+00:00,Not browser visual QA or live AWS
+W07,citation_validity,,fraction,not_measured,reviewed real-model QA run required,,No predictions/semantic annotations; not zero
+W07,grounding_support,,fraction,not_measured,reviewed real-model QA run required,,No predictions/semantic annotations; not zero
+W07,refusal_recall,,fraction,not_measured,reviewed real-model QA run required,,No predictions/semantic annotations; not zero
+W07,false_refusal_rate,,fraction,not_measured,reviewed real-model QA run required,,No predictions/semantic annotations; not zero
+W07,clarification_accuracy,,fraction,not_measured,reviewed real-model QA run required,,No predictions/semantic annotations; not zero
+W07,pipeline_error_rate,,fraction,not_measured,reviewed real-model QA run required,,No predictions/semantic annotations; not zero

@@ -11,7 +11,7 @@ def main():
     failed=[]
     count=0
     totals={}
-    for i in range(1,7):
+    for i in range(1,8):
         week=f'W{i:02d}'
         folder=ROOT/week
         for name in ['README.md','code','data','metrics.csv','test-results.json','figures','manifest.json']:

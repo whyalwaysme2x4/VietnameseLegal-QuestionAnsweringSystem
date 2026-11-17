@@ -1,0 +1,32 @@
+{
+  "status": "template_no_predictions_or_annotations",
+  "instructions": "One JSONL row per QA/run. Do not fill scores until a real run and review.",
+  "fields": {
+    "qa_id": "W7-QA-xxx",
+    "run_id": null,
+    "answer": null,
+    "observed_action": null,
+    "pipeline_status": "not_run",
+    "candidate_chunk_ids": [],
+    "cited_chunk_ids": [],
+    "checker_output": null,
+    "claims": [],
+    "latency_ms": null,
+    "reviewer": null
+  },
+  "claim_fields": {
+    "claim_id": null,
+    "text": null,
+    "support": "supported|unsupported|uncertain",
+    "cited_chunk_ids": [],
+    "source_quote": null,
+    "reviewer": null
+  },
+  "allowed_actions": [
+    "answer",
+    "clarify",
+    "refuse",
+    "mixed",
+    "error"
+  ]
+}

@@ -1,0 +1,14 @@
+flowchart TD
+    A[Question] --> P[Planner: two legal domains]
+    P -->|reject| R[Refusal branch]
+    P -->|ask_user| C[Clarification branch]
+    P -->|rag| D[Dense variants / RRF / CE / BERT]
+    D --> G[Grader: total max 2 retrieval rounds / best result]
+    G --> N[Generator: full chunks plus highlights]
+    N -->|no citations and web off| F[No-source message]
+    N -->|citations 0-based| H[Checker: cited source text only]
+    H -->|false AND confidence ge .75 AND claims ge 2| X[Regenerate once - no recheck]
+    H -->|other including parse fail-open| U[Final answer and source cards]
+    X --> U
+    U --> V[GET /api/source/id - source dialog]
+    E[Provider or pipeline failure] --> Z[Error - not correct refusal]

@@ -1,0 +1,166 @@
+{
+  "week": "W07",
+  "suite": "W7 citation/refusal fixture and source/data contracts",
+  "run_at": "2026-11-17T13:19:44.823004+07:00",
+  "tests_run": 28,
+  "passed": 28,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "aws_calls": 0,
+  "model_inference": false,
+  "fixture_execution": true,
+  "network_connections_blocked": true,
+  "selected_w6_cases_rerun": [
+    "W6_01",
+    "W6_02",
+    "W6_03",
+    "W6_06",
+    "W6_07",
+    "W6_11",
+    "W6_12",
+    "W6_13",
+    "W6_14",
+    "W6_15"
+  ],
+  "cases": [
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_01",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_02",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_03",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_06",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_07",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_11",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_12",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_13",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_14",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_agent_w6.AgentPolicyTests.test_W6_15",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_bad_schemas_are_rejected",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_chat_handles_bad_output_without_attaching_uncertain_sources",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_empty_citations_for_clarification",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_failed_startup_never_leaves_ready_true",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_invalid_sources_are_not_guessed_or_silently_dropped",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_json_fence",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_malformed_json",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_ready_only_after_engine_is_published",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_source_mapping_keeps_one_based_order",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_truncation_identified",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_synthesis_response.ResponseContractTests.test_unambiguous_model_label_formats",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_w7_contract.W7ContractTests.test_controls_preserve_existing_dev_provenance",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_w7_contract.W7ContractTests.test_graph_regeneration_does_not_recheck",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_w7_contract.W7ContractTests.test_provisional_labels_and_action_distribution",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_w7_contract.W7ContractTests.test_qa_schema_and_unique_ids",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_w7_contract.W7ContractTests.test_source_endpoint_and_agent_mapping_contract",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_w7_contract.W7ContractTests.test_source_ui_static_contract",
+      "status": "passed"
+    },
+    {
+      "test_id": "test_w7_contract.W7ContractTests.test_synthetic_record_markers_absent_from_all_documents",
+      "status": "passed"
+    }
+  ],
+  "input_sha256": {
+    "tests/run_w7_tests.py": "b3bd40128a75440836c226131276cb8951bbf3db27cde1225566590f9a1770d9",
+    "tests/test_w7_contract.py": "6415071b3acf18cc08ddcc7e85f9a1ba25deec4c0314642834872c08fd6d6b3f",
+    "tests/test_agent_w6.py": "ea9f1c7ba8f319ad277ee86e10dc263e6192bf5a30231bbd1e818ea26e8e145c",
+    "tests/test_synthesis_response.py": "a07bce7a21f3a0b142c4e4802258aeed6f74b396650e0724730d84f5709ab0b1",
+    "tests/agent_cases_w6.json": "b88d7e40243d1bc90243f255e273318cf6ff114a9889e94328c5ad00e88901fa",
+    "source/agent/orchestrator.py": "c81cfeff1ff33d9b6bcf058f152b2fd829692fa1decf0f3a5cd1994f13f7caf7",
+    "source/agent/graph_orchestrator.py": "fb8ce2af61b800022c698db49371dba5141f1c73da70e67a473b9226e2a4a4bf",
+    "source/agent/hallucination_checker.py": "2d68d7892ca36e4e1b93a9c2b8adcc32f9aa69591fe0ed370cf5e7655da2ecc3",
+    "source/agent/grader.py": "a58238c47b6106bae6016df79c332105f5ded3a75bd1b47278adf8551b743244",
+    "source/agent/planner.py": "31f446a622843c566e239cc378f3fe6c029e56ebb8fdd12285f931344739b505",
+    "source/agent/demo_agentic.py": "beaae29299f941c3bc9ca7684d7f67a0e268fa0665b11592c88778aea706533d",
+    "source/core/corpus_scope.json": "c32379ca47e63f0397a4a5935f03f4e643188452e15c6331e3cd95fbbe7b50e8",
+    "source/generate/synthesis_response.py": "003a2726739aef60f60257b27c04d898f978e2d551cab965a65a38084113ad61",
+    "Evidence/W07/data/qa_candidates_30.jsonl": "4d07c2e9d4dd6bc020762c3fa46fbc694b9932fc49b7b673376b9bc8cd80a623",
+    "data/documents.jsonl": "eb5026f70715fe73631c551e6543ea60ad9fca98f3c5f115599c35cc74535e1c",
+    "data/qa_w5_200.jsonl": "61abbf7ee8bd2cd1ea0c791e8d6fef09f86f2fbb8127de30f96b54881e2b6b96",
+    "app.py": "e4d79b02c8856d6a3ca93cc85c274b9836555630856a3f70953d248ffa91d7d7",
+    "app.js": "3eab6073884152c5a1da001d9a2d4ffdc519aca939f5462b980c5906fd198208",
+    "index.html": "3c13ce0c19d7b52982943d0ae810455e7e53db2c85c25d76f3631e54953d695d"
+  },
+  "limitations": [
+    "Fixture control-flow and static contracts, not semantic grounding or refusal accuracy.",
+    "Source UI static check is not a browser visual test.",
+    "QA labels provisional and not human-reviewed."
+  ]
+}

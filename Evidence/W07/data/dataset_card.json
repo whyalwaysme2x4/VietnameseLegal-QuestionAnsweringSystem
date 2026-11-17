@@ -1,0 +1,30 @@
+{
+  "name": "W7 refusal and grounding development candidates",
+  "version": "0.1-draft",
+  "created_at": "2026-11-17T13:18:10.044939+07:00",
+  "total": 30,
+  "synthetic": 25,
+  "existing_dev_controls": 5,
+  "categories": {
+    "out_of_scope": 10,
+    "missing_case_record": 10,
+    "needs_clarification": 5,
+    "answerable_control": 5
+  },
+  "actions": {
+    "refuse": 20,
+    "clarify": 5,
+    "answer": 5
+  },
+  "human_review": "pending",
+  "legal_review": "pending",
+  "frozen_independent_test": false,
+  "model_predictions_available": false,
+  "source_qa_file": "data/qa_w5_200.jsonl",
+  "license": "Not assigned; preserve upstream attribution and verify redistribution rights.",
+  "limitations": [
+    "Synthetic missing-record cases are not all varieties of in-scope legal unanswerability.",
+    "Controls overlap 200 QA dev and retain unverified primary labels.",
+    "No real user interactions or private records included."
+  ]
+}

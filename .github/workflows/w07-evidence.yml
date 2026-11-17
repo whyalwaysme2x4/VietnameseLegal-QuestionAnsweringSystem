@@ -1,0 +1,20 @@
+name: Validate W07 citation and refusal evidence
+on:
+  push:
+    branches: [main]
+    tags: ['w07']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  w07-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Validate saved W07 fixture evidence, candidates and source hashes
+        run: python Evidence/tools/validate_w07.py
+      - name: Validate W01-W07 browsing copies
+        run: python verify_week_folders.py

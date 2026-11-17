@@ -1,0 +1,78 @@
+{
+  "run_at": "2026-11-17T13:18:10.044939+07:00",
+  "corpus_document_count": 53,
+  "documents_sha256": "eb5026f70715fe73631c551e6543ea60ad9fca98f3c5f115599c35cc74535e1c",
+  "checks": [
+    {
+      "marker": "GT-DEMO-7001",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "GT-DEMO-7002",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "GT-DEMO-7003",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "GT-DEMO-7004",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "GT-DEMO-7005",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "LD-DEMO-7001",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "LD-DEMO-7002",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "LD-DEMO-7003",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "LD-DEMO-7004",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    },
+    {
+      "marker": "LD-DEMO-7005",
+      "checked_documents": 53,
+      "matching_document_ids": [],
+      "method": "case-insensitive literal substring over all extracted document text",
+      "limitation": "Marker absence only; not a semantic proof of every legal answer being absent."
+    }
+  ],
+  "not_legal_verification": true
+}

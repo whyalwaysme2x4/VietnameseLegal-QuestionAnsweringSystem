@@ -1,6 +1,6 @@
 # Code và dữ liệu theo tuần
 
-Các folder **W01–W06 nằm ngay thư mục gốc repo**, cùng nhánh `main`. Toàn bộ project đang chạy và `Evidence/` được giữ nguyên; các folder tuần là bản sao bổ sung để đọc code theo nội dung đồ án.
+Các folder **W01–W07 nằm ngay thư mục gốc repo**, cùng nhánh `main`. Toàn bộ project đang chạy và `Evidence/` được giữ nguyên; các folder tuần là bản sao bổ sung để đọc code theo nội dung đồ án.
 
 | Folder | Nội dung chính | Điểm bắt đầu đọc code |
 |---|---|---|
@@ -10,11 +10,16 @@ Các folder **W01–W06 nằm ngay thư mục gốc repo**, cùng nhánh `main`.
 | [W04](W04/README.md) | BM25/Dense + RRF, comparison, 150 QA dev | [runtime.py](W04/code/runtime.py): `lexical`, `retrieve(mode="hybrid")`; [RRF](W04/code/source/rerank/utils_rerank.py) |
 | [W05](W05/README.md) | CrossEncoder, rerank ablation, 200 QA dev | [CrossEncoder](W05/code/source/model/rerank_model_finetune.py), [evaluate.py](W05/code/evaluate.py) |
 | [W06](W06/README.md) | Planner/Grader/Checker, BERT, LangGraph, 15 fixture cases | [graph](W06/code/source/agent/graph_orchestrator.py), [composition](W06/code/source/agent/demo_agentic.py), [cases](W06/code/tests/agent_cases_w6.json) |
+| [W07](W07/README.md) | Citation/refusal policy, grounding/source contracts, QA draft | [Policy](Evidence/W07/CITATION_REFUSAL_POLICY.md), [protocol](Evidence/W07/EVALUATION_PROTOCOL.md), [code](W07/code/) |
 
 Mỗi folder có `README.md`, `code/`, `data/`, `metrics.csv`, `test-results.json`, `figures/`, `manifest.json`. W6 còn có các trace/smoke artifacts ở `W06/evidence/`. Manifest ghi đường dẫn nguồn, commit và SHA-256 cho từng bản sao.
 
-Các bản sao lấy từ commit `2a9e02134bdded6993d8d7c547cf8e68b5f7372e` ngày 05/11/2026, **phân loại theo nội dung tuần**, không phải tái dựng phiên bản lịch sử ở cuối từng tuần. File dùng chung được sao chép nguyên vẹn, có thể chứa các nhánh của tuần khác; README chỉ rõ hàm/chế độ cần xem. Không tự loại bớt code hoặc thay thuật toán để giả lập lịch sử.
+Các bản sao W01–W06 lấy từ commit `2a9e02134bdded6993d8d7c547cf8e68b5f7372e` ngày 05/11/2026, **phân loại theo nội dung tuần**, không phải tái dựng phiên bản lịch sử ở cuối từng tuần. File dùng chung được sao chép nguyên vẹn, có thể chứa các nhánh của tuần khác; README chỉ rõ hàm/chế độ cần xem. Không tự loại bớt code hoặc thay thuật toán để giả lập lịch sử.
 
 Đọc code trong folder tuần; **chạy demo từ gốc project** theo [README chính](README.md). Các folder này chưa được kiểm thử như ứng dụng chạy độc lập và vẫn tham chiếu cấu hình dữ liệu/model theo gốc project. Corpus DOCX gốc dùng chung ở `dataset/`; không sao chép weights/index/credential.
 
 Kiểm tra tính toàn vẹn: `python verify_week_folders.py`. Lệnh chỉ đọc file và hash, không tải model, không gọi AWS, không ghi đè evidence. [Evidence gốc](Evidence/README.md) và các tag `w01`–`w06` giữ nguyên. Metrics/trace không phải lượt đo mới; các giới hạn về fixture, dev/pilot và hiệu lực pháp lý vẫn áp dụng.
+
+## W07 — cập nhật 17/11/2026
+
+W07 được bổ sung từ code hiện hành tại commit nguồn `007f5dbecfa82af6285bbe6c1415c5262fd58e6e`, không phải release lịch sử ngày 14/11. [Evidence/W07](Evidence/W07/README.md) gồm policy/protocol, 30 QA dev candidates (25 synthetic + 5 đối chứng), kết quả **28/28 fixture/contract tests** và HTTP/SSE fixture. Chưa có semantic grounding/refusal metrics hoặc QA gold đã review. [Milestone/issue/review](Evidence/W07/github.json), snapshot `w07`; review Đức đang chờ. Các README/index/tracking W6 đã khóa hash được giữ nguyên như snapshot trước; xem mục này và [PROGRESS.md](PROGRESS.md) để có tiến độ mới nhất.

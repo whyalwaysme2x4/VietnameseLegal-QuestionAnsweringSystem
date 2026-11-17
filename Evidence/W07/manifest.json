@@ -1,0 +1,286 @@
+{
+  "schema_version": 1,
+  "week": "W07",
+  "branch": "main",
+  "created_at": "2026-11-17T13:21:56.597072+07:00",
+  "week_period": "2026-11-08/2026-11-14",
+  "source_commit": "007f5dbecfa82af6285bbe6c1415c5262fd58e6e",
+  "review_status": "pending",
+  "github": {
+    "milestone": {
+      "number": 7,
+      "url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/7"
+    },
+    "branch": "main",
+    "pr": null,
+    "review_status": "pending",
+    "implementation": {
+      "number": 19,
+      "url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/19",
+      "assignee": "whyalwaysme2x4"
+    },
+    "review": {
+      "number": 20,
+      "url": "https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/20",
+      "assignee": "dovanduc2004"
+    }
+  },
+  "algorithm_changes": false,
+  "new_inference": false,
+  "new_fixture_run": true,
+  "qa_gold_reviewed": false,
+  "semantic_metrics_measured": false,
+  "independent_test_frozen": false,
+  "artifacts": [
+    {
+      "path": ".github/workflows/w07-evidence.yml",
+      "sha256": "140db9c2f2747a763f2684c7cdb5f17bacc4d1c619f1e6bfc2714d95b3405fd3",
+      "bytes": 546
+    },
+    {
+      "path": "Evidence/W07/CITATION_REFUSAL_POLICY.md",
+      "sha256": "d5eb5ab529a80680ab3ed5b7d6a77e9358cd1c9f54b3ce146f9f1ca3f5d53cf4",
+      "bytes": 4370
+    },
+    {
+      "path": "Evidence/W07/EVALUATION_PROTOCOL.md",
+      "sha256": "f2b21bc2302e2a5da827e32eb203609089b2ef4e511ddc69199fe69f9031dd9a",
+      "bytes": 5905
+    },
+    {
+      "path": "Evidence/W07/README.md",
+      "sha256": "ca20832bb88dffa8f8b9abef594b264d125e2bce4be9fe35e20a0406dcffcc16",
+      "bytes": 3336
+    },
+    {
+      "path": "Evidence/W07/SOURCE_UI.md",
+      "sha256": "c23e2d417b2f714e05580f6711a40c6af2bfcdc960e2758f11be2d16960f4f26",
+      "bytes": 1796
+    },
+    {
+      "path": "Evidence/W07/agent-cases-selected.json",
+      "sha256": "178df9c9257cf3dd6e82fe2ce288525d88936a4a86189a28fd98bf5cae15de5c",
+      "bytes": 3363
+    },
+    {
+      "path": "Evidence/W07/annotation_template.json",
+      "sha256": "51391803345d69252212dad9bc3059d0afa888111601f767896aecf0ebb1fe76",
+      "bytes": 766
+    },
+    {
+      "path": "Evidence/W07/build_context.json",
+      "sha256": "f84228964f0634b3467f5c16c090a765ca843bec39fed9f5c785df412dff93f4",
+      "bytes": 255
+    },
+    {
+      "path": "Evidence/W07/data/README.md",
+      "sha256": "f2633e2fb57f40960c70bab34e9a7f5f3f3f34a687513f30522293b0498ad801",
+      "bytes": 2019
+    },
+    {
+      "path": "Evidence/W07/data/corpus_record_check.json",
+      "sha256": "fd26df62addd8a664c4ff3889d3508c827ea181e49ea8b50dd6df1a242a35bab",
+      "bytes": 3282
+    },
+    {
+      "path": "Evidence/W07/data/dataset_card.json",
+      "sha256": "207d2f8997e1cd2dd0d616588f9461c15ea7d517ec1cca05b9f2ed6c315d132f",
+      "bytes": 969
+    },
+    {
+      "path": "Evidence/W07/data/qa_candidates_30.jsonl",
+      "sha256": "4d07c2e9d4dd6bc020762c3fa46fbc694b9932fc49b7b673376b9bc8cd80a623",
+      "bytes": 37428
+    },
+    {
+      "path": "Evidence/W07/figures/citation_refusal_flow.mmd",
+      "sha256": "960f95f6782d863f0e73472059f0005365afe2c9f2b6f501e039aed847e193bf",
+      "bytes": 739
+    },
+    {
+      "path": "Evidence/W07/github.json",
+      "sha256": "8d547b9ceb9dce4f3968377e79a1ee4878106baffc6a30012273132f2c463218",
+      "bytes": 566
+    },
+    {
+      "path": "Evidence/W07/http-contract-smoke.json",
+      "sha256": "39b3d3338dba70b011201d3182e94a1c6b324b93bc714d10f363f6355c589677",
+      "bytes": 530
+    },
+    {
+      "path": "Evidence/W07/metrics.csv",
+      "sha256": "7ca1151b869e6125ef64766a3c945df9168b59f75cde3e16701a128bf086fdcb",
+      "bytes": 1736
+    },
+    {
+      "path": "Evidence/W07/test-results.json",
+      "sha256": "6835df3b9f85c2bd44ac9030f22ed6e72cad6c7eb077047b5567fe56a8493be7",
+      "bytes": 6345
+    },
+    {
+      "path": "Evidence/W07/traces/W6_01.jsonl",
+      "sha256": "f3946a6853cb0e9564fbb3e228b15757818bada630238e3dd8cff6368299c385",
+      "bytes": 4861
+    },
+    {
+      "path": "Evidence/W07/traces/W6_02.jsonl",
+      "sha256": "07c80c324d06b4bc631450830c80ec57bf6c7c1f138b70ab2fbeb2dcb2318ad1",
+      "bytes": 4840
+    },
+    {
+      "path": "Evidence/W07/traces/W6_03.jsonl",
+      "sha256": "691952ec95d2556486559924a8688962dbd8c4e6bfb2d0e6352475187aeb9575",
+      "bytes": 1449
+    },
+    {
+      "path": "Evidence/W07/traces/W6_06.jsonl",
+      "sha256": "58793085bb5e29b7e3e2822d6ddbd2e423f66f990b2897d62f08a701743b374c",
+      "bytes": 4879
+    },
+    {
+      "path": "Evidence/W07/traces/W6_07.jsonl",
+      "sha256": "413eaf83b303454de9dbbc28319f37664b14dcf552c376f89e3fcc5d3f6f0c47",
+      "bytes": 5565
+    },
+    {
+      "path": "Evidence/W07/traces/W6_11.jsonl",
+      "sha256": "0392f1c849ce128d289799ff2fe8256db5c33aa25e4c0e29d495266630356c87",
+      "bytes": 4895
+    },
+    {
+      "path": "Evidence/W07/traces/W6_12.jsonl",
+      "sha256": "996558924b9e121782e5b47831446c5060b03986cfd423660f2934a2f8e65254",
+      "bytes": 5539
+    },
+    {
+      "path": "Evidence/W07/traces/W6_13.jsonl",
+      "sha256": "6e0b83f493159e584530afcf0afe5bb7647ed41e79b4862e5aa5751baf7c0864",
+      "bytes": 4832
+    },
+    {
+      "path": "Evidence/W07/traces/W6_14.jsonl",
+      "sha256": "fa5bcbf2f102869415b0fb649c808cde548ee9d4ebbb10867006a0da8fb7bfdd",
+      "bytes": 4862
+    },
+    {
+      "path": "Evidence/W07/traces/W6_15.jsonl",
+      "sha256": "e966d99520134bf39b5e2e14187e729ca53a47d65cb8170f49aa7870334163de",
+      "bytes": 427
+    },
+    {
+      "path": "Evidence/tools/validate_w07.py",
+      "sha256": "74f60d78a360e95a78f61a40639590da53b270535c5e12e476dcea15f4f739bc",
+      "bytes": 4546
+    },
+    {
+      "path": "PROGRESS.md",
+      "sha256": "5d52e40abb53e74ee20b1b8ba116e9c6a891e2db13352339b01628a92f0e0c49",
+      "bytes": 1381
+    },
+    {
+      "path": "WEEKS.md",
+      "sha256": "8113928abac905dea8f77da4127b0064664d79b567b7e6f20470dcc55842fa37",
+      "bytes": 3810
+    },
+    {
+      "path": "app.js",
+      "sha256": "3eab6073884152c5a1da001d9a2d4ffdc519aca939f5462b980c5906fd198208",
+      "bytes": 8332
+    },
+    {
+      "path": "app.py",
+      "sha256": "e4d79b02c8856d6a3ca93cc85c274b9836555630856a3f70953d248ffa91d7d7",
+      "bytes": 6020
+    },
+    {
+      "path": "data/documents.jsonl",
+      "sha256": "eb5026f70715fe73631c551e6543ea60ad9fca98f3c5f115599c35cc74535e1c",
+      "bytes": 8582984
+    },
+    {
+      "path": "data/qa_w5_200.jsonl",
+      "sha256": "61abbf7ee8bd2cd1ea0c791e8d6fef09f86f2fbb8127de30f96b54881e2b6b96",
+      "bytes": 531174
+    },
+    {
+      "path": "index.html",
+      "sha256": "3c13ce0c19d7b52982943d0ae810455e7e53db2c85c25d76f3631e54953d695d",
+      "bytes": 7293
+    },
+    {
+      "path": "source/agent/demo_agentic.py",
+      "sha256": "beaae29299f941c3bc9ca7684d7f67a0e268fa0665b11592c88778aea706533d",
+      "bytes": 3403
+    },
+    {
+      "path": "source/agent/grader.py",
+      "sha256": "a58238c47b6106bae6016df79c332105f5ded3a75bd1b47278adf8551b743244",
+      "bytes": 7136
+    },
+    {
+      "path": "source/agent/graph_orchestrator.py",
+      "sha256": "fb8ce2af61b800022c698db49371dba5141f1c73da70e67a473b9226e2a4a4bf",
+      "bytes": 13317
+    },
+    {
+      "path": "source/agent/hallucination_checker.py",
+      "sha256": "2d68d7892ca36e4e1b93a9c2b8adcc32f9aa69591fe0ed370cf5e7655da2ecc3",
+      "bytes": 8275
+    },
+    {
+      "path": "source/agent/orchestrator.py",
+      "sha256": "c81cfeff1ff33d9b6bcf058f152b2fd829692fa1decf0f3a5cd1994f13f7caf7",
+      "bytes": 30421
+    },
+    {
+      "path": "source/agent/planner.py",
+      "sha256": "31f446a622843c566e239cc378f3fe6c029e56ebb8fdd12285f931344739b505",
+      "bytes": 12889
+    },
+    {
+      "path": "source/core/corpus_scope.json",
+      "sha256": "c32379ca47e63f0397a4a5935f03f4e643188452e15c6331e3cd95fbbe7b50e8",
+      "bytes": 22156
+    },
+    {
+      "path": "source/generate/synthesis_response.py",
+      "sha256": "003a2726739aef60f60257b27c04d898f978e2d551cab965a65a38084113ad61",
+      "bytes": 1861
+    },
+    {
+      "path": "tests/agent_cases_w6.json",
+      "sha256": "b88d7e40243d1bc90243f255e273318cf6ff114a9889e94328c5ad00e88901fa",
+      "bytes": 4217
+    },
+    {
+      "path": "tests/run_w7_tests.py",
+      "sha256": "b3bd40128a75440836c226131276cb8951bbf3db27cde1225566590f9a1770d9",
+      "bytes": 4187
+    },
+    {
+      "path": "tests/test_agent_w6.py",
+      "sha256": "ea9f1c7ba8f319ad277ee86e10dc263e6192bf5a30231bbd1e818ea26e8e145c",
+      "bytes": 12085
+    },
+    {
+      "path": "tests/test_synthesis_response.py",
+      "sha256": "a07bce7a21f3a0b142c4e4802258aeed6f74b396650e0724730d84f5709ab0b1",
+      "bytes": 5128
+    },
+    {
+      "path": "tests/test_w7_contract.py",
+      "sha256": "6415071b3acf18cc08ddcc7e85f9a1ba25deec4c0314642834872c08fd6d6b3f",
+      "bytes": 3971
+    },
+    {
+      "path": "verify_week_folders.py",
+      "sha256": "0c43b75d9ca0102ace04047782548fd139f15770a2a7911b9bcdcf018087070d",
+      "bytes": 2501
+    }
+  ],
+  "limitations": [
+    "No AWS inference or semantic grounding/refusal measurement.",
+    "QA draft; review pending.",
+    "Existing W01-W06 frozen evidence unchanged; W07 folder copies not standalone apps."
+  ]
+}

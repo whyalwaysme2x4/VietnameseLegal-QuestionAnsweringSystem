@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="vi">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Luật Việt · Prototype W1–W6</title><link rel="stylesheet" href="/style.css"><script src="/app.js" defer></script></head>
+<body>
+<aside class="sidebar">
+  <a class="brand" href="/" aria-label="Luật Việt trang đầu"><span class="brand-icon">§</span><span>Luật Việt<small>KHÔNG GIAN TRA CỨU</small></span></a>
+  <div class="edition"><i></i> PROTOTYPE W1–W6</div>
+  <button class="new-chat" id="new-chat"><span>＋</span> Cuộc trò chuyện mới</button>
+  <div class="nav-label">PHẠM VI TRA CỨU</div>
+  <nav aria-label="Chọn lĩnh vực">
+    <button class="scope active" data-domain="all"><span>▦</span> Cả hai lĩnh vực<span class="count">53</span></button>
+    <button class="scope" data-domain="giaoThong_VanTai"><span>↗</span> Giao thông vận tải<span class="count">38</span></button>
+    <button class="scope" data-domain="laoDong_TienLuong"><span>▤</span> Lao động tiền lương<span class="count">15</span></button>
+  </nav>
+  <div id="runtime-status" class="runtime-status" role="status">Đang kiểm tra model…</div><div class="sidebar-bottom"><span class="tiny-label">CORPUS ĐÃ CHỌN</span><div class="sidebar-stats"><strong>53</strong><span>văn bản<br>2 lĩnh vực pháp luật</span></div><p>Mốc tham chiếu 01/07/2026<br>Hiệu lực nguồn đang chờ xác minh.</p><div class="local"><i></i> Chạy cục bộ trên máy bạn</div></div>
+</aside>
+<main>
+  <header><div><span class="breadcrumb">ĐỒ ÁN HỎI ĐÁP PHÁP LUẬT</span><h1>Trợ lý tra cứu</h1></div><button class="mode" id="mode-info"><i></i> Tiến độ W1–W6 <span>ⓘ</span></button></header>
+  <div class="workspace">
+    <section class="chat-column" aria-label="Hội thoại">
+      <div class="scroll-area" id="scroll-area">
+        <section class="welcome" id="welcome">
+          <div class="hero-mark">§</div><div class="eyebrow">CÂU HỎI CỦA BẠN. CĂN CỨ TỪ VĂN BẢN.</div>
+          <h2>Bắt đầu từ một<br><em>câu hỏi pháp luật.</em></h2>
+          <p>Tìm điều luật liên quan trong bộ tài liệu giao thông và lao động. Mở từng nguồn để đọc và đối chiếu nội dung.</p>
+          <div class="suggestions">
+            <button data-question="Tiền lương thử việc phải bằng bao nhiêu phần trăm lương chính thức?" data-domain="laoDong_TienLuong"><span class="topic">LAO ĐỘNG</span><strong>Lương thử việc được tính thế nào?</strong><span class="arrow">↗</span></button>
+            <button data-question="Đi xe máy không đội mũ bảo hiểm bị phạt như thế nào?" data-domain="giaoThong_VanTai"><span class="topic">GIAO THÔNG</span><strong>Không đội mũ bảo hiểm bị phạt bao nhiêu?</strong><span class="arrow">↗</span></button>
+            <button data-question="Công ty có được giữ bản chính giấy tờ tùy thân của người lao động không?" data-domain="laoDong_TienLuong"><span class="topic">LAO ĐỘNG</span><strong>Công ty có được giữ giấy tờ tùy thân?</strong><span class="arrow">↗</span></button>
+            <button data-question="Điều 12 của Luật 36/2024/QH15 quy định về tốc độ và khoảng cách thế nào?" data-domain="giaoThong_VanTai"><span class="topic">GIAO THÔNG</span><strong>Quy định về tốc độ và khoảng cách an toàn</strong><span class="arrow">↗</span></button>
+          </div>
+        </section>
+        <div id="messages" aria-live="polite" aria-relevant="additions"></div>
+      </div>
+      <div class="composer-wrap"><form id="chat-form"><label class="sr-only" for="question">Câu hỏi pháp luật</label><textarea id="question" maxlength="1600" rows="2" placeholder="Nhập câu hỏi hoặc số hiệu văn bản…"></textarea><div class="composer-toolbar"><label class="sr-only" for="method">Phương pháp</label><select id="method"><option value="agentic">W6 · Agent graph + BERT + Nova</option><option value="rerank">W5 · Hybrid + RRF + CrossEncoder + Nova</option><option value="hybrid">W4 · BM25/Dense + RRF + Nova</option><option value="dense">W3 · Dense RAG baseline + Nova</option></select><button id="send" type="submit" aria-label="Gửi câu hỏi">↑</button></div></form><div class="composer-note">53 văn bản · Planner / Grader / Checker · BERT · Nova Micro · Web tắt</div></div>
+    </section>
+    <aside class="sources-column"><div class="sources-heading"><div class="eyebrow">KIỂM CHỨNG CÙNG CÂU TRẢ LỜI</div><h2>Căn cứ pháp lý <span id="source-count">0</span></h2></div><div id="sources"><div class="empty-source"><span>≡</span><h3>Nguồn sẽ xuất hiện tại đây</h3><p>Gửi câu hỏi để xem các điều luật liên quan, số hiệu văn bản và nội dung trích xuất.</p><div class="skeleton"></div><div class="skeleton short"></div></div></div><section class="evaluation-panel"><h3>Minh chứng W3–W5</h3><button id="evaluation-button">Chạy retrieval & rerank ablation · 200 QA</button><div id="evaluation-results"><p>Chưa có kết quả. Không gọi LLM khi đánh giá retrieval.</p></div></section><div class="source-footer"><span>◈</span><p>Nội dung hiển thị là bản sao trong corpus. Kiểm tra nguồn công bố chính thức trước khi áp dụng.</p></div></aside>
+  </div>
+</main>
+<dialog id="source-dialog"><div class="dialog-top"><span class="eyebrow">NỘI DUNG NGUỒN TRONG CORPUS</span><button id="close-source" aria-label="Đóng nguồn">×</button></div><h2 id="dialog-title"></h2><p id="dialog-meta"></p><p class="source-warning">Ngày hiển thị là ngày ban hành. Tình trạng hiệu lực tại mốc 01/07/2026 chưa được kiểm chứng.</p><pre id="dialog-text"></pre><p id="dialog-file"></p></dialog>
+<dialog id="mode-dialog"><div class="dialog-top"><span class="eyebrow">PHẠM VI DEMO W1–W6</span><button id="close-mode" aria-label="Đóng thông tin">×</button></div><h2>Từ corpus đến câu trả lời có nguồn</h2><p>W1: 53 văn bản thuộc hai lĩnh vực, mốc tham chiếu 01/07/2026 và 50 QA pilot. W2: parser Điều/Khoản/Điểm, metadata và corpus v1.</p><p>W3: Dense baseline trên 100 QA. W4: BM25/Dense + RRF, so sánh retrieval trên 150 QA. W5: CrossEncoder và rerank ablation trên 200 QA.</p><p>W6: Planner → multi-query Dense → RRF → CrossEncoder → BERT → Grader → tổng hợp → Checker. LangGraph ghi lại các node và nhánh thực tế. Tối đa hai vòng retrieval; citation giữ chỉ số 0-based của nguồn đầu vào.</p><p>W3–W5 vẫn là các chế độ baseline riêng. W6 dùng chính sách lỗi, giữ vòng tốt nhất và điều kiện sinh lại của project gốc. Checker không xác nhận hiệu lực pháp lý.</p><p>200 câu hỏi và hiệu lực nguồn đang chờ rà soát. QA dev gồm pilot, không phải test độc lập. Hội thoại không lưu xuống DB; web tắt. W6 có nhiều lời gọi Nova cho các vai trò agent.</p></dialog>
+<div id="toast" role="status"></div>
+</body></html>

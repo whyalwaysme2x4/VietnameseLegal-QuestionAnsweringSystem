@@ -1,0 +1,434 @@
+{
+  "domains": [
+    "giaoThong_VanTai",
+    "laoDong_TienLuong"
+  ],
+  "snapshot_date": "2026-07-01",
+  "legal_verification": "pending",
+  "documents": [
+    {
+      "id": "giaoThong_VanTai-1",
+      "domain": "giaoThong_VanTai",
+      "number": "19/2024/QĐ-TTg",
+      "title": "QUY ĐỊNH LỘ TRÌNH ÁP DỤNG MỨC TIÊU CHUẨN KHÍ THẢI ĐỐI VỚI XE CƠ GIỚI NHẬP KHẨU VÀ SẢN XUẤT, LẮP RÁP",
+      "issuer": "Thủ tướng Chính phủ",
+      "source_file": "dataset/giaoThong_VanTai/1.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-2",
+      "domain": "giaoThong_VanTai",
+      "number": "36/2024/TT-BYT",
+      "title": "QUY ĐỊNH VỀ TIÊU CHUẨN SỨC KHỎE, VIỆC KHÁM SỨC KHỎE ĐỐI VỚI NGƯỜI LÁI XE, NGƯỜI ĐIỀU KHIỂN XE MÁY CHUYÊN DÙNG; VIỆC KHÁM SỨC KHỎE ĐỊNH KỲ ĐỐI VỚI NGƯỜI HÀNH NGHỀ LÁI XE Ô TÔ; CƠ SỞ DỮ LIỆU VỀ SỨC KHỎE CỦA NGƯỜI LÁI XE, NGƯỜI ĐIỀU KHIỂN XE MÁY CHUYÊN DÙNG",
+      "issuer": "Bộ Y tế",
+      "source_file": "dataset/giaoThong_VanTai/2.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-3",
+      "domain": "giaoThong_VanTai",
+      "number": "54/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ TRÌNH TỰ, THỦ TỤC CHỨNG NHẬN CHẤT LƯỢNG AN TOÀN KỸ THUẬT VÀ BẢO VỆ MÔI TRƯỜNG XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG, PHỤ TÙNG XE CƠ GIỚI TRONG NHẬP KHẨU",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/3.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-4",
+      "domain": "giaoThong_VanTai",
+      "number": "53/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ PHÂN LOẠI PHƯƠNG TIỆN GIAO THÔNG ĐƯỜNG BỘ VÀ DẤU HIỆU NHẬN BIẾT XE CƠ GIỚI SỬ DỤNG NĂNG LƯỢNG SẠCH, NĂNG LƯỢNG XANH, THÂN THIỆN MÔI TRƯỜNG",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/4.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-5",
+      "domain": "giaoThong_VanTai",
+      "number": "52/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ YÊU CẦU KỸ THUẬT ĐỐI VỚI XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG THUỘC ĐỐI TƯỢNG NGHIÊN CỨU PHÁT TRIỂN CÓ NHU CẦU THAM GIA GIAO THÔNG ĐƯỜNG BỘ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/5.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-6",
+      "domain": "giaoThong_VanTai",
+      "number": "47/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH TRÌNH TỰ, THỦ TỤC KIỂM ĐỊNH, MIỄN KIỂM ĐỊNH LẦN ĐẦU CHO XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG; TRÌNH TỰ, THỦ TỤC CHỨNG NHẬN AN TOÀN KỸ THUẬT VÀ BẢO VỆ MÔI TRƯỜNG ĐỐI VỚI XE CƠ GIỚI CẢI TẠO, XE MÁY CHUYÊN DÙNG CẢI TẠO; TRÌNH TỰ, THỦ TỤC KIỂM ĐỊNH KHÍ THẢI XE MÔ TÔ, XE GẮN MÁY",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/6.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-7",
+      "domain": "giaoThong_VanTai",
+      "number": "46/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH TRÌNH TỰ, THỦ TỤC CẤP MỚI, CẤP LẠI, TẠM ĐÌNH CHỈ HOẠT ĐỘNG, THU HỒI GIẤY CHỨNG NHẬN ĐỦ ĐIỀU KIỆN HOẠT ĐỘNG KIỂM ĐỊNH XE CƠ GIỚI CỦA CƠ SỞ ĐĂNG KIỂM XE CƠ GIỚI, CƠ SỞ KIỂM ĐỊNH KHÍ THẢI XE MÔ TÔ, XE GẮN MÁY",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/7.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-9",
+      "domain": "giaoThong_VanTai",
+      "number": "43/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU CỦA NGHỊ ĐỊNH SỐ 57/2024/NĐ-CP NGÀY 20 THÁNG 5 NĂM 2024 CỦA CHÍNH PHỦ VỀ QUẢN LÝ HOẠT ĐỘNG NẠO VÉT TRONG VÙNG NƯỚC CẢNG BIỂN VÀ VÙNG NƯỚC ĐƯỜNG THỦY NỘI ĐỊA",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/9.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-10",
+      "domain": "giaoThong_VanTai",
+      "number": "41/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ QUẢN LÝ, VẬN HÀNH, KHAI THÁC VÀ BẢO TRÌ KẾT CẤU HẠ TẦNG ĐƯỜNG BỘ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/10.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-11",
+      "domain": "giaoThong_VanTai",
+      "number": "40/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ CÔNG TÁC PHÒNG, CHỐNG, KHẮC PHỤC HẬU QUẢ THIÊN TAI TRONG LĨNH VỰC ĐƯỜNG BỘ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/11.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-12",
+      "domain": "giaoThong_VanTai",
+      "number": "39/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ TẢI TRỌNG, KHỔ GIỚI HẠN CỦA ĐƯỜNG BỘ; LƯU HÀNH XE QUÁ KHỔ GIỚI HẠN, XE QUÁ TẢI TRỌNG, XE BÁNH XÍCH TRÊN ĐƯỜNG BỘ; HÀNG SIÊU TRƯỜNG, SIÊU TRỌNG, VẬN CHUYỂN HÀNG SIÊU TRƯỜNG, SIÊU TRỌNG; XẾP HÀNG HÓA TRÊN PHƯƠNG TIỆN GIAO THÔNG ĐƯỜNG BỘ; CẤP GIẤY PHÉP LƯU HÀNH CHO XE QUÁ TẢI TRỌNG, XE QUÁ KHỔ GIỚI HẠN, XE BÁNH XÍCH, XE VẬN CHUYỂN HÀNG SIÊU TRƯỜNG, SIÊU TRỌNG TRÊN ĐƯỜNG BỘ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/12.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-13",
+      "domain": "giaoThong_VanTai",
+      "number": "38/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ TỐC ĐỘ VÀ KHOẢNG CÁCH AN TOÀN CỦA XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG THAM GIA GIAO THÔNG TRÊN ĐƯỜNG BỘ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/13.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-14",
+      "domain": "giaoThong_VanTai",
+      "number": "37/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH TIÊU CHÍ GIÁM SÁT, NGHIỆM THU KẾT QUẢ BẢO TRÌ TÀI SẢN KẾT CẤU HẠ TẦNG GIAO THÔNG ĐƯỜNG THỦY NỘI ĐỊA THEO CHẤT LƯỢNG THỰC HIỆN",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/14.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-15",
+      "domain": "giaoThong_VanTai",
+      "number": "36/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ TỔ CHỨC, QUẢN LÝ HOẠT ĐỘNG VẬN TẢI BẰNG XE Ô TÔ VÀ HOẠT ĐỘNG CỦA BẾN XE, BÃI ĐỖ XE, TRẠM DỪNG NGHỈ, ĐIỂM DỪNG XE TRÊN ĐƯỜNG BỘ; QUY ĐỊNH TRÌNH TỰ, THỦ TỤC ĐƯA BẾN XE, TRẠM DỪNG NGHỈ VÀO KHAI THÁC",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/15.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-16",
+      "domain": "giaoThong_VanTai",
+      "number": "34/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ HOẠT ĐỘNG TRẠM THU PHÍ ĐƯỜNG BỘ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/16.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-17",
+      "domain": "giaoThong_VanTai",
+      "number": "33/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ QUẢN LÝ GIÁ DỊCH VỤ SỬ DỤNG PHÀ ĐƯỢC ĐẦU TƯ TỪ NGUỒN VỐN NGÂN SÁCH NHÀ NƯỚC, DO TRUNG ƯƠNG QUẢN LÝ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/17.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-18",
+      "domain": "giaoThong_VanTai",
+      "number": "32/2024/TT-BGTVT",
+      "title": "QUY ĐỊNH VỀ QUẢN LÝ GIÁ DỊCH VỤ SỬ DỤNG ĐƯỜNG BỘ CỦA CÁC DỰ ÁN ĐẦU TƯ XÂY DỰNG ĐƯỜNG BỘ ĐỂ KINH DOANH, DO TRUNG ƯƠNG QUẢN LÝ",
+      "issuer": "Bộ Giao thông vận tải",
+      "source_file": "dataset/giaoThong_VanTai/18.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-19",
+      "domain": "giaoThong_VanTai",
+      "number": "83/2024/TT-BCA",
+      "title": "QUY ĐỊNH VỀ XÂY DỰNG, QUẢN LÝ, VẬN HÀNH, KHAI THÁC VÀ SỬ DỤNG HỆ THỐNG GIÁM SÁT BẢO ĐẢM AN NINH, TRẬT TỰ, AN TOÀN GIAO THÔNG ĐƯỜNG BỘ",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/19.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-20",
+      "domain": "giaoThong_VanTai",
+      "number": "82/2024/TT-BCA",
+      "title": "QUY ĐỊNH VỀ CHỨNG NHẬN CHẤT LƯỢNG AN TOÀN KỸ THUẬT VÀ BẢO VỆ MÔI TRƯỜNG CỦA XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG, PHỤ TÙNG XE CƠ GIỚI TRONG NHẬP KHẨU, SẢN XUẤT, LẮP RÁP, CẢI TẠO VÀ KIỂM ĐỊNH XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG THUỘC PHẠM VI QUẢN LÝ CỦA BỘ CÔNG AN",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/20.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-21",
+      "domain": "giaoThong_VanTai",
+      "number": "79/2024/TT-BCA",
+      "title": "QUY ĐỊNH VỀ CẤP, THU HỒI CHỨNG NHẬN ĐĂNG KÝ XE, BIỂN SỐ XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/21.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-22",
+      "domain": "giaoThong_VanTai",
+      "number": "73/2024/TT-BCA",
+      "title": "QUY ĐỊNH CÔNG TÁC TUẦN TRA, KIỂM SOÁT, XỬ LÝ VI PHẠM PHÁP LUẬT VỀ TRẬT TỰ, AN TOÀN GIAO THÔNG ĐƯỜNG BỘ CỦA CẢNH SÁT GIAO THÔNG",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/22.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-23",
+      "domain": "giaoThong_VanTai",
+      "number": "72/2024/TT-BCA",
+      "title": "QUY ĐỊNH QUY TRÌNH ĐIỀU TRA, GIẢI QUYẾT TAI NẠN GIAO THÔNG ĐƯỜNG BỘ CỦA CẢNH SÁT GIAO THÔNG",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/23.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-24",
+      "domain": "giaoThong_VanTai",
+      "number": "69/2024/TT-BCA",
+      "title": "QUY ĐỊNH VỀ CHỈ HUY, ĐIỀU KHIỂN GIAO THÔNG ĐƯỜNG BỘ CỦA CẢNH SÁT GIAO THÔNG",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/24.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-25",
+      "domain": "giaoThong_VanTai",
+      "number": "71/2024/TT-BCA",
+      "title": "QUY ĐỊNH QUẢN LÝ, VẬN HÀNH, SỬ DỤNG HỆ THỐNG QUẢN LÝ DỮ LIỆU THIẾT BỊ GIÁM SÁT HÀNH TRÌNH VÀ THIẾT BỊ GHI NHẬN HÌNH ẢNH NGƯỜI LÁI XE",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/25.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-26",
+      "domain": "giaoThong_VanTai",
+      "number": "65/2024/TT-BCA",
+      "title": "QUY ĐỊNH KIỂM TRA KIẾN THỨC PHÁP LUẬT VỀ TRẬT TỰ, AN TOÀN GIAO THÔNG ĐƯỜNG BỘ ĐỂ ĐƯỢC PHỤC HỒI ĐIỂM GIẤY PHÉP LÁI XE",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/26.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-27",
+      "domain": "giaoThong_VanTai",
+      "number": "63/2024/TT-BCA",
+      "title": "QUY ĐỊNH CÔNG TÁC KIỂM TRA, KIỂM SOÁT VÀ XỬ LÝ VI PHẠM PHÁP LUẬT TRONG LĨNH VỰC GIAO THÔNG ĐƯỜNG SẮT CỦA CẢNH SÁT GIAO THÔNG",
+      "issuer": "Bộ Công An",
+      "source_file": "dataset/giaoThong_VanTai/27.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-28",
+      "domain": "giaoThong_VanTai",
+      "number": "71/2024/TT-BQP",
+      "title": "QUY ĐỊNH VỀ KIỂM SOÁT QUÂN SỰ, KIỂM TRA XE QUÂN SỰ THAM GIA GIAO THÔNG ĐƯỜNG BỘ",
+      "issuer": "Bộ Quốc phòng",
+      "source_file": "dataset/giaoThong_VanTai/28.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-29",
+      "domain": "giaoThong_VanTai",
+      "number": "70/2024/TT-BQP",
+      "title": "QUY ĐỊNH VỀ CẢI TẠO XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG THUỘC PHẠM VI QUẢN LÝ CỦA BỘ QUỐC PHÒNG",
+      "issuer": "Bộ Quốc phòng",
+      "source_file": "dataset/giaoThong_VanTai/29.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-30",
+      "domain": "giaoThong_VanTai",
+      "number": "69/2024/TT-BQP",
+      "title": "QUY ĐỊNH VỀ ĐĂNG KÝ, QUẢN LÝ, SỬ DỤNG XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG THUỘC PHẠM VI QUẢN LÝ CỦA BỘ QUỐC PHÒNG",
+      "issuer": "Bộ Quốc phòng",
+      "source_file": "dataset/giaoThong_VanTai/30.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-31",
+      "domain": "giaoThong_VanTai",
+      "number": "67/2024/TT-BQP",
+      "title": "QUY ĐỊNH TRÌNH TỰ, THỦ TỤC CHỨNG NHẬN CHẤT LƯỢNG AN TOÀN KỸ THUẬT VÀ BẢO VỆ MÔI TRƯỜNG XE CƠ GIỚI NHẬP KHẨU, SẢN XUẤT, LẮP RÁP THUỘC PHẠM VI QUẢN LÝ CỦA BỘ QUỐC PHÒNG",
+      "issuer": "Bộ Quốc phòng",
+      "source_file": "dataset/giaoThong_VanTai/31.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-32",
+      "domain": "giaoThong_VanTai",
+      "number": "66/2024/TT-BQP",
+      "title": "QUY ĐỊNH VỀ KIỂM ĐỊNH AN TOÀN KỸ THUẬT VÀ BẢO VỆ MÔI TRƯỜNG XE CƠ GIỚI, XE MÁY CHUYÊN DÙNG THUỘC PHẠM VI QUẢN LÝ CỦA BỘ QUỐC PHÒNG",
+      "issuer": "Bộ Quốc phòng",
+      "source_file": "dataset/giaoThong_VanTai/32.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-33",
+      "domain": "giaoThong_VanTai",
+      "number": "151/2024/NĐ-CP",
+      "title": "QUY ĐỊNH CHI TIẾT MỘT SỐ ĐIỀU VÀ BIỆN PHÁP THI HÀNH LUẬT TRẬT TỰ, AN TOÀN GIAO THÔNG ĐƯỜNG BỘ",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/giaoThong_VanTai/33.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-34",
+      "domain": "giaoThong_VanTai",
+      "number": "156/2024/NĐ-CP",
+      "title": "QUY ĐỊNH VỀ ĐẤU GIÁ BIỂN SỐ XE",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/giaoThong_VanTai/34.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-35",
+      "domain": "giaoThong_VanTai",
+      "number": "158/2024/NĐ-CP",
+      "title": "QUY ĐỊNH VỀ HOẠT ĐỘNG VẬN TẢI ĐƯỜNG BỘ",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/giaoThong_VanTai/35.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-36",
+      "domain": "giaoThong_VanTai",
+      "number": "160/2024/NĐ-CP",
+      "title": "QUY ĐỊNH VỀ HOẠT ĐỘNG ĐÀO TẠO VÀ SÁT HẠCH LÁI XE",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/giaoThong_VanTai/36.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-37",
+      "domain": "giaoThong_VanTai",
+      "number": "36/2024/QH15",
+      "title": "TRẬT TỰ, AN TOÀN GIAO THÔNG ĐƯỜNG BỘ",
+      "issuer": "Quốc hội",
+      "source_file": "dataset/giaoThong_VanTai/37.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-38",
+      "domain": "giaoThong_VanTai",
+      "number": "35/2024/QH15",
+      "title": "ĐƯỜNG BỘ",
+      "issuer": "Quốc hội",
+      "source_file": "dataset/giaoThong_VanTai/38.docx"
+    },
+    {
+      "id": "giaoThong_VanTai-39",
+      "domain": "giaoThong_VanTai",
+      "number": "168/2024/NĐ-CP",
+      "title": "QUY ĐỊNH XỬ PHẠT VI PHẠM HÀNH CHÍNH VỀ TRẬT TỰ, AN TOÀN GIAO THÔNG TRONG LĨNH VỰC GIAO THÔNG ĐƯỜNG BỘ; TRỪ ĐIỂM, PHỤC HỒI ĐIỂM GIẤY PHÉP LÁI XE",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/giaoThong_VanTai/39.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-1",
+      "domain": "laoDong_TienLuong",
+      "number": "01/2022/TT-BLĐTBXH",
+      "title": "HƯỚNG DẪN THU THẬP, LƯU TRỮ, TỔNG HỢP THÔNG TIN THỊ TRƯỜNG LAO ĐỘNG",
+      "issuer": "Bộ Lao động - Thương binh và Xã hội",
+      "source_file": "dataset/laoDong_TienLuong/1.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-2",
+      "domain": "laoDong_TienLuong",
+      "number": "02/2022/TT-BNV",
+      "title": "HƯỚNG DẪN THỰC HIỆN ĐIỀU CHỈNH MỨC TRỢ CẤP HẰNG THÁNG TỪ NGÀY 01 THÁNG 01 NĂM 2022 ĐỐI VỚI CÁN BỘ XÃ, PHƯỜNG, THỊ TRẤN ĐÃ NGHỈ VIỆC THEO QUYẾT ĐỊNH SỐ 130-CP NGÀY 20 THÁNG 6 NĂM 1975 CỦA HỘI ĐỒNG CHÍNH PHỦ VÀ QUYẾT ĐỊNH SỐ 111-HĐBT NGÀY 13 THÁNG 10 NĂM 1981 CỦA HỘI ĐỒNG BỘ TRƯỞNG",
+      "issuer": "Bộ Nội vụ",
+      "source_file": "dataset/laoDong_TienLuong/2.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-4",
+      "domain": "laoDong_TienLuong",
+      "number": "12/2022/NĐ-CP",
+      "title": "QUY ĐỊNH XỬ PHẠT VI PHẠM HÀNH CHÍNH TRONG LĨNH VỰC LAO ĐỘNG, BẢO HIỂM XÃ HỘI, NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI THEO HỢP ĐỒNG",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/laoDong_TienLuong/4.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-5",
+      "domain": "laoDong_TienLuong",
+      "number": "19/2022/NĐ-CP",
+      "title": "QUY ĐỊNH BIỆN PHÁP THI HÀNH CHẾ ĐỘ, CHÍNH SÁCH ĐỐI VỚI QUÂN NHÂN CHUYÊN NGHIỆP, CÔNG NHÂN VÀ VIÊN CHỨC QUỐC PHÒNG CHUYỂN NGÀNH, CÔNG NHÂN VÀ VIÊN CHỨC QUỐC PHÒNG THÔI VIỆC THEO QUY ĐỊNH CỦA LUẬT QUÂN NHÂN CHUYÊN NGHIỆP, CÔNG NHÂN VÀ VIÊN CHỨC QUỐC PHÒNG",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/laoDong_TienLuong/5.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-7",
+      "domain": "laoDong_TienLuong",
+      "number": "24/2018/NĐ-CP",
+      "title": "QUY ĐỊNH VỀ GIẢI QUYẾT KHIẾU NẠI, TỐ CÁO TRONG LĨNH VỰC LAO ĐỘNG, GIÁO DỤC NGHỀ NGHIỆP, HOẠT ĐỘNG ĐƯA NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI THEO HỢP ĐỒNG, VIỆC LÀM, AN TOÀN, VỆ SINH LAO ĐỘNG",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/laoDong_TienLuong/7.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-8",
+      "domain": "laoDong_TienLuong",
+      "number": "27/2021/TT-BLĐTBXH",
+      "title": "HƯỚNG DẪN CHI TIẾT VỀ NỘI DUNG, CHƯƠNG TRÌNH VÀ VIỆC TỔ CHỨC BỒI DƯỠNG, SÁT HẠCH NGHIỆP VỤ ĐÁNH GIÁ AN TOÀN, VỆ SINH LAO ĐỘNG, VIỆC MIỄN GIẢM CÁC NỘI DUNG HUẤN LUYỆN ĐÃ HỌC ĐỐI VỚI CHUYÊN GIA ĐÁNH GIÁ AN TOÀN, VỆ SINH LAO ĐỘNG; HƯỚNG DẪN CÁCH TÍNH TẦN SUẤT TAI NẠN LAO ĐỘNG VÀ MỘT SỐ BIỆN PHÁP THI HÀNH",
+      "issuer": "Bộ Lao động - Thương binh và Xã hội",
+      "source_file": "dataset/laoDong_TienLuong/8.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-9",
+      "domain": "laoDong_TienLuong",
+      "number": "28/2021/TT-BLĐTBXH",
+      "title": "QUY ĐỊNH CHI TIẾT VÀ HƯỚNG DẪN THI HÀNH MỘT SỐ ĐIỀU CỦA LUẬT AN TOÀN, VỆ SINH LAO ĐỘNG VỀ CHẾ ĐỘ ĐỐI VỚI NGƯỜI LAO ĐỘNG BỊ TAI NẠN LAO ĐỘNG, BỆNH NGHỀ NGHIỆP",
+      "issuer": "Bộ Lao động - Thương binh và Xã hội",
+      "source_file": "dataset/laoDong_TienLuong/9.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-11",
+      "domain": "laoDong_TienLuong",
+      "number": "29/2021/TT-BYT",
+      "title": "HƯỚNG DẪN HOẠT ĐỘNG ĐÀO TẠO CHUYÊN MÔN VỀ Y TẾ LAO ĐỘNG",
+      "issuer": "Bộ Y tế",
+      "source_file": "dataset/laoDong_TienLuong/11.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-13",
+      "domain": "laoDong_TienLuong",
+      "number": "45/2019/QH14",
+      "title": "LAO ĐỘNG",
+      "issuer": "Quốc hội",
+      "source_file": "dataset/laoDong_TienLuong/13.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-15",
+      "domain": "laoDong_TienLuong",
+      "number": "69/2020/QH14",
+      "title": "NGƯỜI LAO ĐỘNG VIỆT NAM ĐI LÀM VIỆC Ở NƯỚC NGOÀI THEO HỢP ĐỒNG",
+      "issuer": "Quốc hội",
+      "source_file": "dataset/laoDong_TienLuong/15.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-16",
+      "domain": "laoDong_TienLuong",
+      "number": "74/2014/QH13",
+      "title": "GIÁO DỤC NGHỀ NGHIỆP",
+      "issuer": "Quốc hội",
+      "source_file": "dataset/laoDong_TienLuong/16.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-17",
+      "domain": "laoDong_TienLuong",
+      "number": "76/2019/NĐ-CP",
+      "title": "VỀ CHÍNH SÁCH ĐỐI VỚI CÁN BỘ, CÔNG CHỨC, VIÊN CHỨC, NGƯỜI LAO ĐỘNG VÀ NGƯỜI HƯỞNG LƯƠNG TRONG LỰC LƯỢNG VŨ TRANG CÔNG TÁC Ở VÙNG CÓ ĐIỀU KIỆN KINH TẾ - XÃ HỘI ĐẶC BIỆT KHÓ KHĂN",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/laoDong_TienLuong/17.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-18",
+      "domain": "laoDong_TienLuong",
+      "number": "84/2015/QH13",
+      "title": "AN TOÀN, VỆ SINH LAO ĐỘNG",
+      "issuer": "Quốc hội",
+      "source_file": "dataset/laoDong_TienLuong/18.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-19",
+      "domain": "laoDong_TienLuong",
+      "number": "108/2021/NĐ-CP",
+      "title": "ĐIỀU CHỈNH LƯƠNG HƯU, TRỢ CẤP BẢO HIỂM XÃ HỘI VÀ TRỢ CẤP HẰNG THÁNG",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/laoDong_TienLuong/19.docx"
+    },
+    {
+      "id": "laoDong_TienLuong-21",
+      "domain": "laoDong_TienLuong",
+      "number": "152/2020/NĐ-CP",
+      "title": "QUY ĐỊNH VỀ NGƯỜI LAO ĐỘNG NƯỚC NGOÀI LÀM VIỆC TẠI VIỆT NAM VÀ TUYỂN DỤNG, QUẢN LÝ NGƯỜI LAO ĐỘNG VIỆT NAM LÀM VIỆC CHO TỔ CHỨC, CÁ NHÂN NƯỚC NGOÀI TẠI VIỆT NAM",
+      "issuer": "Chính phủ",
+      "source_file": "dataset/laoDong_TienLuong/21.docx"
+    }
+  ]
+}
