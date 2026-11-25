@@ -13,5 +13,6 @@ prompts/** -text
 /*.md -text
 /*.ps1 -text
 /app.js -text
+/sse.js -text
 /index.html -text
 /style.css -text

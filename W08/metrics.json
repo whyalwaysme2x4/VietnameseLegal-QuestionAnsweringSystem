@@ -1,0 +1,27 @@
+{
+  "week": "W08",
+  "recorded_at": "2026-11-25T16:43:06.257825+07:00",
+  "kind": "integration_fixture_not_model_accuracy",
+  "python_tests": {
+    "passed": 46,
+    "total": 46
+  },
+  "sse_parser": {
+    "passed": 8,
+    "total": 8
+  },
+  "chrome": {
+    "passed": 8,
+    "total": 8
+  },
+  "synthetic_conversations": 12,
+  "synthetic_user_turns": 36,
+  "synthetic_messages": 72,
+  "history_roundtrips": {
+    "passed": 36,
+    "total": 36
+  },
+  "aws_calls": 0,
+  "real_model_quality": null,
+  "real_model_latency_ms": null
+}

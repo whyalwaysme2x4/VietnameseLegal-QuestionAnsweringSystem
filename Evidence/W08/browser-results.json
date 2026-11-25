@@ -1,0 +1,26 @@
+{
+  "status": "passed",
+  "run_at": "2026-11-25T09:39:58.681Z",
+  "checks": [
+    "stage_sse_and_source_cards",
+    "source_snapshot_dialog",
+    "reload_history_and_citations",
+    "session_switch_isolation",
+    "delete_session",
+    "mobile_history_no_horizontal_overflow",
+    "mobile_source_snapshot_access",
+    "provider_failure_persisted_without_fake_answer"
+  ],
+  "checks_passed": 8,
+  "browser": "installed Chrome via playwright-core 1.56.1",
+  "fixture_execution": true,
+  "aws_calls": 0,
+  "real_model_inference": false,
+  "screenshots": [
+    "integrated-app-fixture.png",
+    "source-dialog-fixture.png",
+    "mobile-history-fixture.png",
+    "failure-history-fixture.png"
+  ],
+  "javascript_errors": []
+}

@@ -152,7 +152,7 @@ class Engine:
                 'issuer':md['NoiBanHanh'],'issued':md['NgayBanHanh'],'domain':md['domain'],'text':n['text_original'],
                 'excerpt':c['text'],'node_id':n['id'],'parent_id':n['parent_id'],'source_file':md['source_file'],'legal_status':'unverified'}
 
-    def chat(self,question,domain,mode):
+    def chat(self,question,domain,mode,session_id=None,memory=None):
         STATE.update(request_stage='scope',last_request_error=None)
         if mode=='agentic':
             STATE['request_stage']='agentic_initialization'
@@ -162,7 +162,7 @@ class Engine:
                 self.agentic=DemoAgentic(self,HERE)
                 STATE.update(agentic_ready=True,agentic_components=['planner','multi_query_dense','rrf','crossencoder','bert','grader','generator','checker','langgraph'])
             STATE['request_stage']='agentic'
-            yield from self.agentic.chat(question,domain)
+            yield from self.agentic.chat(question,domain,session_id=session_id,memory=memory)
             STATE['request_stage']='complete'
             return
         # Scope keywords are a lightweight guard, not a certified classifier.

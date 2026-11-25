@@ -1,6 +1,6 @@
 # Hệ thống hỏi đáp pháp luật Việt Nam
 
-Bản demo và minh chứng **W1–W6 cùng trên nhánh `main`**. Giảng viên có thể xem toàn bộ tiến độ tại [Evidence theo tuần](Evidence/README.md), không cần chuyển nhánh. Code hiện hành nằm ở gốc repo; snapshot W4/W5 được giữ nguyên để đối chiếu số liệu.
+Bản demo và minh chứng **W1–W8 cùng trên nhánh `main`**. Giảng viên có thể xem toàn bộ tiến độ tại [Evidence theo tuần](Evidence/README.md), không cần chuyển nhánh. Code hiện hành nằm ở gốc repo; snapshot W4/W5 được giữ nguyên để đối chiếu số liệu.
 
 ## Phạm vi đã chốt
 
@@ -28,6 +28,8 @@ Bộ QA hiện ở mức **pilot**. Báo cáo W1 chưa có điểm benchmark th�
 | W04 | BM25/Dense + RRF, 150 QA dev | [Evidence/W04](Evidence/W04/README.md) |
 | W05 | CrossEncoder, rerank ablation, 200 QA dev | [Evidence/W05](Evidence/W05/README.md) |
 | W06 | Planner/Grader/Checker, BERT, LangGraph trace, 15 agent cases | [Evidence/W06](Evidence/W06/README.md) |
+| W07 | Citation/refusal policy, grounding/source contracts, QA draft | [Evidence/W07](Evidence/W07/README.md) |
+| W08 | SSE frontend + SQLite history, synthetic conversations và integrated app | [Evidence/W08](Evidence/W08/README.md) |
 
 Mỗi thư mục tuần có `README.md`, `metrics.csv`, `test-results.json`, `figures/`, `manifest.json`. [Bảng milestone/issue/review/tag](Evidence/GITHUB_TRACKING.md) ghi trạng thái thật. W1–W5 đã merge; W6 cập nhật trực tiếp main theo yêu cầu mới, không tạo PR/nhánh riêng. Review W6 của Đỗ Văn Đức (`dovanduc2004`) đang chờ; commit/tag không thay thế peer review.
 
@@ -59,3 +61,9 @@ python Evidence/tools/validate_w06.py
 Hai validator đầu dùng standard library, chỉ kiểm tra artifact/hash và số liệu đã lưu, không tải model/gọi AWS. Test runner cần dependency W6 và ghi kết quả mới vào `runs/w6/`; đánh giá mới ghi `runs/evaluation/`. Evidence đã chốt không bị ghi đè.
 
 15/15 case W6 là **fixture kiểm tra luồng/contract**, không phải 15 câu chạy AWS thật. Smoke riêng đã nạp BERT thật và chạy một extraction; chưa xác nhận full graph live AWS hoặc chất lượng đáp án W6. Số liệu W4/W5 là dev chứa pilot, nhãn/hiệu lực pháp lý pending; không coi là test độc lập hoặc bằng chứng chất lượng agent W6.
+
+## W8 — ứng dụng tích hợp hiện hành
+
+Đọc [PROGRESS.md](PROGRESS.md), [WEEKS.md](WEEKS.md), [code/data W08](W08/README.md) và [hướng dẫn W8](W8_IMPLEMENTATION.md). App tại gốc hỗ trợ session/history/SSE, khôi phục nguồn sau reload; DB riêng ở local_data, không được commit. Chạy `Start-Demo.ps1` như trên; W8 không thêm dependency runtime. Agent giữ pipeline và citation gốc; baseline giữ truy vấn độc lập.
+
+Kiểm tra xuất bản: 46/46 test Python, 8/8 parser checks, 8/8 Chrome checks, 36/36 history roundtrips, tất cả bằng fixture; chưa có live AWS/model quality/latency. Các mô tả/trạng thái W1–W6 phía trên phản ánh snapshot trước; tracking hiện tại tại PROGRESS và Evidence/W08/github.json. Code cũ đã khóa hash được lưu trong Evidence/_history, không sửa kết quả lịch sử để khớp runtime mới.

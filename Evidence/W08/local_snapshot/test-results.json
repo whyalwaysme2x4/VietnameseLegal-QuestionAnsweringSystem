@@ -1,0 +1,238 @@
+{
+  "week": "W08",
+  "run_at": "2026-11-25T16:21:12.757636+07:00",
+  "tests_run": 46,
+  "passed": 46,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "cases": [
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_cross_origin_writes_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_delete_and_reload",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_disconnect_keeps_worker_persistence",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_followup_passes_prior_messages_to_real_graph",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_history_write_error_still_delivers_real_final",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_inflight_duplicate_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_provider_error_recorded_without_fake_final",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_sources_and_static_assets",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_sse_then_history_keeps_exact_citations",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_stateless_compatibility_without_session",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HTTPHistoryTests.test_unknown_invalid_session_and_bad_request",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_bad_reference_rolls_back_pair",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_delete_cascades_references_and_turns",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_duplicate_request_and_busy_session_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_empty_session_visible",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_failure_does_not_fabricate_answer",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_last_five_messages_and_session_isolation",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_processing_session_cannot_be_deleted",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_restart_preserves_history_and_marks_interrupted",
+      "status": "passed"
+    },
+    {
+      "id": "test_w8_history.HistoryTests.test_unicode_and_source_payload_roundtrip",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_01",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_02",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_03",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_04",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_05",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_06",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_07",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_08",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_09",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_10",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_11",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_12",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_13",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_14",
+      "status": "passed"
+    },
+    {
+      "id": "test_agent_w6.AgentPolicyTests.test_W6_15",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_bad_schemas_are_rejected",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_chat_handles_bad_output_without_attaching_uncertain_sources",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_empty_citations_for_clarification",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_failed_startup_never_leaves_ready_true",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_invalid_sources_are_not_guessed_or_silently_dropped",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_json_fence",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_malformed_json",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_ready_only_after_engine_is_published",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_source_mapping_keeps_one_based_order",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_truncation_identified",
+      "status": "passed"
+    },
+    {
+      "id": "test_synthesis_response.ResponseContractTests.test_unambiguous_model_label_formats",
+      "status": "passed"
+    }
+  ],
+  "javascript": {
+    "suite": "W8 SSE byte-fragment parser",
+    "checks": 8,
+    "passed": 8,
+    "aws_calls": 0
+  },
+  "synthetic": {
+    "conversations": 12,
+    "user_turns": 36,
+    "chat_messages": 72,
+    "history_roundtrips_passed": 36,
+    "fixture_execution": true,
+    "aws_calls": 0,
+    "legal_answer_accuracy": "not_evaluated"
+  },
+  "aws_calls": 0,
+  "real_model_inference": false,
+  "fixture_execution": true,
+  "private_history_read": false,
+  "input_sha256": {
+    "app.py": "8a1f1e4cc154cd8ff24affa1f662525a7453daa279abb18a31329fb1f927eb1c",
+    "app.js": "1a1322cf614f54b0e281917445edf8e62c9c95e8efc18c3f7f95233b36e4587f",
+    "sse.js": "a91282d276f2688fde35519e5aa8f5c76ef6166a36236efe085aefde621fd180",
+    "index.html": "63ab72d9c615a2d75e4ef8f92f6bc3e068ab756ec8c2c7ae1698606d8fac5940",
+    "style.css": "ebc78d9cb6db3689b20a157339af2e0b0db1e3c59fa91e11dea3fab667cfab27",
+    "runtime.py": "45dbcafa6139d43b0ffcc1d0a99e18fefdeeb8ec7c4ae340e140434270dba3e0",
+    "source/agent/demo_agentic.py": "5e5b4e0f6bda8de3770365d08be6ab6b87fbe5656af689c37ecb5b6b018c47c2",
+    "source/data/db/demo_history.py": "fd1d342ce589a39a456c31bfbfa881d9f915e76cedbdea791c73b64d81af574a",
+    "source/data/db/db_connection.py": "3ad1d515d8124fde5fd17a839b0f23decf50ddabefc9c4afe64a5addab27b0f3",
+    "source/data/db/utils_db.py": "c0932462746ea3fe608c68fd36c082e8398dd7e638c6298dfdb83bdf016b91f7",
+    "source/data/db/memory.py": "dcbd7ac30ff7298c1a3ef3821340817e51fcaf446ee8f0e6592cf780ed321c48",
+    "source/agent/graph_orchestrator.py": "fb8ce2af61b800022c698db49371dba5141f1c73da70e67a473b9226e2a4a4bf",
+    "source/agent/orchestrator.py": "c81cfeff1ff33d9b6bcf058f152b2fd829692fa1decf0f3a5cd1994f13f7caf7",
+    "tests/run_w8_tests.py": "f71816cf0db2c4e9420c85487407255f33ccbb0fadce449fd2006d701cb64df3",
+    "tests/test_w8_history.py": "a956974330ed820325b7b28f83a383071086e0bc1eee71eb83750e70f12ef42e",
+    "tests/w8_fixture.py": "dfd7e72fcbd69cfa24ee5f69ad94bd674545553631bf051446e55229dd9a6467",
+    "tests/test_sse_w8.cjs": "53f0b59e25f7ae8c3ce8b30c5e6d2dc4a790d5a1d3bbbab6143c49e6fd99075c"
+  },
+  "limitations": [
+    "Fixture LLM/retrieval/BERT/CE, not a live model benchmark.",
+    "History DBs are temporary and never exported.",
+    "Browser visual acceptance is recorded separately."
+  ]
+}

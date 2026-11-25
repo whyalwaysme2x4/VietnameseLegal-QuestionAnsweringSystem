@@ -1,0 +1,405 @@
+{
+  "schema_version": 1,
+  "week": "W08",
+  "organization": "copies_of_current_code_by_week_not_historical_release",
+  "created_at": "2026-11-25T16:43:06.257825+07:00",
+  "source_commit_before_W08": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3",
+  "canonical_evidence": "Evidence/W08",
+  "run_from_repository_root": true,
+  "standalone_week_app_tested": false,
+  "algorithm_changes": false,
+  "integration_behavior_changes": true,
+  "new_inference": false,
+  "artifacts": [
+    {
+      "path": "W08/browser-results.json",
+      "sha256": "b79e1220fce28f98139b09c342d4a47954beb1a06b1cc2c571c553c4eb9c7df8",
+      "bytes": 721,
+      "source_path": "Evidence/W08/browser-results.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/code/app.js",
+      "sha256": "1a1322cf614f54b0e281917445edf8e62c9c95e8efc18c3f7f95233b36e4587f",
+      "bytes": 14037,
+      "source_path": "app.js",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/app.py",
+      "sha256": "29cd70596fff2100d9b4b2bf7f1e78cbd939be86e09af44035c63503e54d740e",
+      "bytes": 11544,
+      "source_path": "app.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/Evidence/tools/validate_w08.py",
+      "sha256": "b50d377d84a9b1b81bfa21cfae4073b58c751e06dc44a34b2af15f26b1e96d9b",
+      "bytes": 4517,
+      "source_path": "Evidence/tools/validate_w08.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/index.html",
+      "sha256": "63ab72d9c615a2d75e4ef8f92f6bc3e068ab756ec8c2c7ae1698606d8fac5940",
+      "bytes": 8148,
+      "source_path": "index.html",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/models.json",
+      "sha256": "1fa48c766313b3df32513671bc0502c2cdfbefcd18d737da3d9f6e191f685d8a",
+      "bytes": 483,
+      "source_path": "models.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/requirements-w6-lock.txt",
+      "sha256": "aa0c66655478540155c2ce529edc9fd3a944aba281648bec1be2c1fe0148256c",
+      "bytes": 1722,
+      "source_path": "requirements-w6-lock.txt",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/runtime.py",
+      "sha256": "45dbcafa6139d43b0ffcc1d0a99e18fefdeeb8ec7c4ae340e140434270dba3e0",
+      "bytes": 14734,
+      "source_path": "runtime.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/agent/demo_agentic.py",
+      "sha256": "5e5b4e0f6bda8de3770365d08be6ab6b87fbe5656af689c37ecb5b6b018c47c2",
+      "bytes": 3562,
+      "source_path": "source/agent/demo_agentic.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/agent/graph_orchestrator.py",
+      "sha256": "fb8ce2af61b800022c698db49371dba5141f1c73da70e67a473b9226e2a4a4bf",
+      "bytes": 13317,
+      "source_path": "source/agent/graph_orchestrator.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/agent/orchestrator.py",
+      "sha256": "c81cfeff1ff33d9b6bcf058f152b2fd829692fa1decf0f3a5cd1994f13f7caf7",
+      "bytes": 30421,
+      "source_path": "source/agent/orchestrator.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/agent/schemas.py",
+      "sha256": "340fbe0065d613f812aa868cb08302c70c41cc491e7e37021e73c3b1ea50baa4",
+      "bytes": 2526,
+      "source_path": "source/agent/schemas.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/data/db/db_connection.py",
+      "sha256": "3ad1d515d8124fde5fd17a839b0f23decf50ddabefc9c4afe64a5addab27b0f3",
+      "bytes": 2203,
+      "source_path": "source/data/db/db_connection.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/data/db/demo_history.py",
+      "sha256": "fd1d342ce589a39a456c31bfbfa881d9f915e76cedbdea791c73b64d81af574a",
+      "bytes": 8194,
+      "source_path": "source/data/db/demo_history.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/data/db/memory.py",
+      "sha256": "dcbd7ac30ff7298c1a3ef3821340817e51fcaf446ee8f0e6592cf780ed321c48",
+      "bytes": 9462,
+      "source_path": "source/data/db/memory.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/data/db/utils_db.py",
+      "sha256": "c0932462746ea3fe608c68fd36c082e8398dd7e638c6298dfdb83bdf016b91f7",
+      "bytes": 3304,
+      "source_path": "source/data/db/utils_db.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/generate/synthesis_response.py",
+      "sha256": "003a2726739aef60f60257b27c04d898f978e2d551cab965a65a38084113ad61",
+      "bytes": 1861,
+      "source_path": "source/generate/synthesis_response.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/source/schema/message_input.py",
+      "sha256": "853d4deafad75fd420f4b72e8bd6ffcf81fa61b46803d3a6bb5e2fd6dc815b8d",
+      "bytes": 361,
+      "source_path": "source/schema/message_input.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/sse.js",
+      "sha256": "a91282d276f2688fde35519e5aa8f5c76ef6166a36236efe085aefde621fd180",
+      "bytes": 1624,
+      "source_path": "sse.js",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/Start-Demo.ps1",
+      "sha256": "ea60e17ed350563f25b014dff9030e0bdc343089b1926ea8b61bf21cc23f1ace",
+      "bytes": 986,
+      "source_path": "Start-Demo.ps1",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/style.css",
+      "sha256": "ebc78d9cb6db3689b20a157339af2e0b0db1e3c59fa91e11dea3fab667cfab27",
+      "bytes": 13737,
+      "source_path": "style.css",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/agent_cases_w6.json",
+      "sha256": "b88d7e40243d1bc90243f255e273318cf6ff114a9889e94328c5ad00e88901fa",
+      "bytes": 4217,
+      "source_path": "tests/agent_cases_w6.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/browser_w8.cjs",
+      "sha256": "933dfd127a1c1165d96405555b33aa543a4c16721401394cc01b0ecc539ef74d",
+      "bytes": 6245,
+      "source_path": "tests/browser_w8.cjs",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/run_w8_tests.py",
+      "sha256": "f71816cf0db2c4e9420c85487407255f33ccbb0fadce449fd2006d701cb64df3",
+      "bytes": 6987,
+      "source_path": "tests/run_w8_tests.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/test_agent_w6.py",
+      "sha256": "ea9f1c7ba8f319ad277ee86e10dc263e6192bf5a30231bbd1e818ea26e8e145c",
+      "bytes": 12085,
+      "source_path": "tests/test_agent_w6.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/test_sse_w8.cjs",
+      "sha256": "53f0b59e25f7ae8c3ce8b30c5e6d2dc4a790d5a1d3bbbab6143c49e6fd99075c",
+      "bytes": 1302,
+      "source_path": "tests/test_sse_w8.cjs",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/test_synthesis_response.py",
+      "sha256": "a07bce7a21f3a0b142c4e4802258aeed6f74b396650e0724730d84f5709ab0b1",
+      "bytes": 5128,
+      "source_path": "tests/test_synthesis_response.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/test_w8_history.py",
+      "sha256": "a956974330ed820325b7b28f83a383071086e0bc1eee71eb83750e70f12ef42e",
+      "bytes": 10680,
+      "source_path": "tests/test_w8_history.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/validate_w8.py",
+      "sha256": "82029fe51b32b36c6f71a30f956461e0df3882029997c836299704686410027d",
+      "bytes": 252,
+      "source_path": "tests/validate_w8.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/w8_fixture.py",
+      "sha256": "dfd7e72fcbd69cfa24ee5f69ad94bd674545553631bf051446e55229dd9a6467",
+      "bytes": 2957,
+      "source_path": "tests/w8_fixture.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/code/tests/w8_fixture_server.py",
+      "sha256": "d7f22710796db8ae92451ecc794816416cb988c148936246ff0707fe2bc5fc0e",
+      "bytes": 1008,
+      "source_path": "tests/w8_fixture_server.py",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "code"
+    },
+    {
+      "path": "W08/data/synthetic_chat_logs.jsonl",
+      "sha256": "800c4e80bcc46748d3d064d13c3c36c6c6facd4f16767a09176be2df1db3d6b7",
+      "bytes": 358552,
+      "source_path": "Evidence/W08/synthetic_chat_logs.jsonl",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "data"
+    },
+    {
+      "path": "W08/data/synthetic_conversations.json",
+      "sha256": "3d7d54f5435502560c0020e7a64880d957b579fbf580422772a0878e70b1dd16",
+      "bytes": 7582,
+      "source_path": "Evidence/W08/synthetic_conversations.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "data"
+    },
+    {
+      "path": "W08/figures/failure-history-fixture.png",
+      "sha256": "e3e4ee07efc619919ae68529cddd6e8ea950898456fd96aab730700b0ff0a0fe",
+      "bytes": 89593,
+      "source_path": "Evidence/W08/figures/failure-history-fixture.png",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/figures/integrated-app-fixture.png",
+      "sha256": "0ef5430aa27cf1a70e2947f36583fa9cd3353c493cadf4ef75c0e792fcdee054",
+      "bytes": 103249,
+      "source_path": "Evidence/W08/figures/integrated-app-fixture.png",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/figures/mobile-history-fixture.png",
+      "sha256": "3959f682dfe57577bb4404283e1dd614a3cd7fa1f37bddd98018b6020d2c376f",
+      "bytes": 41230,
+      "source_path": "Evidence/W08/figures/mobile-history-fixture.png",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/figures/source-dialog-fixture.png",
+      "sha256": "d62b5adea2c60bb3d9dceef747ff65a309140260f8f60c83dc5f6a36b95a2d5f",
+      "bytes": 233354,
+      "source_path": "Evidence/W08/figures/source-dialog-fixture.png",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/github.json",
+      "sha256": "f95f19a2c45fdc1c39ae7c98df0c413acc8608a576554134605b8503113fbc9d",
+      "bytes": 566,
+      "source_path": "Evidence/W08/github.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/metrics.csv",
+      "sha256": "a816af89fbfdb36bc1352ccf29bd9ce378d58315b3a46bd6f4a61ac70319a089",
+      "bytes": 1264,
+      "source_path": "Evidence/W08/metrics.csv",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/metrics.json",
+      "sha256": "07aef1b88ab4b9e14733464240d332d80b8e70baa7a6edcdd5c364084cdb173f",
+      "bytes": 527,
+      "source_path": "Evidence/W08/metrics.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/test-results-js.json",
+      "sha256": "b2028bcaf43227c400988c6f454ba4f4e146ca72ae78e13a756dc2403c301c73",
+      "bytes": 99,
+      "source_path": "Evidence/W08/test-results-js.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    },
+    {
+      "path": "W08/test-results.json",
+      "sha256": "4efea29cda7d0445d97a339d5f1a741c72ab1862ebbe571d66d391378bb31b69",
+      "bytes": 8151,
+      "source_path": "Evidence/W08/test-results.json",
+      "source_commit": null,
+      "source_revision": "published_with_W08_manifest",
+      "kind": "evidence"
+    }
+  ],
+  "generated_files": [
+    {
+      "path": "W08/.gitattributes",
+      "sha256": "705fd4d6451a31d36b3df7de96f83f30ac976c9b4a6d1e51671d8e2f33e2d0da",
+      "bytes": 8
+    },
+    {
+      "path": "W08/README.md",
+      "sha256": "ff956364788430fbafa86ebbef4b5faa6336e52e92382d4b6f6701194496f885",
+      "bytes": 1626
+    }
+  ]
+}

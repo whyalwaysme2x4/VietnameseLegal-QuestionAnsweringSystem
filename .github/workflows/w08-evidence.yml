@@ -1,0 +1,27 @@
+name: Validate W08 integrated SSE and history evidence
+on:
+  push:
+    branches: [main]
+    tags: ['w08']
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  w08-evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate saved W08 fixture results and current code hashes
+        run: python Evidence/tools/validate_w08.py
+      - name: Execute SSE UTF-8 and fragmented-frame parser tests
+        run: node tests/test_sse_w8.cjs
+      - name: Test exact historical snapshot resolution
+        run: python Evidence/tools/test_snapshot_resolver.py
+      - name: Validate W01-W08 browsing copies
+        run: python verify_week_folders.py

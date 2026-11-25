@@ -1,4 +1,4 @@
-# Theo dõi GitHub W01–W06 — cùng main
+# Theo dõi GitHub W01–W08 — cùng main
 
 Cập nhật ngày 05/11/2026 sau khi đối chiếu GitHub. Tất cả code và evidence W01–W06 ở `main`, không cần đổi nhánh. Đỗ Văn Đức (`@dovanduc2004`) phụ trách kiểm tra kết quả/review; collaborator đã được xác nhận. Review W6 đang chờ. Giữ các PR/nhánh cũ làm lịch sử, không tạo nhánh mới cho W6.
 
@@ -10,6 +10,8 @@ Cập nhật ngày 05/11/2026 sau khi đối chiếu GitHub. Tất cả code và
 | W04 | [Tuan4](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/1) | [#1](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/1) | [#2](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/2) | [#5](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/5) | [w04](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/tree/w04) |
 | W05 | [Tuan5](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/2) | [#3](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/3) | [#4](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/4) | [#6](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/pull/6) | [w05](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/tree/w05) |
 | W06 | [Tuan6](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/6) | [#17](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/17) | [#18](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/18) | Cập nhật trực tiếp main | [w06](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/tree/w06) |
+| W07 | [Tuan7](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/7) | [#19](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/19) | [#20](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/20) | Cập nhật trực tiếp main | [w07](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/tree/w07) |
+| W08 | [Tuan8](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/milestone/8) | [#21](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/21) | [#22](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/issues/22) | Cập nhật trực tiếp main | [w08](https://github.com/whyalwaysme2x4/VietnameseLegal-QuestionAnsweringSystem/tree/w08) |
 
 ## Trạng thái merge/review
 
@@ -22,3 +24,7 @@ Các tag giữ nguyên snapshot đã push; thông tin reviewer cập nhật sau 
 ## Kiểm tra số liệu
 
 `python Evidence/tools/validate_evidence.py` chỉ kiểm tra hash và tái tính từ output đã lưu, không chạy model hoặc gọi AWS. W03 dùng subset của lượt đo 31/10/2026; W01/W02 là inventory/corpus validation bổ sung. Nhãn và hiệu lực pháp luật vẫn pending.
+
+## W8 — cập nhật 25/11/2026
+
+Quang thực hiện, Đức (`dovanduc2004`) được giao review tại issue #22. W8 xuất bản trực tiếp main theo yêu cầu, không có PR/approval W8. Issue review đang chờ không thay approval PR nếu giảng viên vẫn bắt buộc. Trạng thái các tuần trước trong đoạn lịch sử là tại thời điểm ghi nhận. Evidence W8 ghi rõ fixture, không AWS/model thật.

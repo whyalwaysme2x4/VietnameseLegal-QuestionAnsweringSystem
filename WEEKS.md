@@ -1,6 +1,6 @@
 # Code và dữ liệu theo tuần
 
-Các folder **W01–W07 nằm ngay thư mục gốc repo**, cùng nhánh `main`. Toàn bộ project đang chạy và `Evidence/` được giữ nguyên; các folder tuần là bản sao bổ sung để đọc code theo nội dung đồ án.
+Các folder **W01–W08 nằm ngay thư mục gốc repo**, cùng nhánh `main`. Toàn bộ project đang chạy và `Evidence/` được giữ nguyên; các folder tuần là bản sao bổ sung để đọc code theo nội dung đồ án.
 
 | Folder | Nội dung chính | Điểm bắt đầu đọc code |
 |---|---|---|
@@ -11,6 +11,7 @@ Các folder **W01–W07 nằm ngay thư mục gốc repo**, cùng nhánh `main`.
 | [W05](W05/README.md) | CrossEncoder, rerank ablation, 200 QA dev | [CrossEncoder](W05/code/source/model/rerank_model_finetune.py), [evaluate.py](W05/code/evaluate.py) |
 | [W06](W06/README.md) | Planner/Grader/Checker, BERT, LangGraph, 15 fixture cases | [graph](W06/code/source/agent/graph_orchestrator.py), [composition](W06/code/source/agent/demo_agentic.py), [cases](W06/code/tests/agent_cases_w6.json) |
 | [W07](W07/README.md) | Citation/refusal policy, grounding/source contracts, QA draft | [Policy](Evidence/W07/CITATION_REFUSAL_POLICY.md), [protocol](Evidence/W07/EVALUATION_PROTOCOL.md), [code](W07/code/) |
+| [W08](W08/README.md) | SSE frontend, SQLite history, integrated app, synthetic chat logs | [History](W08/code/source/data/db/demo_history.py), [API/UI](W08/code/app.py), [evidence](Evidence/W08/README.md) |
 
 Mỗi folder có `README.md`, `code/`, `data/`, `metrics.csv`, `test-results.json`, `figures/`, `manifest.json`. W6 còn có các trace/smoke artifacts ở `W06/evidence/`. Manifest ghi đường dẫn nguồn, commit và SHA-256 cho từng bản sao.
 
@@ -23,3 +24,7 @@ Kiểm tra tính toàn vẹn: `python verify_week_folders.py`. Lệnh chỉ đ�
 ## W07 — cập nhật 17/11/2026
 
 W07 được bổ sung từ code hiện hành tại commit nguồn `007f5dbecfa82af6285bbe6c1415c5262fd58e6e`, không phải release lịch sử ngày 14/11. [Evidence/W07](Evidence/W07/README.md) gồm policy/protocol, 30 QA dev candidates (25 synthetic + 5 đối chứng), kết quả **28/28 fixture/contract tests** và HTTP/SSE fixture. Chưa có semantic grounding/refusal metrics hoặc QA gold đã review. [Milestone/issue/review](Evidence/W07/github.json), snapshot `w07`; review Đức đang chờ. Các README/index/tracking W6 đã khóa hash được giữ nguyên như snapshot trước; xem mục này và [PROGRESS.md](PROGRESS.md) để có tiến độ mới nhất.
+
+## W08 — cập nhật 25/11/2026
+
+Runtime tại gốc đã tích hợp W8. [W08](W08/README.md) là code/data theo tuần, [Evidence/W08](Evidence/W08/README.md) chứa 46 test Python, 8 parser checks, 8 browser checks và 12 hội thoại/72 tin nhắn synthetic với fixture; không có AWS/model quality metrics. [Snapshot lịch sử](Evidence/_history/README.md) giữ bytes đúng hash của các file thay đổi mà manifest W01–W07 đã khóa. Folder tuần cũ, số liệu/trace/manifest và tag cũ không đổi. Chạy app từ gốc repo.

@@ -5,6 +5,7 @@ import hashlib
 import json
 from collections import Counter
 from pathlib import Path
+from snapshot_resolver import resolve_artifact
 
 ROOT=Path(__file__).resolve().parents[2]
 
@@ -25,7 +26,7 @@ def main():
     check('runtime_unchanged',not manifest['algorithm_changes'] and not manifest['new_inference'])
     check('honest_review_and_branch',manifest['branch']=='main' and manifest['review_status']=='pending' and manifest['github']['pr'] is None)
     for entry in manifest['artifacts']:
-        path=(ROOT/entry['path']).resolve()
+        path=resolve_artifact(ROOT,'W07',entry['path'],entry['sha256'])
         check('path:'+entry['path'],path.is_relative_to(ROOT.resolve()) and path.is_file())
         check('hash:'+entry['path'],hashlib.sha256(path.read_bytes()).hexdigest()==entry['sha256'])
     report=load(folder/'test-results.json')
@@ -33,7 +34,7 @@ def main():
     check('fixture_limits',report['fixture_execution'] and report['network_connections_blocked'] and report['aws_calls']==0 and not report['model_inference'])
     check('case_results',len(report['cases'])==28 and all(c['status']=='passed' for c in report['cases']))
     for path,digest in report['input_sha256'].items():
-        check('test_input:'+path,hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==digest)
+        check('test_input:'+path,hashlib.sha256(resolve_artifact(ROOT,'W07',path,digest).read_bytes()).hexdigest()==digest)
     for key in report['selected_w6_cases_rerun']:
         trace=jsonl(folder/'traces'/f'{key}.jsonl')
         check('trace:'+key,bool(trace) and all(r['fixture_execution'] and r['case_id']==key for r in trace))

@@ -1,0 +1,114 @@
+{
+  "packaged_at": "2026-11-25T16:39:31.636636+07:00",
+  "prior_main_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3",
+  "source": "VietnameseLegalQA-W1-W5 local W8 implementation",
+  "copied_files": [
+    {
+      "path": "app.py",
+      "local_source_sha256": "8a1f1e4cc154cd8ff24affa1f662525a7453daa279abb18a31329fb1f927eb1c",
+      "published_sha256": "29cd70596fff2100d9b4b2bf7f1e78cbd939be86e09af44035c63503e54d740e",
+      "packaging_changes": [
+        "Preserve runs/evaluation and frozen Evidence/_shared fallback for /api/evaluation; no algorithm change."
+      ]
+    },
+    {
+      "path": "app.js",
+      "local_source_sha256": "1a1322cf614f54b0e281917445edf8e62c9c95e8efc18c3f7f95233b36e4587f",
+      "published_sha256": "1a1322cf614f54b0e281917445edf8e62c9c95e8efc18c3f7f95233b36e4587f",
+      "packaging_changes": []
+    },
+    {
+      "path": "sse.js",
+      "local_source_sha256": "a91282d276f2688fde35519e5aa8f5c76ef6166a36236efe085aefde621fd180",
+      "published_sha256": "a91282d276f2688fde35519e5aa8f5c76ef6166a36236efe085aefde621fd180",
+      "packaging_changes": []
+    },
+    {
+      "path": "index.html",
+      "local_source_sha256": "63ab72d9c615a2d75e4ef8f92f6bc3e068ab756ec8c2c7ae1698606d8fac5940",
+      "published_sha256": "63ab72d9c615a2d75e4ef8f92f6bc3e068ab756ec8c2c7ae1698606d8fac5940",
+      "packaging_changes": []
+    },
+    {
+      "path": "style.css",
+      "local_source_sha256": "ebc78d9cb6db3689b20a157339af2e0b0db1e3c59fa91e11dea3fab667cfab27",
+      "published_sha256": "ebc78d9cb6db3689b20a157339af2e0b0db1e3c59fa91e11dea3fab667cfab27",
+      "packaging_changes": []
+    },
+    {
+      "path": "runtime.py",
+      "local_source_sha256": "45dbcafa6139d43b0ffcc1d0a99e18fefdeeb8ec7c4ae340e140434270dba3e0",
+      "published_sha256": "45dbcafa6139d43b0ffcc1d0a99e18fefdeeb8ec7c4ae340e140434270dba3e0",
+      "packaging_changes": []
+    },
+    {
+      "path": "source/agent/demo_agentic.py",
+      "local_source_sha256": "5e5b4e0f6bda8de3770365d08be6ab6b87fbe5656af689c37ecb5b6b018c47c2",
+      "published_sha256": "5e5b4e0f6bda8de3770365d08be6ab6b87fbe5656af689c37ecb5b6b018c47c2",
+      "packaging_changes": []
+    },
+    {
+      "path": "source/data/db/demo_history.py",
+      "local_source_sha256": "fd1d342ce589a39a456c31bfbfa881d9f915e76cedbdea791c73b64d81af574a",
+      "published_sha256": "fd1d342ce589a39a456c31bfbfa881d9f915e76cedbdea791c73b64d81af574a",
+      "packaging_changes": []
+    },
+    {
+      "path": "Start-Demo.ps1",
+      "local_source_sha256": "ea60e17ed350563f25b014dff9030e0bdc343089b1926ea8b61bf21cc23f1ace",
+      "published_sha256": "ea60e17ed350563f25b014dff9030e0bdc343089b1926ea8b61bf21cc23f1ace",
+      "packaging_changes": []
+    },
+    {
+      "path": "tests/test_w8_history.py",
+      "local_source_sha256": "a956974330ed820325b7b28f83a383071086e0bc1eee71eb83750e70f12ef42e",
+      "published_sha256": "a956974330ed820325b7b28f83a383071086e0bc1eee71eb83750e70f12ef42e",
+      "packaging_changes": []
+    },
+    {
+      "path": "tests/w8_fixture.py",
+      "local_source_sha256": "dfd7e72fcbd69cfa24ee5f69ad94bd674545553631bf051446e55229dd9a6467",
+      "published_sha256": "dfd7e72fcbd69cfa24ee5f69ad94bd674545553631bf051446e55229dd9a6467",
+      "packaging_changes": []
+    },
+    {
+      "path": "tests/run_w8_tests.py",
+      "local_source_sha256": "f71816cf0db2c4e9420c85487407255f33ccbb0fadce449fd2006d701cb64df3",
+      "published_sha256": "f71816cf0db2c4e9420c85487407255f33ccbb0fadce449fd2006d701cb64df3",
+      "packaging_changes": []
+    },
+    {
+      "path": "tests/test_sse_w8.cjs",
+      "local_source_sha256": "53f0b59e25f7ae8c3ce8b30c5e6d2dc4a790d5a1d3bbbab6143c49e6fd99075c",
+      "published_sha256": "53f0b59e25f7ae8c3ce8b30c5e6d2dc4a790d5a1d3bbbab6143c49e6fd99075c",
+      "packaging_changes": []
+    },
+    {
+      "path": "tests/w8_fixture_server.py",
+      "local_source_sha256": "d7f22710796db8ae92451ecc794816416cb988c148936246ff0707fe2bc5fc0e",
+      "published_sha256": "d7f22710796db8ae92451ecc794816416cb988c148936246ff0707fe2bc5fc0e",
+      "packaging_changes": []
+    },
+    {
+      "path": "tests/browser_w8.cjs",
+      "local_source_sha256": "933dfd127a1c1165d96405555b33aa543a4c16721401394cc01b0ecc539ef74d",
+      "published_sha256": "933dfd127a1c1165d96405555b33aa543a4c16721401394cc01b0ecc539ef74d",
+      "packaging_changes": []
+    }
+  ],
+  "historical_snapshots": 26,
+  "historical_evidence_rewritten": false,
+  "algorithm_changes": false,
+  "excluded": [
+    ".env",
+    "credentials",
+    "local_data",
+    "SQLite chat/user facts",
+    "private logs",
+    "model weights",
+    "Qdrant index",
+    "backups",
+    "browser tooling/node_modules"
+  ],
+  "local_evidence": "local_snapshot preserves original reports; fresh packaged fixture reports stored at Evidence/W08 root."
+}

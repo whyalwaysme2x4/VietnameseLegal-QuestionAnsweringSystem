@@ -1,0 +1,210 @@
+{
+  "week": "W08",
+  "created_at": "2026-11-25T16:24:45.750249+07:00",
+  "week_period": "2026-11-15/2026-11-21",
+  "actual_implementation_date": "2026-11-25",
+  "original_project_modified": false,
+  "github_pushed": false,
+  "fixture_execution": true,
+  "aws_calls": 0,
+  "real_model_inference": false,
+  "synthetic_only_export": true,
+  "artifacts": [
+    {
+      "path": ".gitignore",
+      "sha256": "74493b2753a597609b14313bd243cbb1539eaa770542bd6a4e4899abdb5acced",
+      "bytes": 176
+    },
+    {
+      "path": "Start-Demo.ps1",
+      "sha256": "ea60e17ed350563f25b014dff9030e0bdc343089b1926ea8b61bf21cc23f1ace",
+      "bytes": 986
+    },
+    {
+      "path": "W8_IMPLEMENTATION.md",
+      "sha256": "94326bfef7883b41f98303feed240b4bcde4877f30af06ab937c75b347a987e3",
+      "bytes": 7038
+    },
+    {
+      "path": "app.js",
+      "sha256": "1a1322cf614f54b0e281917445edf8e62c9c95e8efc18c3f7f95233b36e4587f",
+      "bytes": 14037
+    },
+    {
+      "path": "app.py",
+      "sha256": "8a1f1e4cc154cd8ff24affa1f662525a7453daa279abb18a31329fb1f927eb1c",
+      "bytes": 11419
+    },
+    {
+      "path": "evidence/w8/README.md",
+      "sha256": "76e4a01c5e2d3b3122bbc7ea860c544d2b79e29bcc0cb6f622550d6893ba6abb",
+      "bytes": 3380
+    },
+    {
+      "path": "evidence/w8/browser-results.json",
+      "sha256": "5a7f1b71e48e7e4c1a4904ae95102775208e1de8ed6f1162356af7eaf3354c56",
+      "bytes": 721
+    },
+    {
+      "path": "evidence/w8/figures/failure-history-fixture.png",
+      "sha256": "e3e4ee07efc619919ae68529cddd6e8ea950898456fd96aab730700b0ff0a0fe",
+      "bytes": 89593
+    },
+    {
+      "path": "evidence/w8/figures/integrated-app-fixture.png",
+      "sha256": "78f3bf9ebc9451b22b5e86b8fc3f5466b5d48c1fb50b08245fc7c817493bae3e",
+      "bytes": 103245
+    },
+    {
+      "path": "evidence/w8/figures/mobile-history-fixture.png",
+      "sha256": "3959f682dfe57577bb4404283e1dd614a3cd7fa1f37bddd98018b6020d2c376f",
+      "bytes": 41230
+    },
+    {
+      "path": "evidence/w8/figures/source-dialog-fixture.png",
+      "sha256": "3c84bfb90dc4549aa8e95dfafbdffccacd2f66350743de3f2bc5b09c1ceeccaf",
+      "bytes": 233334
+    },
+    {
+      "path": "evidence/w8/metrics.json",
+      "sha256": "9bb97954011e0631972b2c798537054987ee5acb41164f68f7f48b4a40d93cc3",
+      "bytes": 606
+    },
+    {
+      "path": "evidence/w8/migration_manifest.json",
+      "sha256": "60bec4fe66b408de7bf62f524e2c5cbdae717bc5e5d82e3de1cb0c5d4c89423d",
+      "bytes": 7638
+    },
+    {
+      "path": "evidence/w8/original_preservation.json",
+      "sha256": "f32d572b34fe9e197c48942e2c41ba0d92d5cbcaab3ea840b04a726d1ea3d7c6",
+      "bytes": 315
+    },
+    {
+      "path": "evidence/w8/source_reuse.json",
+      "sha256": "9695257fa2ad6733818f23311820800ddebd2fb1c3c6b16539f2801006296e23",
+      "bytes": 1803
+    },
+    {
+      "path": "evidence/w8/synthetic_chat_logs.jsonl",
+      "sha256": "c2478262de56dc9ddcc518af853a2687d266b2b7b824e99098b37488ba502858",
+      "bytes": 358542
+    },
+    {
+      "path": "evidence/w8/synthetic_conversations.json",
+      "sha256": "3d7d54f5435502560c0020e7a64880d957b579fbf580422772a0878e70b1dd16",
+      "bytes": 7582
+    },
+    {
+      "path": "evidence/w8/test-results-js.json",
+      "sha256": "b2028bcaf43227c400988c6f454ba4f4e146ca72ae78e13a756dc2403c301c73",
+      "bytes": 99
+    },
+    {
+      "path": "evidence/w8/test-results.json",
+      "sha256": "eabab5a8130471e6081b34de8eb5af90561d3b3bff02eb1a940f0e4fdc0d5c7a",
+      "bytes": 8151
+    },
+    {
+      "path": "index.html",
+      "sha256": "63ab72d9c615a2d75e4ef8f92f6bc3e068ab756ec8c2c7ae1698606d8fac5940",
+      "bytes": 8148
+    },
+    {
+      "path": "models.json",
+      "sha256": "1fa48c766313b3df32513671bc0502c2cdfbefcd18d737da3d9f6e191f685d8a",
+      "bytes": 483
+    },
+    {
+      "path": "runtime.py",
+      "sha256": "45dbcafa6139d43b0ffcc1d0a99e18fefdeeb8ec7c4ae340e140434270dba3e0",
+      "bytes": 14734
+    },
+    {
+      "path": "source/agent/demo_agentic.py",
+      "sha256": "5e5b4e0f6bda8de3770365d08be6ab6b87fbe5656af689c37ecb5b6b018c47c2",
+      "bytes": 3562
+    },
+    {
+      "path": "source/agent/graph_orchestrator.py",
+      "sha256": "fb8ce2af61b800022c698db49371dba5141f1c73da70e67a473b9226e2a4a4bf",
+      "bytes": 13317
+    },
+    {
+      "path": "source/agent/orchestrator.py",
+      "sha256": "c81cfeff1ff33d9b6bcf058f152b2fd829692fa1decf0f3a5cd1994f13f7caf7",
+      "bytes": 30421
+    },
+    {
+      "path": "source/data/db/db_connection.py",
+      "sha256": "3ad1d515d8124fde5fd17a839b0f23decf50ddabefc9c4afe64a5addab27b0f3",
+      "bytes": 2203
+    },
+    {
+      "path": "source/data/db/demo_history.py",
+      "sha256": "fd1d342ce589a39a456c31bfbfa881d9f915e76cedbdea791c73b64d81af574a",
+      "bytes": 8194
+    },
+    {
+      "path": "source/data/db/memory.py",
+      "sha256": "dcbd7ac30ff7298c1a3ef3821340817e51fcaf446ee8f0e6592cf780ed321c48",
+      "bytes": 9462
+    },
+    {
+      "path": "source/data/db/utils_db.py",
+      "sha256": "c0932462746ea3fe608c68fd36c082e8398dd7e638c6298dfdb83bdf016b91f7",
+      "bytes": 3304
+    },
+    {
+      "path": "sse.js",
+      "sha256": "a91282d276f2688fde35519e5aa8f5c76ef6166a36236efe085aefde621fd180",
+      "bytes": 1624
+    },
+    {
+      "path": "style.css",
+      "sha256": "ebc78d9cb6db3689b20a157339af2e0b0db1e3c59fa91e11dea3fab667cfab27",
+      "bytes": 13737
+    },
+    {
+      "path": "tests/browser_w8.cjs",
+      "sha256": "933dfd127a1c1165d96405555b33aa543a4c16721401394cc01b0ecc539ef74d",
+      "bytes": 6245
+    },
+    {
+      "path": "tests/run_w8_tests.py",
+      "sha256": "f71816cf0db2c4e9420c85487407255f33ccbb0fadce449fd2006d701cb64df3",
+      "bytes": 6987
+    },
+    {
+      "path": "tests/test_sse_w8.cjs",
+      "sha256": "53f0b59e25f7ae8c3ce8b30c5e6d2dc4a790d5a1d3bbbab6143c49e6fd99075c",
+      "bytes": 1302
+    },
+    {
+      "path": "tests/test_w8_history.py",
+      "sha256": "a956974330ed820325b7b28f83a383071086e0bc1eee71eb83750e70f12ef42e",
+      "bytes": 10680
+    },
+    {
+      "path": "tests/validate_w8.py",
+      "sha256": "fc576edd558a48b2b628f48f6885e78a3c5de8601cbab50fc9b6dbdd0d1babff",
+      "bytes": 2559
+    },
+    {
+      "path": "tests/w8_fixture.py",
+      "sha256": "dfd7e72fcbd69cfa24ee5f69ad94bd674545553631bf051446e55229dd9a6467",
+      "bytes": 2957
+    },
+    {
+      "path": "tests/w8_fixture_server.py",
+      "sha256": "d7f22710796db8ae92451ecc794816416cb988c148936246ff0707fe2bc5fc0e",
+      "bytes": 1008
+    }
+  ],
+  "limitations": [
+    "No live model end-to-end quality/latency test.",
+    "Single-user local history, no auth or per-user ownership.",
+    "SSE stage events, not LLM token streaming.",
+    "W7 semantic grounding/refusal gaps are not resolved by W8 fixture tests."
+  ]
+}

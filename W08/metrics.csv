@@ -1,0 +1,12 @@
+week,metric,value,unit,status,population,measured_at,evidence_type
+W08,python_tests,46,count,measured,20 W8 + 15 agent + 11 baseline tests,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,python_pass_rate,1,fraction,measured,46 fixture tests,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,sse_parser_checks,8,count,measured,SSE UTF-8/parser,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,browser_checks,8,count,measured,Chrome fixture app,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,synthetic_conversations,12,count,measured,6 traffic + 6 labour,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,synthetic_user_turns,36,count,measured,3 turns per conversation,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,synthetic_chat_messages,72,count,measured,user plus assistant,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,history_roundtrip_pass_rate,1,fraction,measured,36 synthetic turns,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,aws_calls,0,count,measured,fixture execution,2026-11-25T16:38:07.115208+07:00,fixture_integration
+W08,legal_answer_accuracy,,fraction,not_measured,real model run required,,not_run
+W08,real_model_latency_ms,,ms,not_measured,real model run required,,not_run

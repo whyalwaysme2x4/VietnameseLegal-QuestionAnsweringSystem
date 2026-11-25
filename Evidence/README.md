@@ -8,6 +8,8 @@
 | W04 | BM25/Dense + RRF, 150 QA dev | [W04](W04/README.md) |
 | W05 | CrossEncoder paired ablation, 200 QA dev | [W05](W05/README.md) |
 | W06 | Agent graph, BERT, 15 fixture cases và trace | [W06](W06/README.md) |
+| W07 | Citation/refusal policy, grounding/source contracts, QA draft | [W07](W07/README.md) |
+| W08 | Integrated SSE/history app, synthetic conversations và browser fixture tests | [W08](W08/README.md) |
 
 Mỗi tuần có README, metrics.csv, test-results.json, figures và manifest.json. W01–W03 là evidence được tổ chức bổ sung ngày 01/11/2026; kết quả W03 là subset của lượt đo 31/10/2026. Không suy ra lịch sử issue/review hoặc ngày thực nghiệm từ số tuần.
 
@@ -18,3 +20,7 @@ Chạy `python Evidence/tools/validate_evidence.py` từ gốc repo. Không tả
 [Theo dõi milestone, issue, review và snapshot của sáu tuần](GITHUB_TRACKING.md). Thông tin chờ merge/review trong README/manifest snapshot W1–W5 phản ánh thời điểm đóng gói trước đây; trạng thái hiện hành xem bảng theo dõi này.
 
 W6 có validator riêng: `python Evidence/tools/validate_w06.py`. Trace và pass rate W6 là fixture control-flow tests; chưa chạy full AWS agent. Không trộn với retrieval metrics W3–W5. Chạy lại thử nghiệm ghi vào `runs/`, không ghi đè evidence.
+
+## Cập nhật W8 — 25/11/2026
+
+W01–W08 cùng main. Xem [W08](W08/README.md) và [tracking mới](W08/github.json). Các đoạn lịch sử phía trên giữ bối cảnh của lần đóng gói cũ. Runtime hiện hành được W08 manifest kiểm tra; code/input cũ dùng [snapshot theo hash](_history/README.md). Các kết quả fixture không phải accuracy pháp luật hoặc benchmark AWS.

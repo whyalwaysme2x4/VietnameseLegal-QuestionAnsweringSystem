@@ -36,9 +36,11 @@ class DemoAgentic:
             rerank_utils=self.rerank,extract_utils=self.extractor,search_tools=None,memory=None,
             settings=self.settings,embedding=SimpleNamespace(embeddings_bkai=engine.embedding),max_iterations=2)
 
-    def chat(self, question, domain):
+    def chat(self, question, domain, session_id=None, memory=None):
         self.search.domain=domain;self.generator.usage=[];trace=[]
-        for frame in self.orchestrator.run(question,session_id=None,web_search_enabled=False):
+        self.orchestrator.memory=memory
+        # The worker serializes Engine access; an omitted session stays stateless.
+        for frame in self.orchestrator.run(question,session_id=session_id,web_search_enabled=False):
             event=json.loads(frame.removeprefix('data: ').strip())
             if event['type'] in {'graph_node','plan','grade','check','extract','iterate','regenerate','retrieve_done','generate_done'}:
                 trace.append(dict(event))

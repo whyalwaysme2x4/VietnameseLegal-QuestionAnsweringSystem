@@ -1,0 +1,189 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-11-25T16:39:31.636636+07:00",
+  "purpose": "Exact prior bytes for immutable W01-W07 manifests; W08 validates current files separately.",
+  "entries": [
+    {
+      "week": "W01",
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "snapshot_path": "Evidence/_history/W01/Evidence/tools/validate_evidence.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W02",
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "snapshot_path": "Evidence/_history/W02/Evidence/tools/validate_evidence.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W03",
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "snapshot_path": "Evidence/_history/W03/Evidence/tools/validate_evidence.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W04",
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "snapshot_path": "Evidence/_history/W04/Evidence/tools/validate_evidence.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W05",
+      "path": "Evidence/tools/validate_evidence.py",
+      "sha256": "937af60d144b08ecf06e5aa923d5e7de0c2ed5b990d290f6c51bdb102da6397d",
+      "snapshot_path": "Evidence/_history/W05/Evidence/tools/validate_evidence.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": ".gitattributes",
+      "sha256": "4d549422e182b8743d302a8b8b3afed9b27697cb10f4b49d0ac977ad105870a6",
+      "snapshot_path": "Evidence/_history/W06/.gitattributes",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": ".gitignore",
+      "sha256": "c2d9110627691e7443d27fb7c6616966d006f87a4e0305319738f79e295066ec",
+      "snapshot_path": "Evidence/_history/W06/.gitignore",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "Evidence/GITHUB_TRACKING.md",
+      "sha256": "72e7ab20ae609c07cf008e4cae3c71136c3612a258a8a25738e2ed2aec37c58f",
+      "snapshot_path": "Evidence/_history/W06/Evidence/GITHUB_TRACKING.md",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "Evidence/README.md",
+      "sha256": "81663beda3bfd0bf1942a86aa3ae13d38f765bced42715ed24737ace8619d8e4",
+      "snapshot_path": "Evidence/_history/W06/Evidence/README.md",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "Evidence/tools/validate_w06.py",
+      "sha256": "c74ed26d05f38001caefff9eb83a81b5d98c397c649292a0d877dd53b6befce5",
+      "snapshot_path": "Evidence/_history/W06/Evidence/tools/validate_w06.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "README.md",
+      "sha256": "dcb93e5502eb079ccf1cb6896418019477d9c3fa1ead1a229741570854d3a0e4",
+      "snapshot_path": "Evidence/_history/W06/README.md",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "Start-Demo.ps1",
+      "sha256": "fb4b8cbb9dbbc3d5737a884d167c252941917e458b894cf03c5761526fcda915",
+      "snapshot_path": "Evidence/_history/W06/Start-Demo.ps1",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "app.js",
+      "sha256": "3eab6073884152c5a1da001d9a2d4ffdc519aca939f5462b980c5906fd198208",
+      "snapshot_path": "Evidence/_history/W06/app.js",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "app.py",
+      "sha256": "e4d79b02c8856d6a3ca93cc85c274b9836555630856a3f70953d248ffa91d7d7",
+      "snapshot_path": "Evidence/_history/W06/app.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "index.html",
+      "sha256": "3c13ce0c19d7b52982943d0ae810455e7e53db2c85c25d76f3631e54953d695d",
+      "snapshot_path": "Evidence/_history/W06/index.html",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "runtime.py",
+      "sha256": "0a8a91c4c2faeea33f7d35036c129f323bc8e28bc52bc87b660185985b3d529b",
+      "snapshot_path": "Evidence/_history/W06/runtime.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "source/agent/demo_agentic.py",
+      "sha256": "beaae29299f941c3bc9ca7684d7f67a0e268fa0665b11592c88778aea706533d",
+      "snapshot_path": "Evidence/_history/W06/source/agent/demo_agentic.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W06",
+      "path": "style.css",
+      "sha256": "dc10da7a2511910fb50834247790679592ed37ba5cd516771dcdffe9f282181f",
+      "snapshot_path": "Evidence/_history/W06/style.css",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "Evidence/tools/validate_w07.py",
+      "sha256": "74f60d78a360e95a78f61a40639590da53b270535c5e12e476dcea15f4f739bc",
+      "snapshot_path": "Evidence/_history/W07/Evidence/tools/validate_w07.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "PROGRESS.md",
+      "sha256": "5d52e40abb53e74ee20b1b8ba116e9c6a891e2db13352339b01628a92f0e0c49",
+      "snapshot_path": "Evidence/_history/W07/PROGRESS.md",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "WEEKS.md",
+      "sha256": "8113928abac905dea8f77da4127b0064664d79b567b7e6f20470dcc55842fa37",
+      "snapshot_path": "Evidence/_history/W07/WEEKS.md",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "app.js",
+      "sha256": "3eab6073884152c5a1da001d9a2d4ffdc519aca939f5462b980c5906fd198208",
+      "snapshot_path": "Evidence/_history/W07/app.js",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "app.py",
+      "sha256": "e4d79b02c8856d6a3ca93cc85c274b9836555630856a3f70953d248ffa91d7d7",
+      "snapshot_path": "Evidence/_history/W07/app.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "index.html",
+      "sha256": "3c13ce0c19d7b52982943d0ae810455e7e53db2c85c25d76f3631e54953d695d",
+      "snapshot_path": "Evidence/_history/W07/index.html",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "source/agent/demo_agentic.py",
+      "sha256": "beaae29299f941c3bc9ca7684d7f67a0e268fa0665b11592c88778aea706533d",
+      "snapshot_path": "Evidence/_history/W07/source/agent/demo_agentic.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    },
+    {
+      "week": "W07",
+      "path": "verify_week_folders.py",
+      "sha256": "0c43b75d9ca0102ace04047782548fd139f15770a2a7911b9bcdcf018087070d",
+      "snapshot_path": "Evidence/_history/W07/verify_week_folders.py",
+      "source_commit": "68c8a4c87efacd0d580aa6a113bfeaffd06a61f3"
+    }
+  ]
+}

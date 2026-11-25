@@ -1,16 +1,15 @@
-# Tiến độ hiện hành — W01–W07 trên main
+# Tiến độ hiện hành — W01–W08 trên main
 
-Cập nhật 17/11/2026. [Code/data theo tuần](WEEKS.md) và [W07 mới nhất](W07/README.md).
+Cập nhật 25/11/2026. [Code/data từng tuần](WEEKS.md), [W08](W08/README.md) và [hướng dẫn chạy](W8_IMPLEMENTATION.md).
 
-| Nội dung W7 | Evidence |
+| W8 | Evidence |
 |---|---|
-| Citation/refusal policy theo code hiện có | [Chính sách](Evidence/W07/CITATION_REFUSAL_POLICY.md) |
-| Grounding/refusal evaluation design | [Protocol](Evidence/W07/EVALUATION_PROTOCOL.md) |
-| Source UI và contract | [UI](Evidence/W07/SOURCE_UI.md) |
-| 30 QA candidates, nhãn pending | [Dữ liệu](Evidence/W07/data/README.md) |
-| 28/28 fixture/contract tests + 2 HTTP fixture cases | [Kết quả](Evidence/W07/test-results.json), [HTTP](Evidence/W07/http-contract-smoke.json) |
-| Milestone Tuan7, Quang thực hiện, Đức review | [Tracking](Evidence/W07/github.json) |
+| SSE frontend + SQLite history, integrated app | [README W08](Evidence/W08/README.md) |
+| 46/46 Python tests, 8/8 parser, 8/8 Chrome checks | [Kết quả](Evidence/W08/test-results.json), [browser](Evidence/W08/browser-results.json) |
+| 12 hội thoại / 36 lượt / 72 tin nhắn synthetic | [Dữ liệu](Evidence/W08/synthetic_conversations.json), [logs](Evidence/W08/synthetic_chat_logs.jsonl) |
+| Code/evidence/hash và hình UI | [Manifest](Evidence/W08/manifest.json), [ảnh](Evidence/W08/figures/) |
+| Milestone Tuan8, Quang thực hiện, Đức review | [Tracking](Evidence/W08/github.json) |
 
-Tất cả nằm trên main, không tạo nhánh/PR mới. Các kết quả là fixture/inventory; **chưa có điểm semantic grounding/refusal bằng model thật**. Bộ QA là dev draft, không phải final test độc lập. Đóng gói thực tế sau tuần kế hoạch, không backdate.
+Đã tích hợp app W8 tại gốc, dùng DB riêng không commit. Không bật authentication/global facts hoặc thay kỹ thuật retrieval/citation/agent policy. Test fixture không phải live AWS/model benchmark. Review Đức đang chờ, không có PR/approval W8 theo phương án cập nhật trực tiếp main.
 
-README chính và Evidence/README, GITHUB_TRACKING của W6 được giữ nguyên vì thuộc manifest snapshot đã khóa. Không viết lại artifact lịch sử để cập nhật tuần mới. Trạng thái mới đọc tại đây/WEEKS.md. Không thay runtime hoặc policy gốc.
+W7 policy/protocol và QA draft vẫn tại [Evidence/W07](Evidence/W07/README.md); semantic grounding/refusal metrics thật chưa được giải quyết bằng W8. Các evidence/manifest/trace W01–W07 và folder tuần cũ giữ nguyên; code/input lịch sử mà root mới thay đổi nằm tại [Evidence/_history](Evidence/_history/README.md). Validator kiểm tra đúng phiên bản theo hash thay vì sửa kết quả cũ.

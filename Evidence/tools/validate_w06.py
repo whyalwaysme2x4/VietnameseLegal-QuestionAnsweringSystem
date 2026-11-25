@@ -5,6 +5,7 @@ import hashlib
 import json
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from snapshot_resolver import resolve_artifact
 
 ROOT=Path(__file__).resolve().parents[2]
 WEEK=ROOT/'Evidence/W06'
@@ -43,7 +44,7 @@ def validate(root=ROOT):
     values={row['metric']:float(row['value']) for row in rows}
     check('metrics_match_observations',values=={'test_cases':15,'passed':15,'failures':0,'errors':0,'pass_rate':1,'aws_calls':0,'indexed_chunks':6883} and all(row['split'] in {'fixture_control_flow','offline_assets'} and row['week']=='W06' for row in rows))
     for entry in manifest['artifacts']:
-        path=(root/entry['path']).resolve()
+        path=resolve_artifact(root,'W06',entry['path'],entry['sha256'])
         safe=path.is_relative_to(root.resolve()) and path.is_file()
         check('sha256:'+entry['path'],safe and path.stat().st_size==entry['bytes'] and hashlib.sha256(path.read_bytes()).hexdigest()==entry['sha256'])
     for path in (root/'source').rglob('*.py'):

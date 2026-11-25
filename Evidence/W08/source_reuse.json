@@ -1,0 +1,50 @@
+{
+  "recorded_at": "2026-11-25T16:24:45.750249+07:00",
+  "reused_modules": [
+    {
+      "path": "source/data/db/db_connection.py",
+      "original_sha256": "3ad1d515d8124fde5fd17a839b0f23decf50ddabefc9c4afe64a5addab27b0f3",
+      "demo_sha256": "3ad1d515d8124fde5fd17a839b0f23decf50ddabefc9c4afe64a5addab27b0f3",
+      "identical_to_original": true
+    },
+    {
+      "path": "source/data/db/utils_db.py",
+      "original_sha256": "c0932462746ea3fe608c68fd36c082e8398dd7e638c6298dfdb83bdf016b91f7",
+      "demo_sha256": "c0932462746ea3fe608c68fd36c082e8398dd7e638c6298dfdb83bdf016b91f7",
+      "identical_to_original": true
+    },
+    {
+      "path": "source/data/db/memory.py",
+      "original_sha256": "dcbd7ac30ff7298c1a3ef3821340817e51fcaf446ee8f0e6592cf780ed321c48",
+      "demo_sha256": "dcbd7ac30ff7298c1a3ef3821340817e51fcaf446ee8f0e6592cf780ed321c48",
+      "identical_to_original": true
+    },
+    {
+      "path": "source/schema/message_input.py",
+      "original_sha256": "853d4deafad75fd420f4b72e8bd6ffcf81fa61b46803d3a6bb5e2fd6dc815b8d",
+      "demo_sha256": "853d4deafad75fd420f4b72e8bd6ffcf81fa61b46803d3a6bb5e2fd6dc815b8d",
+      "identical_to_original": true
+    }
+  ],
+  "adapters": [
+    "source/data/db/demo_history.py",
+    "app.py",
+    "app.js",
+    "sse.js",
+    "runtime.py optional session/memory",
+    "source/agent/demo_agentic.py optional session/memory"
+  ],
+  "unchanged_agent_policies": [
+    "max total retrieval rounds 2",
+    "grader threshold .6",
+    "fail-open grading/checking",
+    "single regeneration without recheck",
+    "agent 0-based vs baseline 1-based citations"
+  ],
+  "not_enabled_for_w8": [
+    "global User_Facts extraction",
+    "LLM rolling summary",
+    "authentication",
+    "web fallback"
+  ]
+}

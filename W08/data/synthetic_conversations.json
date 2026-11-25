@@ -1,0 +1,153 @@
+{
+  "version": "1.0",
+  "status": "synthetic_integration_data_not_independent_qa_test",
+  "conversations": [
+    {
+      "id": "W8-C01",
+      "domain": "giaoThong_VanTai",
+      "mode": "agentic",
+      "source_qa_id": "GT01",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Anh B huyện X muốn biết khi tôi lái xe ô tô đi trên đường mà không chấp hành hiệu lệnh, chỉ dẫn của biển báo hiệu, vạch kẻ đường thì bị XPVP như thế nào?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C02",
+      "domain": "giaoThong_VanTai",
+      "mode": "agentic",
+      "source_qa_id": "GT02",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Chị H ngồi trên xe ô tô không thắt dây an toàn khi xe đang chạy có bị xử phạt vi phạm không? Nếu bị phạt thì chị bị xử phạt với mức phạt là bao nhiêu?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C03",
+      "domain": "giaoThong_VanTai",
+      "mode": "agentic",
+      "source_qa_id": "GT03",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Chị V đi xe máy trên đường chở theo 2 người lớn thì bị xử phạt bao nhiêu?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C04",
+      "domain": "giaoThong_VanTai",
+      "mode": "agentic",
+      "source_qa_id": "GT04",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Anh V hỏi theo quy định hành vi đi xe máy không đội mũ bảo hiểm bị xử phạt như thế nào?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C05",
+      "domain": "giaoThong_VanTai",
+      "mode": "agentic",
+      "source_qa_id": "GT05",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Chị B hỏi người đi bộ tham gia giao thông bị xử phạt trong trường hợp nào?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C06",
+      "domain": "giaoThong_VanTai",
+      "mode": "agentic",
+      "source_qa_id": "GT06",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Người điều khiển xe mô tô hai bánh, xe gắn máy phải tuân theo những quy tắc gì khi tham gia giao thông?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C07",
+      "domain": "laoDong_TienLuong",
+      "mode": "agentic",
+      "source_qa_id": "LD01",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Hợp đồng lao động được giao kết qua phương tiện thông tin điện tử dưới hình thức thông điệp dữ liệu có giá trị như hợp đồng lao động bằng văn bản không?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C08",
+      "domain": "laoDong_TienLuong",
+      "mode": "agentic",
+      "source_qa_id": "LD02",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Chị A mở một siêu thị nhỏ ở nhà. Do bận con mọn, chị phải thuê một người làm thu ngân. Do đặc điểm thu ngân được quản lý tiền, sợ người làm không trung thực, nên chị A yêu cầu người đó phải đưa giấy tờ tùy thân cho chị giữ, chị mới cho ký kết hợp đồng lao động. Chị A có được quyền làm như vậy không?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C09",
+      "domain": "laoDong_TienLuong",
+      "mode": "agentic",
+      "source_qa_id": "LD03",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Theo quy định của pháp luật, những ai có thẩm quyền giao kết hợp đồng lao động?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C10",
+      "domain": "laoDong_TienLuong",
+      "mode": "agentic",
+      "source_qa_id": "LD04",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Chị L là kế toán cho doanh nghiệp H. Để tăng thu nhập, chị nhận thêm việc quyết toán thuế cho một số cơ sở kinh doanh nhỏ lẻ vào cuối tháng và có ký kết hợp đồng lao động với các cơ sở kinh doanh này. Việc làm này của chị H có hợp pháp không?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C11",
+      "domain": "laoDong_TienLuong",
+      "mode": "agentic",
+      "source_qa_id": "LD05",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "D tốt nghiệp đại học và được nhận vào một công ty kinh doanh tài chính. Công ty quy định thời gian thử việc là 02 tháng, mức lương thử việc bằng 70% mức lương của công việc cho một người chính thức. A thấy như vậy là không hợp lý vì mình cũng làm như người khác mà chỉ nhận được 70% lương là không công bằng. A có thể đòi quyền lợi cho mình không?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    },
+    {
+      "id": "W8-C12",
+      "domain": "laoDong_TienLuong",
+      "mode": "agentic",
+      "source_qa_id": "LD06",
+      "review_status": "synthetic_interaction_not_legal_gold",
+      "turns": [
+        "Những trường hợp nào người lao động được tạm hoãn hợp đồng lao động?",
+        "Bạn đang dựa vào đoạn nguồn nào cho câu trả lời trước?",
+        "Nếu tôi chưa nêu đủ tình tiết, bạn cần tôi làm rõ điều gì?"
+      ]
+    }
+  ],
+  "count": 12,
+  "turns": 36,
+  "aws_calls": 0
+}

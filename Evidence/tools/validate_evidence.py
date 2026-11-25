@@ -6,6 +6,7 @@ import math
 import sys
 from collections import Counter
 from pathlib import Path
+from snapshot_resolver import resolve_artifact
 
 ROOT = Path(__file__).resolve().parents[2]
 
@@ -161,7 +162,7 @@ def main():
             failed.append((directory.name, 'missing_manifest'))
             continue
         for entry in load(manifest_path)['artifacts']:
-            path = ROOT / entry['path']
+            path = resolve_artifact(ROOT, directory.name, entry['path'], entry['sha256'])
             hash_checks += 1
             if not path.is_file() or sha(path) != entry['sha256']:
                 failed.append((directory.name, 'artifact_hash:' + entry['path']))

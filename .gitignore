@@ -20,3 +20,7 @@ runs/
 *.pt
 *.pth
 *.bin
+
+local_data/
+
+.browser-tools/
